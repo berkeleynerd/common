@@ -1,0 +1,1675 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+
+U switches_chooser%b	switches_chooser.adb	78a537c3 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.arg_lists%s	gnatcoll-arg_lists.adb	gnatcoll-arg_lists.ali
+W gnatcoll.tribooleans%s  gnatcoll-tribooleans.adb  gnatcoll-tribooleans.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.img_char%s	s-imgcha.adb		s-imgcha.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U switches_chooser%s	switches_chooser.ads	c67fb745 BN EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.indefinite_vectors%s
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W command_lines%s	command_lines.adb	command_lines.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+W shared_macros%s	shared_macros.adb	shared_macros.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-cdlili.ads		20250419085653 2434d8f6 ada.containers.doubly_linked_lists%s
+D a-cgarso.ads		20250419085653 9129bfa8 ada.containers.generic_array_sort%s
+D a-cohata.ads		20250419085653 bea783e3 ada.containers.hash_tables%s
+D a-cohama.ads		20250419085653 de9aa0f2 ada.containers.hashed_maps%s
+D a-cohase.ads		20250419085653 4c12bfe7 ada.containers.hashed_sets%s
+D a-conhel.ads		20250419085653 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20250419085653 854d323e ada.containers.helpers%b
+D a-cidlli.ads		20250419085653 2b10d805 ada.containers.indefinite_doubly_linked_lists%s
+D a-cihama.ads		20250419085653 42861819 ada.containers.indefinite_hashed_maps%s
+D a-cihase.ads		20250419085653 b5cdb105 ada.containers.indefinite_hashed_sets%s
+D a-ciorse.ads		20250419085653 d80fbfe7 ada.containers.indefinite_ordered_sets%s
+D a-coinve.ads		20250419085653 b20d0098 ada.containers.indefinite_vectors%s
+D a-coinve.adb		20250419085653 0c420203 ada.containers.indefinite_vectors%b
+D a-coorma.ads		20250419085653 3edf5cc0 ada.containers.ordered_maps%s
+D a-coorse.ads		20250419085653 d90cfee3 ada.containers.ordered_sets%s
+D a-crbltr.ads		20250419085653 d3d16ba4 ada.containers.red_black_trees%s
+D a-convec.ads		20250419085653 91fb49f3 ada.containers.vectors%s
+D a-convec.adb		20250419085653 b2ed0168 ada.containers.vectors%b
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-iteint.ads		20250419085653 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-secain.ads		20250419085653 37402117 ada.strings.equal_case_insensitive%s
+D a-strhas.ads		20250419085653 e06866e7 ada.strings.hash%s
+D a-shcain.ads		20250419085653 08af52df ada.strings.hash_case_insensitive%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D basic_types.ads	20251111131459 05e1b880 basic_types%s
+D command_lines.ads	20251111131459 1afac220 command_lines%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-bytswa.ads		20250419085653 a4d21639 gnat.byte_swapping%s
+D g-dynhta.ads		20250419085653 968f1a08 gnat.dynamic_htables%s
+D g-dyntab.ads		20250419085653 f1e98b14 gnat.dynamic_tables%s
+D g-expect.ads		20250419085653 e4246c0f gnat.expect%s
+D g-md5.ads		20250419085653 bb55398e gnat.md5%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-regpat.ads		20250419085653 b85d88ef gnat.regpat%s
+D g-sechas.ads		20250419085653 302163b5 gnat.secure_hashes%s
+D g-sehamd.ads		20250419085653 d714f185 gnat.secure_hashes.md5%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D g-table.ads		20250419085653 b4b07c4d gnat.table%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-arg_lists.ads  20251104164842 47c33f83 gnatcoll.arg_lists%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-iconv.ads	20251104164843 1d85b850 gnatcoll.iconv%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-plugins.ads	20251104164842 d4c6371e gnatcoll.plugins%s
+D gnatcoll-projects.ads	20251104164843 8fb54a86 gnatcoll.projects%s
+D gnatcoll-refcount.ads	20251104164843 b4dda25c gnatcoll.refcount%s
+D gnatcoll-sql.ads	20251104164843 151b58bf gnatcoll.sql%s
+D gnatcoll-sql-exec.ads	20251104164843 75bf9dca gnatcoll.sql.exec%s
+D gnatcoll-sql_impl.ads	20251104164843 e4a6d3b2 gnatcoll.sql_impl%s
+D gnatcoll-storage_pools.ads  20251104164843 f82e283b gnatcoll.storage_pools%s
+D gnatcoll-storage_pools-headers.ads  20251104164843 968b2c2e gnatcoll.storage_pools.headers%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-tribooleans.ads  20251104164843 3139d576 gnatcoll.tribooleans%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D gnatcoll-xref.ads	20251104164843 ddd64576 gnatcoll.xref%s
+D gpr.ads		20251104164842 8e79990e gpr%s
+D gpr-ali.ads		20251104164842 96520699 gpr.ali%s
+D gpr-env.ads		20251104164842 8725813f gpr.env%s
+D gpr-ext.ads		20251104164842 b6f5e132 gpr.ext%s
+D gpr-names.ads		20251104164842 f36cddd2 gpr.names%s
+D gpr-osint.ads		20251104164842 ab7f8710 gpr.osint%s
+D gpr-scans.ads		20251104164842 a9e8e657 gpr.scans%s
+D gpr-tree.ads		20251104164842 dd4e11ae gpr.tree%s
+D gpr-util.ads		20251104164842 1b46d32f gpr.util%s
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D remote.ads		20251111131459 d64aa9ce remote%s
+D shared_macros.ads	20251111131459 9f9b507d shared_macros%s
+D switches_chooser.ads	20251111131459 76a13911 switches_chooser%s
+D switches_chooser.adb	20251111131459 0a5138e9 switches_chooser%b
+D system.ads		20250419085653 70765b54 system%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-atocou.adb		20250419085653 6fe685de system.atomic_counters%b
+D s-atopri.ads		20250419085653 e19c1d89 system.atomic_primitives%s
+D s-conca6.ads		20250419085653 8252f108 system.concat_6%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-imgcha.ads		20250419085653 9c3458e7 system.img_char%s
+D s-memory.ads		20250419085653 18949c1a system.memory%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-regpat.ads		20250419085653 3f91c1d3 system.regpat%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-rident.ads		20250419085653 5eec7ad4 system.rident%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stalib.adb		20250419085653 eb464a47 system.standard_library%b
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [create switches_chooser 47 13 none]
+G c Z s b [set_size switches_chooser 65 14 none]
+G c Z s b [free switches_chooser 72 14 none]
+G c Z s b [define_prefix switches_chooser 77 14 none]
+G c Z s b [define_alias switches_chooser 80 14 none]
+G c Z s b [set_frame_title switches_chooser 87 14 none]
+G c Z s b [add_check switches_chooser 99 14 none]
+G c Z s b [add_field switches_chooser 118 14 none]
+G c Z s b [add_spin switches_chooser 137 14 none]
+G c Z s b [add_radio switches_chooser 155 13 none]
+G c Z s b [add_radio_entry switches_chooser 162 14 none]
+G c Z s s [combo_switchDI switches_chooser 174 9 none]
+G c Z s s [combo_switchDA switches_chooser 174 9 none]
+G c Z s s [combo_switchDF switches_chooser 174 9 none]
+G c Z s s [combo_switchIP switches_chooser 174 9 none]
+G c Z s s [has_element switches_chooser__combo_switch_vectors 115 13 180_4]
+G c Z s s [empty switches_chooser__combo_switch_vectors 125 13 180_4]
+G c Z s s [Oeq switches_chooser__combo_switch_vectors 127 24 180_4]
+G c Z s s [to_vector switches_chooser__combo_switch_vectors 136 13 180_4]
+G c Z s s [to_vector switches_chooser__combo_switch_vectors 139 13 180_4]
+G c Z s s [Oconcat switches_chooser__combo_switch_vectors 145 13 180_4]
+G c Z s s [Oconcat switches_chooser__combo_switch_vectors 149 13 180_4]
+G c Z s s [Oconcat switches_chooser__combo_switch_vectors 153 13 180_4]
+G c Z s s [Oconcat switches_chooser__combo_switch_vectors 157 13 180_4]
+G c Z s s [capacity switches_chooser__combo_switch_vectors 161 13 180_4]
+G c Z s s [reserve_capacity switches_chooser__combo_switch_vectors 164 14 180_4]
+G c Z s s [length switches_chooser__combo_switch_vectors 175 13 180_4]
+G c Z s s [set_length switches_chooser__combo_switch_vectors 178 14 180_4]
+G c Z s s [is_empty switches_chooser__combo_switch_vectors 187 13 180_4]
+G c Z s s [clear switches_chooser__combo_switch_vectors 190 14 180_4]
+G c Z s s [to_cursor switches_chooser__combo_switch_vectors 194 13 180_4]
+G c Z s s [to_index switches_chooser__combo_switch_vectors 201 13 180_4]
+G c Z s s [element switches_chooser__combo_switch_vectors 206 13 180_4]
+G c Z s s [element switches_chooser__combo_switch_vectors 213 13 180_4]
+G c Z s s [replace_element switches_chooser__combo_switch_vectors 217 14 180_4]
+G c Z s s [replace_element switches_chooser__combo_switch_vectors 228 14 180_4]
+G c Z s s [query_element switches_chooser__combo_switch_vectors 239 14 180_4]
+G c Z s s [query_element switches_chooser__combo_switch_vectors 250 14 180_4]
+G c Z s s [update_element switches_chooser__combo_switch_vectors 259 14 180_4]
+G c Z s s [update_element switches_chooser__combo_switch_vectors 276 14 180_4]
+G c Z s s [constant_reference switches_chooser__combo_switch_vectors 303 13 180_4]
+G c Z s s [reference switches_chooser__combo_switch_vectors 308 13 180_4]
+G c Z s s [constant_reference switches_chooser__combo_switch_vectors 313 13 180_4]
+G c Z s s [reference switches_chooser__combo_switch_vectors 318 13 180_4]
+G c Z s s [assign switches_chooser__combo_switch_vectors 323 14 180_4]
+G c Z s s [copy switches_chooser__combo_switch_vectors 325 13 180_4]
+G c Z s s [move switches_chooser__combo_switch_vectors 327 14 180_4]
+G c Z s s [new_vector switches_chooser__combo_switch_vectors 333 13 180_4]
+G c Z s s [insert_vector switches_chooser__combo_switch_vectors 337 14 180_4]
+G c Z s s [insert_vector switches_chooser__combo_switch_vectors 361 14 180_4]
+G c Z s s [insert_vector switches_chooser__combo_switch_vectors 378 14 180_4]
+G c Z s s [insert switches_chooser__combo_switch_vectors 396 14 180_4]
+G c Z s s [insert switches_chooser__combo_switch_vectors 404 14 180_4]
+G c Z s s [insert switches_chooser__combo_switch_vectors 412 14 180_4]
+G c Z s s [insert switches_chooser__combo_switch_vectors 421 14 180_4]
+G c Z s s [insert switches_chooser__combo_switch_vectors 438 14 180_4]
+G c Z s s [prepend_vector switches_chooser__combo_switch_vectors 449 14 180_4]
+G c Z s s [prepend switches_chooser__combo_switch_vectors 459 14 180_4]
+G c Z s s [append_vector switches_chooser__combo_switch_vectors 466 14 180_4]
+G c Z s s [append switches_chooser__combo_switch_vectors 476 14 180_4]
+G c Z s s [append switches_chooser__combo_switch_vectors 483 14 180_4]
+G c Z s s [insert_space switches_chooser__combo_switch_vectors 486 14 180_4]
+G c Z s s [insert_space switches_chooser__combo_switch_vectors 503 14 180_4]
+G c Z s s [delete switches_chooser__combo_switch_vectors 514 14 180_4]
+G c Z s s [delete switches_chooser__combo_switch_vectors 524 14 180_4]
+G c Z s s [delete_first switches_chooser__combo_switch_vectors 533 14 180_4]
+G c Z s s [delete_last switches_chooser__combo_switch_vectors 538 14 180_4]
+G c Z s s [reverse_elements switches_chooser__combo_switch_vectors 546 14 180_4]
+G c Z s s [swap switches_chooser__combo_switch_vectors 549 14 180_4]
+G c Z s s [swap switches_chooser__combo_switch_vectors 554 14 180_4]
+G c Z s s [first_index switches_chooser__combo_switch_vectors 560 13 180_4]
+G c Z s s [first switches_chooser__combo_switch_vectors 563 13 180_4]
+G c Z s s [first_element switches_chooser__combo_switch_vectors 567 13 180_4]
+G c Z s s [last_index switches_chooser__combo_switch_vectors 570 13 180_4]
+G c Z s s [last switches_chooser__combo_switch_vectors 574 13 180_4]
+G c Z s s [last_element switches_chooser__combo_switch_vectors 578 13 180_4]
+G c Z s s [next switches_chooser__combo_switch_vectors 581 13 180_4]
+G c Z s s [next switches_chooser__combo_switch_vectors 587 14 180_4]
+G c Z s s [previous switches_chooser__combo_switch_vectors 590 13 180_4]
+G c Z s s [previous switches_chooser__combo_switch_vectors 596 14 180_4]
+G c Z s s [find_index switches_chooser__combo_switch_vectors 599 13 180_4]
+G c Z s s [find switches_chooser__combo_switch_vectors 609 13 180_4]
+G c Z s s [reverse_find_index switches_chooser__combo_switch_vectors 623 13 180_4]
+G c Z s s [reverse_find switches_chooser__combo_switch_vectors 635 13 180_4]
+G c Z s s [contains switches_chooser__combo_switch_vectors 649 13 180_4]
+G c Z s s [iterate switches_chooser__combo_switch_vectors 654 14 180_4]
+G c Z s s [reverse_iterate switches_chooser__combo_switch_vectors 662 14 180_4]
+G c Z s s [iterate switches_chooser__combo_switch_vectors 669 13 180_4]
+G c Z s s [iterate switches_chooser__combo_switch_vectors 672 13 180_4]
+G c Z s s [adjust switches_chooser__combo_switch_vectors__implementation 90 28 726_4_180_4]
+G c Z s s [finalize switches_chooser__combo_switch_vectors__implementation 93 28 726_4_180_4]
+G c Z s s [zero_counts switches_chooser__combo_switch_vectors__implementation 96 17 726_4_180_4]
+G c Z s s [busy switches_chooser__combo_switch_vectors__implementation 100 17 726_4_180_4]
+G c Z s s [unbusy switches_chooser__combo_switch_vectors__implementation 104 17 726_4_180_4]
+G c Z s s [lock switches_chooser__combo_switch_vectors__implementation 108 17 726_4_180_4]
+G c Z s s [unlock switches_chooser__combo_switch_vectors__implementation 112 17 726_4_180_4]
+G c Z s s [tc_check switches_chooser__combo_switch_vectors__implementation 116 17 726_4_180_4]
+G c Z s s [te_check switches_chooser__combo_switch_vectors__implementation 120 17 726_4_180_4]
+G c Z s s [is_busy switches_chooser__combo_switch_vectors__implementation 136 16 726_4_180_4]
+G c Z s s [is_locked switches_chooser__combo_switch_vectors__implementation 140 16 726_4_180_4]
+G c Z s s [initialize switches_chooser__combo_switch_vectors__implementation 161 28 726_4_180_4]
+G c Z s s [finalize switches_chooser__combo_switch_vectors__implementation 162 28 726_4_180_4]
+G c Z s s [initialize switches_chooser__combo_switch_vectors__implementation 167 28 726_4_180_4]
+G c Z s s [finalize switches_chooser__combo_switch_vectors__implementation 168 28 726_4_180_4]
+G c Z s s [reference_control_typeDA switches_chooser__combo_switch_vectors__implementation 84 12 726_4_180_4]
+G c Z s s [reference_control_typeDF switches_chooser__combo_switch_vectors__implementation 84 12 726_4_180_4]
+G c Z s s [reference_control_typeIP switches_chooser__combo_switch_vectors__implementation 84 12 726_4_180_4]
+G c Z s s [with_busyDF switches_chooser__combo_switch_vectors__implementation 158 12 726_4_180_4]
+G c Z s s [with_busyIP switches_chooser__combo_switch_vectors__implementation 158 12 726_4_180_4]
+G c Z s s [with_lockDF switches_chooser__combo_switch_vectors__implementation 164 12 726_4_180_4]
+G c Z s s [with_lockIP switches_chooser__combo_switch_vectors__implementation 164 12 726_4_180_4]
+G c Z s s [put_image switches_chooser__combo_switch_vectors 747 14 180_4]
+G c Z s s [adjust switches_chooser__combo_switch_vectors 750 25 180_4]
+G c Z s s [finalize switches_chooser__combo_switch_vectors 751 25 180_4]
+G c Z s s [write switches_chooser__combo_switch_vectors 753 14 180_4]
+G c Z s s [read switches_chooser__combo_switch_vectors 759 14 180_4]
+G c Z s s [read switches_chooser__combo_switch_vectors 773 14 180_4]
+G c Z s s [write switches_chooser__combo_switch_vectors 779 14 180_4]
+G c Z s s [write switches_chooser__combo_switch_vectors 798 14 180_4]
+G c Z s s [read switches_chooser__combo_switch_vectors 804 14 180_4]
+G c Z s s [write switches_chooser__combo_switch_vectors 820 14 180_4]
+G c Z s s [read switches_chooser__combo_switch_vectors 826 14 180_4]
+G c Z s s [pseudo_reference switches_chooser__combo_switch_vectors 840 13 180_4]
+G c Z s s [get_element_access switches_chooser__combo_switch_vectors 849 13 180_4]
+G c Z s s [cursorIP switches_chooser__combo_switch_vectors 768 9 180_4]
+G c Z s s [vectorDA switches_chooser__combo_switch_vectors 741 9 180_4]
+G c Z s s [vectorDF switches_chooser__combo_switch_vectors 741 9 180_4]
+G c Z s s [vectorIP switches_chooser__combo_switch_vectors 741 9 180_4]
+G c Z s s [finalize switches_chooser__combo_switch_vectors 865 25 180_4]
+G c Z s s [first switches_chooser__combo_switch_vectors 867 24 180_4]
+G c Z s s [last switches_chooser__combo_switch_vectors 868 24 180_4]
+G c Z s s [next switches_chooser__combo_switch_vectors 870 24 180_4]
+G c Z s s [previous switches_chooser__combo_switch_vectors 874 24 180_4]
+G c Z s s [constant_reference_typeDI switches_chooser__combo_switch_vectors 788 9 180_4]
+G c Z s s [constant_reference_typeDA switches_chooser__combo_switch_vectors 788 9 180_4]
+G c Z s s [constant_reference_typeDF switches_chooser__combo_switch_vectors 788 9 180_4]
+G c Z s s [constant_reference_typeIP switches_chooser__combo_switch_vectors 788 9 180_4]
+G c Z s s [reference_typeDI switches_chooser__combo_switch_vectors 810 9 180_4]
+G c Z s s [reference_typeDA switches_chooser__combo_switch_vectors 810 9 180_4]
+G c Z s s [reference_typeDF switches_chooser__combo_switch_vectors 810 9 180_4]
+G c Z s s [reference_typeIP switches_chooser__combo_switch_vectors 810 9 180_4]
+G c Z s s [elements_arrayIP switches_chooser__combo_switch_vectors 729 9 180_4]
+G c Z s s [elements_arrayDI switches_chooser__combo_switch_vectors 729 9 180_4]
+G c Z s s [elements_arrayDA switches_chooser__combo_switch_vectors 729 9 180_4]
+G c Z s s [elements_arrayDF switches_chooser__combo_switch_vectors 729 9 180_4]
+G c Z s s [elements_typeDI switches_chooser__combo_switch_vectors 732 9 180_4]
+G c Z s s [elements_typeDF switches_chooser__combo_switch_vectors 732 9 180_4]
+G c Z s s [elements_typeIP switches_chooser__combo_switch_vectors 732 9 180_4]
+G c Z s s [iteratorDF switches_chooser__combo_switch_vectors 857 9 180_4]
+G c Z s s [iteratorIP switches_chooser__combo_switch_vectors 857 9 180_4]
+G c Z s s [free switches_chooser__combo_switch_vectors 44 14 180_4]
+G c Z s s [append_slow_path switches_chooser__combo_switch_vectors 47 14 180_4]
+G c Z s b [get_label switches_chooser 183 13 none]
+G c Z s b [get_value switches_chooser 186 13 none]
+G c Z s b [add_combo switches_chooser 189 14 none]
+G c Z s b [add_popup switches_chooser 213 13 none]
+G c Z s b [add_hidden switches_chooser 225 14 none]
+G c Z s b [add_dependency switches_chooser 231 14 none]
+G c Z s b [add_default_value_dependency switches_chooser 249 14 none]
+G c Z s b [get_switches_element switches_chooser 393 13 none]
+G c Z s b [get_switch switches_chooser 399 13 none]
+G c Z s b [get_label switches_chooser 403 13 none]
+G c Z s b [get_tip switches_chooser 407 13 none]
+G c Z s b [get_section switches_chooser 411 13 none]
+G c Z s b [is_add_first switches_chooser 415 13 none]
+G c Z s b [get_line switches_chooser 419 13 none]
+G c Z s b [get_column switches_chooser 423 13 none]
+G c Z s b [get_separator switches_chooser 427 13 none]
+G c Z s b [get_type switches_chooser 431 13 none]
+G c Z s b [get_switch_unset switches_chooser 435 13 none]
+G c Z s b [get_default_state switches_chooser 439 13 none]
+G c Z s b [get_initial_state switches_chooser 443 13 none]
+G c Z s b [is_field_as_directory switches_chooser 447 13 none]
+G c Z s b [is_field_as_file switches_chooser 451 13 none]
+G c Z s b [get_spin_min switches_chooser 455 13 none]
+G c Z s b [get_spin_max switches_chooser 459 13 none]
+G c Z s b [get_spin_default switches_chooser 463 13 none]
+G c Z s b [get_combo_no_switch switches_chooser 467 13 none]
+G c Z s b [get_combo_no_digit switches_chooser 471 13 none]
+G c Z s b [get_combo_entries switches_chooser 475 13 none]
+G c Z s b [get_frames_element switches_chooser 481 13 none]
+G c Z s b [get_title switches_chooser 487 13 none]
+G c Z s b [get_line switches_chooser 491 13 none]
+G c Z s b [get_column switches_chooser 495 13 none]
+G c Z s b [get_lines switches_chooser 499 13 none]
+G c Z s b [get_columns switches_chooser 504 13 none]
+G c Z s b [is_show_command_line switches_chooser 509 13 none]
+G c Z s b [get_default_separator switches_chooser 514 13 none]
+G c Z s b [get_sections switches_chooser 519 13 none]
+G c Z s b [is_scrolled_window switches_chooser 524 13 none]
+G c Z s b [get_switch_char switches_chooser 529 13 none]
+G c Z s b [get_frames_length switches_chooser 534 13 none]
+G c Z s b [get_switches_length switches_chooser 539 13 none]
+G c Z s b [empty_command_line switches_chooser 544 13 none]
+G c Z s b [get_name switches_chooser 557 13 none]
+G c Z s b [get_switch switches_chooser 561 13 none]
+G c Z s b [apply switches_chooser 566 14 none]
+G c Z s b [first switches_chooser 582 13 none]
+G c Z s b [next switches_chooser 584 14 none]
+G c Z s b [has_element switches_chooser 585 13 none]
+G c Z s b [element switches_chooser 587 13 none]
+G c Z s s [switch_descriptionDA switches_chooser 636 9 none]
+G c Z s s [switch_descriptionDF switches_chooser 636 9 none]
+G c Z s s [switch_descriptionDI switches_chooser 636 9 none]
+G c Z s s [switch_descriptionIP switches_chooser 636 9 none]
+G c Z s s [empty switches_chooser__switch_description_vectors 80 13 680_4]
+G c Z s s [has_element switches_chooser__switch_description_vectors 82 13 680_4]
+G c Z s s [Oeq switches_chooser__switch_description_vectors 87 24 680_4]
+G c Z s s [new_vector switches_chooser__switch_description_vectors 89 13 680_4]
+G c Z s s [to_vector switches_chooser__switch_description_vectors 92 13 680_4]
+G c Z s s [to_vector switches_chooser__switch_description_vectors 94 13 680_4]
+G c Z s s [Oconcat switches_chooser__switch_description_vectors 98 13 680_4]
+G c Z s s [Oconcat switches_chooser__switch_description_vectors 100 13 680_4]
+G c Z s s [Oconcat switches_chooser__switch_description_vectors 102 13 680_4]
+G c Z s s [Oconcat switches_chooser__switch_description_vectors 104 13 680_4]
+G c Z s s [capacity switches_chooser__switch_description_vectors 106 13 680_4]
+G c Z s s [reserve_capacity switches_chooser__switch_description_vectors 108 14 680_4]
+G c Z s s [length switches_chooser__switch_description_vectors 112 13 680_4]
+G c Z s s [set_length switches_chooser__switch_description_vectors 114 14 680_4]
+G c Z s s [is_empty switches_chooser__switch_description_vectors 118 13 680_4]
+G c Z s s [clear switches_chooser__switch_description_vectors 120 14 680_4]
+G c Z s s [constant_reference switches_chooser__switch_description_vectors 131 13 680_4]
+G c Z s s [reference switches_chooser__switch_description_vectors 136 13 680_4]
+G c Z s s [constant_reference switches_chooser__switch_description_vectors 141 13 680_4]
+G c Z s s [reference switches_chooser__switch_description_vectors 146 13 680_4]
+G c Z s s [to_cursor switches_chooser__switch_description_vectors 151 13 680_4]
+G c Z s s [to_index switches_chooser__switch_description_vectors 155 13 680_4]
+G c Z s s [element switches_chooser__switch_description_vectors 157 13 680_4]
+G c Z s s [element switches_chooser__switch_description_vectors 161 13 680_4]
+G c Z s s [replace_element switches_chooser__switch_description_vectors 163 14 680_4]
+G c Z s s [replace_element switches_chooser__switch_description_vectors 168 14 680_4]
+G c Z s s [query_element switches_chooser__switch_description_vectors 173 14 680_4]
+G c Z s s [query_element switches_chooser__switch_description_vectors 178 14 680_4]
+G c Z s s [update_element switches_chooser__switch_description_vectors 182 14 680_4]
+G c Z s s [update_element switches_chooser__switch_description_vectors 187 14 680_4]
+G c Z s s [assign switches_chooser__switch_description_vectors 192 14 680_4]
+G c Z s s [copy switches_chooser__switch_description_vectors 194 13 680_4]
+G c Z s s [move switches_chooser__switch_description_vectors 196 14 680_4]
+G c Z s s [insert_vector switches_chooser__switch_description_vectors 198 14 680_4]
+G c Z s s [insert_vector switches_chooser__switch_description_vectors 209 14 680_4]
+G c Z s s [insert_vector switches_chooser__switch_description_vectors 220 14 680_4]
+G c Z s s [insert switches_chooser__switch_description_vectors 233 14 680_4]
+G c Z s s [insert switches_chooser__switch_description_vectors 239 14 680_4]
+G c Z s s [insert switches_chooser__switch_description_vectors 245 14 680_4]
+G c Z s s [prepend_vector switches_chooser__switch_description_vectors 252 14 680_4]
+G c Z s s [prepend switches_chooser__switch_description_vectors 261 14 680_4]
+G c Z s s [append_vector switches_chooser__switch_description_vectors 266 14 680_4]
+G c Z s s [append switches_chooser__switch_description_vectors 275 14 680_4]
+G c Z s s [append switches_chooser__switch_description_vectors 280 14 680_4]
+G c Z s s [insert_space switches_chooser__switch_description_vectors 283 14 680_4]
+G c Z s s [insert_space switches_chooser__switch_description_vectors 288 14 680_4]
+G c Z s s [delete switches_chooser__switch_description_vectors 294 14 680_4]
+G c Z s s [delete switches_chooser__switch_description_vectors 299 14 680_4]
+G c Z s s [delete_first switches_chooser__switch_description_vectors 304 14 680_4]
+G c Z s s [delete_last switches_chooser__switch_description_vectors 308 14 680_4]
+G c Z s s [reverse_elements switches_chooser__switch_description_vectors 312 14 680_4]
+G c Z s s [swap switches_chooser__switch_description_vectors 314 14 680_4]
+G c Z s s [swap switches_chooser__switch_description_vectors 316 14 680_4]
+G c Z s s [first_index switches_chooser__switch_description_vectors 318 13 680_4]
+G c Z s s [first switches_chooser__switch_description_vectors 320 13 680_4]
+G c Z s s [first_element switches_chooser__switch_description_vectors 322 13 680_4]
+G c Z s s [last_index switches_chooser__switch_description_vectors 324 13 680_4]
+G c Z s s [last switches_chooser__switch_description_vectors 326 13 680_4]
+G c Z s s [last_element switches_chooser__switch_description_vectors 328 13 680_4]
+G c Z s s [next switches_chooser__switch_description_vectors 330 13 680_4]
+G c Z s s [next switches_chooser__switch_description_vectors 332 14 680_4]
+G c Z s s [previous switches_chooser__switch_description_vectors 334 13 680_4]
+G c Z s s [previous switches_chooser__switch_description_vectors 336 14 680_4]
+G c Z s s [find_index switches_chooser__switch_description_vectors 338 13 680_4]
+G c Z s s [find switches_chooser__switch_description_vectors 343 13 680_4]
+G c Z s s [reverse_find_index switches_chooser__switch_description_vectors 348 13 680_4]
+G c Z s s [reverse_find switches_chooser__switch_description_vectors 353 13 680_4]
+G c Z s s [contains switches_chooser__switch_description_vectors 358 13 680_4]
+G c Z s s [iterate switches_chooser__switch_description_vectors 362 14 680_4]
+G c Z s s [iterate switches_chooser__switch_description_vectors 366 13 680_4]
+G c Z s s [iterate switches_chooser__switch_description_vectors 369 13 680_4]
+G c Z s s [reverse_iterate switches_chooser__switch_description_vectors 374 14 680_4]
+G c Z s s [adjust switches_chooser__switch_description_vectors__implementation 90 28 407_4_680_4]
+G c Z s s [finalize switches_chooser__switch_description_vectors__implementation 93 28 407_4_680_4]
+G c Z s s [zero_counts switches_chooser__switch_description_vectors__implementation 96 17 407_4_680_4]
+G c Z s s [busy switches_chooser__switch_description_vectors__implementation 100 17 407_4_680_4]
+G c Z s s [unbusy switches_chooser__switch_description_vectors__implementation 104 17 407_4_680_4]
+G c Z s s [lock switches_chooser__switch_description_vectors__implementation 108 17 407_4_680_4]
+G c Z s s [unlock switches_chooser__switch_description_vectors__implementation 112 17 407_4_680_4]
+G c Z s s [tc_check switches_chooser__switch_description_vectors__implementation 116 17 407_4_680_4]
+G c Z s s [te_check switches_chooser__switch_description_vectors__implementation 120 17 407_4_680_4]
+G c Z s s [is_busy switches_chooser__switch_description_vectors__implementation 136 16 407_4_680_4]
+G c Z s s [is_locked switches_chooser__switch_description_vectors__implementation 140 16 407_4_680_4]
+G c Z s s [initialize switches_chooser__switch_description_vectors__implementation 161 28 407_4_680_4]
+G c Z s s [finalize switches_chooser__switch_description_vectors__implementation 162 28 407_4_680_4]
+G c Z s s [initialize switches_chooser__switch_description_vectors__implementation 167 28 407_4_680_4]
+G c Z s s [finalize switches_chooser__switch_description_vectors__implementation 168 28 407_4_680_4]
+G c Z s s [reference_control_typeDA switches_chooser__switch_description_vectors__implementation 84 12 407_4_680_4]
+G c Z s s [reference_control_typeDF switches_chooser__switch_description_vectors__implementation 84 12 407_4_680_4]
+G c Z s s [reference_control_typeIP switches_chooser__switch_description_vectors__implementation 84 12 407_4_680_4]
+G c Z s s [with_busyDF switches_chooser__switch_description_vectors__implementation 158 12 407_4_680_4]
+G c Z s s [with_busyIP switches_chooser__switch_description_vectors__implementation 158 12 407_4_680_4]
+G c Z s s [with_lockDF switches_chooser__switch_description_vectors__implementation 164 12 407_4_680_4]
+G c Z s s [with_lockIP switches_chooser__switch_description_vectors__implementation 164 12 407_4_680_4]
+G c Z s s [put_image switches_chooser__switch_description_vectors 430 14 680_4]
+G c Z s s [adjust switches_chooser__switch_description_vectors 433 25 680_4]
+G c Z s s [finalize switches_chooser__switch_description_vectors 434 25 680_4]
+G c Z s s [write switches_chooser__switch_description_vectors 436 14 680_4]
+G c Z s s [read switches_chooser__switch_description_vectors 442 14 680_4]
+G c Z s s [read switches_chooser__switch_description_vectors 456 14 680_4]
+G c Z s s [write switches_chooser__switch_description_vectors 462 14 680_4]
+G c Z s s [write switches_chooser__switch_description_vectors 481 14 680_4]
+G c Z s s [read switches_chooser__switch_description_vectors 487 14 680_4]
+G c Z s s [write switches_chooser__switch_description_vectors 503 14 680_4]
+G c Z s s [read switches_chooser__switch_description_vectors 509 14 680_4]
+G c Z s s [pseudo_reference switches_chooser__switch_description_vectors 520 13 680_4]
+G c Z s s [get_element_access switches_chooser__switch_description_vectors 527 13 680_4]
+G c Z s s [cursorIP switches_chooser__switch_description_vectors 451 9 680_4]
+G c Z s s [vectorDA switches_chooser__switch_description_vectors 424 9 680_4]
+G c Z s s [vectorDF switches_chooser__switch_description_vectors 424 9 680_4]
+G c Z s s [vectorIP switches_chooser__switch_description_vectors 424 9 680_4]
+G c Z s s [finalize switches_chooser__switch_description_vectors 543 25 680_4]
+G c Z s s [first switches_chooser__switch_description_vectors 545 24 680_4]
+G c Z s s [last switches_chooser__switch_description_vectors 546 24 680_4]
+G c Z s s [next switches_chooser__switch_description_vectors 548 24 680_4]
+G c Z s s [previous switches_chooser__switch_description_vectors 552 24 680_4]
+G c Z s s [constant_reference_typeDI switches_chooser__switch_description_vectors 471 9 680_4]
+G c Z s s [constant_reference_typeDA switches_chooser__switch_description_vectors 471 9 680_4]
+G c Z s s [constant_reference_typeDF switches_chooser__switch_description_vectors 471 9 680_4]
+G c Z s s [constant_reference_typeIP switches_chooser__switch_description_vectors 471 9 680_4]
+G c Z s s [reference_typeDI switches_chooser__switch_description_vectors 493 9 680_4]
+G c Z s s [reference_typeDA switches_chooser__switch_description_vectors 493 9 680_4]
+G c Z s s [reference_typeDF switches_chooser__switch_description_vectors 493 9 680_4]
+G c Z s s [reference_typeIP switches_chooser__switch_description_vectors 493 9 680_4]
+G c Z s s [elements_arrayIP switches_chooser__switch_description_vectors 412 9 680_4]
+G c Z s s [elements_typeIP switches_chooser__switch_description_vectors 415 9 680_4]
+G c Z s s [iteratorDF switches_chooser__switch_description_vectors 535 9 680_4]
+G c Z s s [iteratorIP switches_chooser__switch_description_vectors 535 9 680_4]
+G c Z s s [free switches_chooser__switch_description_vectors 44 14 680_4]
+G c Z s s [free switches_chooser__switch_description_vectors 47 14 680_4]
+G c Z s s [append_slow_path switches_chooser__switch_description_vectors 50 14 680_4]
+G c Z s s [frame_descriptionDA switches_chooser 690 9 none]
+G c Z s s [frame_descriptionDF switches_chooser 690 9 none]
+G c Z s s [frame_descriptionDI switches_chooser 690 9 none]
+G c Z s s [frame_descriptionIP switches_chooser 690 9 none]
+G c Z s s [empty switches_chooser__frame_description_vectors 80 13 698_4]
+G c Z s s [has_element switches_chooser__frame_description_vectors 82 13 698_4]
+G c Z s s [Oeq switches_chooser__frame_description_vectors 87 24 698_4]
+G c Z s s [new_vector switches_chooser__frame_description_vectors 89 13 698_4]
+G c Z s s [to_vector switches_chooser__frame_description_vectors 92 13 698_4]
+G c Z s s [to_vector switches_chooser__frame_description_vectors 94 13 698_4]
+G c Z s s [Oconcat switches_chooser__frame_description_vectors 98 13 698_4]
+G c Z s s [Oconcat switches_chooser__frame_description_vectors 100 13 698_4]
+G c Z s s [Oconcat switches_chooser__frame_description_vectors 102 13 698_4]
+G c Z s s [Oconcat switches_chooser__frame_description_vectors 104 13 698_4]
+G c Z s s [capacity switches_chooser__frame_description_vectors 106 13 698_4]
+G c Z s s [reserve_capacity switches_chooser__frame_description_vectors 108 14 698_4]
+G c Z s s [length switches_chooser__frame_description_vectors 112 13 698_4]
+G c Z s s [set_length switches_chooser__frame_description_vectors 114 14 698_4]
+G c Z s s [is_empty switches_chooser__frame_description_vectors 118 13 698_4]
+G c Z s s [clear switches_chooser__frame_description_vectors 120 14 698_4]
+G c Z s s [constant_reference switches_chooser__frame_description_vectors 131 13 698_4]
+G c Z s s [reference switches_chooser__frame_description_vectors 136 13 698_4]
+G c Z s s [constant_reference switches_chooser__frame_description_vectors 141 13 698_4]
+G c Z s s [reference switches_chooser__frame_description_vectors 146 13 698_4]
+G c Z s s [to_cursor switches_chooser__frame_description_vectors 151 13 698_4]
+G c Z s s [to_index switches_chooser__frame_description_vectors 155 13 698_4]
+G c Z s s [element switches_chooser__frame_description_vectors 157 13 698_4]
+G c Z s s [element switches_chooser__frame_description_vectors 161 13 698_4]
+G c Z s s [replace_element switches_chooser__frame_description_vectors 163 14 698_4]
+G c Z s s [replace_element switches_chooser__frame_description_vectors 168 14 698_4]
+G c Z s s [query_element switches_chooser__frame_description_vectors 173 14 698_4]
+G c Z s s [query_element switches_chooser__frame_description_vectors 178 14 698_4]
+G c Z s s [update_element switches_chooser__frame_description_vectors 182 14 698_4]
+G c Z s s [update_element switches_chooser__frame_description_vectors 187 14 698_4]
+G c Z s s [assign switches_chooser__frame_description_vectors 192 14 698_4]
+G c Z s s [copy switches_chooser__frame_description_vectors 194 13 698_4]
+G c Z s s [move switches_chooser__frame_description_vectors 196 14 698_4]
+G c Z s s [insert_vector switches_chooser__frame_description_vectors 198 14 698_4]
+G c Z s s [insert_vector switches_chooser__frame_description_vectors 209 14 698_4]
+G c Z s s [insert_vector switches_chooser__frame_description_vectors 220 14 698_4]
+G c Z s s [insert switches_chooser__frame_description_vectors 233 14 698_4]
+G c Z s s [insert switches_chooser__frame_description_vectors 239 14 698_4]
+G c Z s s [insert switches_chooser__frame_description_vectors 245 14 698_4]
+G c Z s s [prepend_vector switches_chooser__frame_description_vectors 252 14 698_4]
+G c Z s s [prepend switches_chooser__frame_description_vectors 261 14 698_4]
+G c Z s s [append_vector switches_chooser__frame_description_vectors 266 14 698_4]
+G c Z s s [append switches_chooser__frame_description_vectors 275 14 698_4]
+G c Z s s [append switches_chooser__frame_description_vectors 280 14 698_4]
+G c Z s s [insert_space switches_chooser__frame_description_vectors 283 14 698_4]
+G c Z s s [insert_space switches_chooser__frame_description_vectors 288 14 698_4]
+G c Z s s [delete switches_chooser__frame_description_vectors 294 14 698_4]
+G c Z s s [delete switches_chooser__frame_description_vectors 299 14 698_4]
+G c Z s s [delete_first switches_chooser__frame_description_vectors 304 14 698_4]
+G c Z s s [delete_last switches_chooser__frame_description_vectors 308 14 698_4]
+G c Z s s [reverse_elements switches_chooser__frame_description_vectors 312 14 698_4]
+G c Z s s [swap switches_chooser__frame_description_vectors 314 14 698_4]
+G c Z s s [swap switches_chooser__frame_description_vectors 316 14 698_4]
+G c Z s s [first_index switches_chooser__frame_description_vectors 318 13 698_4]
+G c Z s s [first switches_chooser__frame_description_vectors 320 13 698_4]
+G c Z s s [first_element switches_chooser__frame_description_vectors 322 13 698_4]
+G c Z s s [last_index switches_chooser__frame_description_vectors 324 13 698_4]
+G c Z s s [last switches_chooser__frame_description_vectors 326 13 698_4]
+G c Z s s [last_element switches_chooser__frame_description_vectors 328 13 698_4]
+G c Z s s [next switches_chooser__frame_description_vectors 330 13 698_4]
+G c Z s s [next switches_chooser__frame_description_vectors 332 14 698_4]
+G c Z s s [previous switches_chooser__frame_description_vectors 334 13 698_4]
+G c Z s s [previous switches_chooser__frame_description_vectors 336 14 698_4]
+G c Z s s [find_index switches_chooser__frame_description_vectors 338 13 698_4]
+G c Z s s [find switches_chooser__frame_description_vectors 343 13 698_4]
+G c Z s s [reverse_find_index switches_chooser__frame_description_vectors 348 13 698_4]
+G c Z s s [reverse_find switches_chooser__frame_description_vectors 353 13 698_4]
+G c Z s s [contains switches_chooser__frame_description_vectors 358 13 698_4]
+G c Z s s [iterate switches_chooser__frame_description_vectors 362 14 698_4]
+G c Z s s [iterate switches_chooser__frame_description_vectors 366 13 698_4]
+G c Z s s [iterate switches_chooser__frame_description_vectors 369 13 698_4]
+G c Z s s [reverse_iterate switches_chooser__frame_description_vectors 374 14 698_4]
+G c Z s s [adjust switches_chooser__frame_description_vectors__implementation 90 28 407_4_698_4]
+G c Z s s [finalize switches_chooser__frame_description_vectors__implementation 93 28 407_4_698_4]
+G c Z s s [zero_counts switches_chooser__frame_description_vectors__implementation 96 17 407_4_698_4]
+G c Z s s [busy switches_chooser__frame_description_vectors__implementation 100 17 407_4_698_4]
+G c Z s s [unbusy switches_chooser__frame_description_vectors__implementation 104 17 407_4_698_4]
+G c Z s s [lock switches_chooser__frame_description_vectors__implementation 108 17 407_4_698_4]
+G c Z s s [unlock switches_chooser__frame_description_vectors__implementation 112 17 407_4_698_4]
+G c Z s s [tc_check switches_chooser__frame_description_vectors__implementation 116 17 407_4_698_4]
+G c Z s s [te_check switches_chooser__frame_description_vectors__implementation 120 17 407_4_698_4]
+G c Z s s [is_busy switches_chooser__frame_description_vectors__implementation 136 16 407_4_698_4]
+G c Z s s [is_locked switches_chooser__frame_description_vectors__implementation 140 16 407_4_698_4]
+G c Z s s [initialize switches_chooser__frame_description_vectors__implementation 161 28 407_4_698_4]
+G c Z s s [finalize switches_chooser__frame_description_vectors__implementation 162 28 407_4_698_4]
+G c Z s s [initialize switches_chooser__frame_description_vectors__implementation 167 28 407_4_698_4]
+G c Z s s [finalize switches_chooser__frame_description_vectors__implementation 168 28 407_4_698_4]
+G c Z s s [reference_control_typeDA switches_chooser__frame_description_vectors__implementation 84 12 407_4_698_4]
+G c Z s s [reference_control_typeDF switches_chooser__frame_description_vectors__implementation 84 12 407_4_698_4]
+G c Z s s [reference_control_typeIP switches_chooser__frame_description_vectors__implementation 84 12 407_4_698_4]
+G c Z s s [with_busyDF switches_chooser__frame_description_vectors__implementation 158 12 407_4_698_4]
+G c Z s s [with_busyIP switches_chooser__frame_description_vectors__implementation 158 12 407_4_698_4]
+G c Z s s [with_lockDF switches_chooser__frame_description_vectors__implementation 164 12 407_4_698_4]
+G c Z s s [with_lockIP switches_chooser__frame_description_vectors__implementation 164 12 407_4_698_4]
+G c Z s s [put_image switches_chooser__frame_description_vectors 430 14 698_4]
+G c Z s s [adjust switches_chooser__frame_description_vectors 433 25 698_4]
+G c Z s s [finalize switches_chooser__frame_description_vectors 434 25 698_4]
+G c Z s s [write switches_chooser__frame_description_vectors 436 14 698_4]
+G c Z s s [read switches_chooser__frame_description_vectors 442 14 698_4]
+G c Z s s [read switches_chooser__frame_description_vectors 456 14 698_4]
+G c Z s s [write switches_chooser__frame_description_vectors 462 14 698_4]
+G c Z s s [write switches_chooser__frame_description_vectors 481 14 698_4]
+G c Z s s [read switches_chooser__frame_description_vectors 487 14 698_4]
+G c Z s s [write switches_chooser__frame_description_vectors 503 14 698_4]
+G c Z s s [read switches_chooser__frame_description_vectors 509 14 698_4]
+G c Z s s [pseudo_reference switches_chooser__frame_description_vectors 520 13 698_4]
+G c Z s s [get_element_access switches_chooser__frame_description_vectors 527 13 698_4]
+G c Z s s [cursorIP switches_chooser__frame_description_vectors 451 9 698_4]
+G c Z s s [vectorDA switches_chooser__frame_description_vectors 424 9 698_4]
+G c Z s s [vectorDF switches_chooser__frame_description_vectors 424 9 698_4]
+G c Z s s [vectorIP switches_chooser__frame_description_vectors 424 9 698_4]
+G c Z s s [finalize switches_chooser__frame_description_vectors 543 25 698_4]
+G c Z s s [first switches_chooser__frame_description_vectors 545 24 698_4]
+G c Z s s [last switches_chooser__frame_description_vectors 546 24 698_4]
+G c Z s s [next switches_chooser__frame_description_vectors 548 24 698_4]
+G c Z s s [previous switches_chooser__frame_description_vectors 552 24 698_4]
+G c Z s s [constant_reference_typeDI switches_chooser__frame_description_vectors 471 9 698_4]
+G c Z s s [constant_reference_typeDA switches_chooser__frame_description_vectors 471 9 698_4]
+G c Z s s [constant_reference_typeDF switches_chooser__frame_description_vectors 471 9 698_4]
+G c Z s s [constant_reference_typeIP switches_chooser__frame_description_vectors 471 9 698_4]
+G c Z s s [reference_typeDI switches_chooser__frame_description_vectors 493 9 698_4]
+G c Z s s [reference_typeDA switches_chooser__frame_description_vectors 493 9 698_4]
+G c Z s s [reference_typeDF switches_chooser__frame_description_vectors 493 9 698_4]
+G c Z s s [reference_typeIP switches_chooser__frame_description_vectors 493 9 698_4]
+G c Z s s [elements_arrayIP switches_chooser__frame_description_vectors 412 9 698_4]
+G c Z s s [elements_typeIP switches_chooser__frame_description_vectors 415 9 698_4]
+G c Z s s [iteratorDF switches_chooser__frame_description_vectors 535 9 698_4]
+G c Z s s [iteratorIP switches_chooser__frame_description_vectors 535 9 698_4]
+G c Z s s [free switches_chooser__frame_description_vectors 44 14 698_4]
+G c Z s s [free switches_chooser__frame_description_vectors 47 14 698_4]
+G c Z s s [append_slow_path switches_chooser__frame_description_vectors 50 14 698_4]
+G c Z s s [empty switches_chooser__switch_filter_description_vectors 80 13 719_4]
+G c Z s s [has_element switches_chooser__switch_filter_description_vectors 82 13 719_4]
+G c Z s s [Oeq switches_chooser__switch_filter_description_vectors 87 24 719_4]
+G c Z s s [new_vector switches_chooser__switch_filter_description_vectors 89 13 719_4]
+G c Z s s [to_vector switches_chooser__switch_filter_description_vectors 92 13 719_4]
+G c Z s s [to_vector switches_chooser__switch_filter_description_vectors 94 13 719_4]
+G c Z s s [Oconcat switches_chooser__switch_filter_description_vectors 98 13 719_4]
+G c Z s s [Oconcat switches_chooser__switch_filter_description_vectors 100 13 719_4]
+G c Z s s [Oconcat switches_chooser__switch_filter_description_vectors 102 13 719_4]
+G c Z s s [Oconcat switches_chooser__switch_filter_description_vectors 104 13 719_4]
+G c Z s s [capacity switches_chooser__switch_filter_description_vectors 106 13 719_4]
+G c Z s s [reserve_capacity switches_chooser__switch_filter_description_vectors 108 14 719_4]
+G c Z s s [length switches_chooser__switch_filter_description_vectors 112 13 719_4]
+G c Z s s [set_length switches_chooser__switch_filter_description_vectors 114 14 719_4]
+G c Z s s [is_empty switches_chooser__switch_filter_description_vectors 118 13 719_4]
+G c Z s s [clear switches_chooser__switch_filter_description_vectors 120 14 719_4]
+G c Z s s [constant_reference switches_chooser__switch_filter_description_vectors 131 13 719_4]
+G c Z s s [reference switches_chooser__switch_filter_description_vectors 136 13 719_4]
+G c Z s s [constant_reference switches_chooser__switch_filter_description_vectors 141 13 719_4]
+G c Z s s [reference switches_chooser__switch_filter_description_vectors 146 13 719_4]
+G c Z s s [to_cursor switches_chooser__switch_filter_description_vectors 151 13 719_4]
+G c Z s s [to_index switches_chooser__switch_filter_description_vectors 155 13 719_4]
+G c Z s s [element switches_chooser__switch_filter_description_vectors 157 13 719_4]
+G c Z s s [element switches_chooser__switch_filter_description_vectors 161 13 719_4]
+G c Z s s [replace_element switches_chooser__switch_filter_description_vectors 163 14 719_4]
+G c Z s s [replace_element switches_chooser__switch_filter_description_vectors 168 14 719_4]
+G c Z s s [query_element switches_chooser__switch_filter_description_vectors 173 14 719_4]
+G c Z s s [query_element switches_chooser__switch_filter_description_vectors 178 14 719_4]
+G c Z s s [update_element switches_chooser__switch_filter_description_vectors 182 14 719_4]
+G c Z s s [update_element switches_chooser__switch_filter_description_vectors 187 14 719_4]
+G c Z s s [assign switches_chooser__switch_filter_description_vectors 192 14 719_4]
+G c Z s s [copy switches_chooser__switch_filter_description_vectors 194 13 719_4]
+G c Z s s [move switches_chooser__switch_filter_description_vectors 196 14 719_4]
+G c Z s s [insert_vector switches_chooser__switch_filter_description_vectors 198 14 719_4]
+G c Z s s [insert_vector switches_chooser__switch_filter_description_vectors 209 14 719_4]
+G c Z s s [insert_vector switches_chooser__switch_filter_description_vectors 220 14 719_4]
+G c Z s s [insert switches_chooser__switch_filter_description_vectors 233 14 719_4]
+G c Z s s [insert switches_chooser__switch_filter_description_vectors 239 14 719_4]
+G c Z s s [insert switches_chooser__switch_filter_description_vectors 245 14 719_4]
+G c Z s s [prepend_vector switches_chooser__switch_filter_description_vectors 252 14 719_4]
+G c Z s s [prepend switches_chooser__switch_filter_description_vectors 261 14 719_4]
+G c Z s s [append_vector switches_chooser__switch_filter_description_vectors 266 14 719_4]
+G c Z s s [append switches_chooser__switch_filter_description_vectors 275 14 719_4]
+G c Z s s [append switches_chooser__switch_filter_description_vectors 280 14 719_4]
+G c Z s s [insert_space switches_chooser__switch_filter_description_vectors 283 14 719_4]
+G c Z s s [insert_space switches_chooser__switch_filter_description_vectors 288 14 719_4]
+G c Z s s [delete switches_chooser__switch_filter_description_vectors 294 14 719_4]
+G c Z s s [delete switches_chooser__switch_filter_description_vectors 299 14 719_4]
+G c Z s s [delete_first switches_chooser__switch_filter_description_vectors 304 14 719_4]
+G c Z s s [delete_last switches_chooser__switch_filter_description_vectors 308 14 719_4]
+G c Z s s [reverse_elements switches_chooser__switch_filter_description_vectors 312 14 719_4]
+G c Z s s [swap switches_chooser__switch_filter_description_vectors 314 14 719_4]
+G c Z s s [swap switches_chooser__switch_filter_description_vectors 316 14 719_4]
+G c Z s s [first_index switches_chooser__switch_filter_description_vectors 318 13 719_4]
+G c Z s s [first switches_chooser__switch_filter_description_vectors 320 13 719_4]
+G c Z s s [first_element switches_chooser__switch_filter_description_vectors 322 13 719_4]
+G c Z s s [last_index switches_chooser__switch_filter_description_vectors 324 13 719_4]
+G c Z s s [last switches_chooser__switch_filter_description_vectors 326 13 719_4]
+G c Z s s [last_element switches_chooser__switch_filter_description_vectors 328 13 719_4]
+G c Z s s [next switches_chooser__switch_filter_description_vectors 330 13 719_4]
+G c Z s s [next switches_chooser__switch_filter_description_vectors 332 14 719_4]
+G c Z s s [previous switches_chooser__switch_filter_description_vectors 334 13 719_4]
+G c Z s s [previous switches_chooser__switch_filter_description_vectors 336 14 719_4]
+G c Z s s [find_index switches_chooser__switch_filter_description_vectors 338 13 719_4]
+G c Z s s [find switches_chooser__switch_filter_description_vectors 343 13 719_4]
+G c Z s s [reverse_find_index switches_chooser__switch_filter_description_vectors 348 13 719_4]
+G c Z s s [reverse_find switches_chooser__switch_filter_description_vectors 353 13 719_4]
+G c Z s s [contains switches_chooser__switch_filter_description_vectors 358 13 719_4]
+G c Z s s [iterate switches_chooser__switch_filter_description_vectors 362 14 719_4]
+G c Z s s [iterate switches_chooser__switch_filter_description_vectors 366 13 719_4]
+G c Z s s [iterate switches_chooser__switch_filter_description_vectors 369 13 719_4]
+G c Z s s [reverse_iterate switches_chooser__switch_filter_description_vectors 374 14 719_4]
+G c Z s s [adjust switches_chooser__switch_filter_description_vectors__implementation 90 28 407_4_719_4]
+G c Z s s [finalize switches_chooser__switch_filter_description_vectors__implementation 93 28 407_4_719_4]
+G c Z s s [zero_counts switches_chooser__switch_filter_description_vectors__implementation 96 17 407_4_719_4]
+G c Z s s [busy switches_chooser__switch_filter_description_vectors__implementation 100 17 407_4_719_4]
+G c Z s s [unbusy switches_chooser__switch_filter_description_vectors__implementation 104 17 407_4_719_4]
+G c Z s s [lock switches_chooser__switch_filter_description_vectors__implementation 108 17 407_4_719_4]
+G c Z s s [unlock switches_chooser__switch_filter_description_vectors__implementation 112 17 407_4_719_4]
+G c Z s s [tc_check switches_chooser__switch_filter_description_vectors__implementation 116 17 407_4_719_4]
+G c Z s s [te_check switches_chooser__switch_filter_description_vectors__implementation 120 17 407_4_719_4]
+G c Z s s [is_busy switches_chooser__switch_filter_description_vectors__implementation 136 16 407_4_719_4]
+G c Z s s [is_locked switches_chooser__switch_filter_description_vectors__implementation 140 16 407_4_719_4]
+G c Z s s [initialize switches_chooser__switch_filter_description_vectors__implementation 161 28 407_4_719_4]
+G c Z s s [finalize switches_chooser__switch_filter_description_vectors__implementation 162 28 407_4_719_4]
+G c Z s s [initialize switches_chooser__switch_filter_description_vectors__implementation 167 28 407_4_719_4]
+G c Z s s [finalize switches_chooser__switch_filter_description_vectors__implementation 168 28 407_4_719_4]
+G c Z s s [reference_control_typeDA switches_chooser__switch_filter_description_vectors__implementation 84 12 407_4_719_4]
+G c Z s s [reference_control_typeDF switches_chooser__switch_filter_description_vectors__implementation 84 12 407_4_719_4]
+G c Z s s [reference_control_typeIP switches_chooser__switch_filter_description_vectors__implementation 84 12 407_4_719_4]
+G c Z s s [with_busyDF switches_chooser__switch_filter_description_vectors__implementation 158 12 407_4_719_4]
+G c Z s s [with_busyIP switches_chooser__switch_filter_description_vectors__implementation 158 12 407_4_719_4]
+G c Z s s [with_lockDF switches_chooser__switch_filter_description_vectors__implementation 164 12 407_4_719_4]
+G c Z s s [with_lockIP switches_chooser__switch_filter_description_vectors__implementation 164 12 407_4_719_4]
+G c Z s s [put_image switches_chooser__switch_filter_description_vectors 430 14 719_4]
+G c Z s s [adjust switches_chooser__switch_filter_description_vectors 433 25 719_4]
+G c Z s s [finalize switches_chooser__switch_filter_description_vectors 434 25 719_4]
+G c Z s s [write switches_chooser__switch_filter_description_vectors 436 14 719_4]
+G c Z s s [read switches_chooser__switch_filter_description_vectors 442 14 719_4]
+G c Z s s [read switches_chooser__switch_filter_description_vectors 456 14 719_4]
+G c Z s s [write switches_chooser__switch_filter_description_vectors 462 14 719_4]
+G c Z s s [write switches_chooser__switch_filter_description_vectors 481 14 719_4]
+G c Z s s [read switches_chooser__switch_filter_description_vectors 487 14 719_4]
+G c Z s s [write switches_chooser__switch_filter_description_vectors 503 14 719_4]
+G c Z s s [read switches_chooser__switch_filter_description_vectors 509 14 719_4]
+G c Z s s [pseudo_reference switches_chooser__switch_filter_description_vectors 520 13 719_4]
+G c Z s s [get_element_access switches_chooser__switch_filter_description_vectors 527 13 719_4]
+G c Z s s [cursorIP switches_chooser__switch_filter_description_vectors 451 9 719_4]
+G c Z s s [vectorDA switches_chooser__switch_filter_description_vectors 424 9 719_4]
+G c Z s s [vectorDF switches_chooser__switch_filter_description_vectors 424 9 719_4]
+G c Z s s [vectorIP switches_chooser__switch_filter_description_vectors 424 9 719_4]
+G c Z s s [finalize switches_chooser__switch_filter_description_vectors 543 25 719_4]
+G c Z s s [first switches_chooser__switch_filter_description_vectors 545 24 719_4]
+G c Z s s [last switches_chooser__switch_filter_description_vectors 546 24 719_4]
+G c Z s s [next switches_chooser__switch_filter_description_vectors 548 24 719_4]
+G c Z s s [previous switches_chooser__switch_filter_description_vectors 552 24 719_4]
+G c Z s s [constant_reference_typeDI switches_chooser__switch_filter_description_vectors 471 9 719_4]
+G c Z s s [constant_reference_typeDA switches_chooser__switch_filter_description_vectors 471 9 719_4]
+G c Z s s [constant_reference_typeDF switches_chooser__switch_filter_description_vectors 471 9 719_4]
+G c Z s s [constant_reference_typeIP switches_chooser__switch_filter_description_vectors 471 9 719_4]
+G c Z s s [reference_typeDI switches_chooser__switch_filter_description_vectors 493 9 719_4]
+G c Z s s [reference_typeDA switches_chooser__switch_filter_description_vectors 493 9 719_4]
+G c Z s s [reference_typeDF switches_chooser__switch_filter_description_vectors 493 9 719_4]
+G c Z s s [reference_typeIP switches_chooser__switch_filter_description_vectors 493 9 719_4]
+G c Z s s [elements_arrayIP switches_chooser__switch_filter_description_vectors 412 9 719_4]
+G c Z s s [elements_typeIP switches_chooser__switch_filter_description_vectors 415 9 719_4]
+G c Z s s [iteratorDF switches_chooser__switch_filter_description_vectors 535 9 719_4]
+G c Z s s [iteratorIP switches_chooser__switch_filter_description_vectors 535 9 719_4]
+G c Z s s [free switches_chooser__switch_filter_description_vectors 44 14 719_4]
+G c Z s s [free switches_chooser__switch_filter_description_vectors 47 14 719_4]
+G c Z s s [append_slow_path switches_chooser__switch_filter_description_vectors 50 14 719_4]
+G c Z s s [switches_editor_config_recordDA switches_chooser 729 9 none]
+G c Z s s [switches_editor_config_recordDF switches_chooser 729 9 none]
+G c Z s s [switches_editor_config_recordDI switches_chooser 729 9 none]
+G c Z s s [switches_editor_config_recordIP switches_chooser 729 9 none]
+G c Z s s [combo_switch_arrayIP switches_chooser 178 9 none]
+G c Z s s [combo_switch_arrayDI switches_chooser 178 9 none]
+G c Z s s [combo_switch_arrayDA switches_chooser 178 9 none]
+G c Z s s [combo_switch_arrayDF switches_chooser 178 9 none]
+G c Z s s [switch_filter_description_recordDA switches_chooser 714 9 none]
+G c Z s s [switch_filter_description_recordDF switches_chooser 714 9 none]
+G c Z s s [switch_filter_description_recordDI switches_chooser 714 9 none]
+G c Z s s [switch_filter_description_recordIP switches_chooser 714 9 none]
+G c Z s s [switch_filter_cursorIP switches_chooser 725 9 none]
+G c Z s s [default_value_dependency_recordIP switches_chooser 683 9 none]
+G c Z s s [dependency_descriptionIP switches_chooser 703 9 none]
+G c Z b b [add_to_getopt switches_chooser 28 14 none]
+G c Z b b [free_list switches_chooser 39 14 none]
+G c Z b b [free switches_chooser 42 14 none]
+G r s command_line_configuration [create switches_chooser 47 13 none] [command_line_configurationIP command_lines 420 9 none]
+G r c none [create switches_chooser 47 13 none] [define_switch command_lines 87 14 none]
+G r c none [create switches_chooser 47 13 none] [define_section command_lines 52 14 none]
+G r c none [free switches_chooser 72 14 none] [free command_lines 118 14 none]
+G r e ref [free switches_chooser 72 14 none] [finalize command_lines__configuration_references 308 28 417_4]
+G r c none [define_prefix switches_chooser 77 14 none] [define_prefix command_lines 72 14 none]
+G r c none [define_alias switches_chooser 80 14 none] [define_alias command_lines 59 14 none]
+G r c none [add_check switches_chooser 99 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_check switches_chooser 99 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_check switches_chooser 99 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r c none [add_field switches_chooser 118 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_field switches_chooser 118 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_field switches_chooser 118 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r c none [add_spin switches_chooser 137 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_spin switches_chooser 137 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_spin switches_chooser 137 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r c none [add_radio_entry switches_chooser 162 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_radio_entry switches_chooser 162 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_radio_entry switches_chooser 162 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r c none [add_combo switches_chooser 189 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_combo switches_chooser 189 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_combo switches_chooser 189 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r c none [add_hidden switches_chooser 225 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_hidden switches_chooser 225 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_hidden switches_chooser 225 14 none] [define_switch_with_parameter command_lines 110 14 none]
+G r s command_line [empty_command_line switches_chooser 544 13 none] [command_lineIP command_lines 472 9 none]
+G r l command_line [empty_command_line switches_chooser 544 13 none] [command_lineDI command_lines 472 9 none]
+G r k command_line [empty_command_line switches_chooser 544 13 none] [command_lineDF command_lines 472 9 none]
+G r c none [empty_command_line switches_chooser 544 13 none] [set_configuration command_lines 159 14 none]
+G r s command_line [apply switches_chooser 566 14 none] [command_lineIP command_lines 472 9 none]
+G r l command_line [apply switches_chooser 566 14 none] [command_lineDI command_lines 472 9 none]
+G r k command_line [apply switches_chooser 566 14 none] [command_lineDF command_lines 472 9 none]
+G r d ref [apply switches_chooser 566 14 none] [adjust command_lines__configuration_references 306 28 417_4]
+G r c none [apply switches_chooser 566 14 none] [set_configuration command_lines 159 14 none]
+G r c none [apply switches_chooser 566 14 none] [argument_list_to_string gnatcoll__arg_lists 61 13 none]
+G r c none [apply switches_chooser 566 14 none] [set_command_line command_lines 168 14 none]
+G r c none [apply switches_chooser 566 14 none] [remove_switch command_lines 243 14 none]
+G r c none [apply switches_chooser 566 14 none] [has_switch command_lines 266 13 none]
+G r s command_line_iterator [apply switches_chooser 566 14 none] [command_line_iteratorIP command_lines 484 9 none]
+G r l command_line_iterator [apply switches_chooser 566 14 none] [command_line_iteratorDI command_lines 484 9 none]
+G r k command_line_iterator [apply switches_chooser 566 14 none] [command_line_iteratorDF command_lines 484 9 none]
+G r c none [apply switches_chooser 566 14 none] [start command_lines 338 14 none]
+G r c none [apply switches_chooser 566 14 none] [has_more command_lines 362 13 none]
+G r c none [apply switches_chooser 566 14 none] [current_section command_lines 351 13 none]
+G r c none [apply switches_chooser 566 14 none] [current_switch command_lines 349 13 none]
+G r c none [apply switches_chooser 566 14 none] [next command_lines 365 14 none]
+G r c none [apply switches_chooser 566 14 none] [current_parameter command_lines 353 13 none]
+G r c none [apply switches_chooser 566 14 none] [append_switch command_lines 186 14 none]
+G r c none [apply switches_chooser 566 14 none] [to_string_list command_lines 272 13 none]
+G r d ref [switches_editor_config_recordDA switches_chooser 729 9 none] [adjust command_lines__configuration_references 306 28 417_4]
+G r e ref [switches_editor_config_recordDF switches_chooser 729 9 none] [finalize command_lines__configuration_references 308 28 417_4]
+G r s command_line_configuration [switches_editor_config_recordIP switches_chooser 729 9 none] [command_line_configurationIP command_lines 420 9 none]
+G r e ref [switches_editor_config_recordIP switches_chooser 729 9 none] [finalize command_lines__configuration_references 308 28 417_4]
+G r c none [add_to_getopt switches_chooser 28 14 none] [define_switch command_lines 87 14 none]
+G r c none [add_to_getopt switches_chooser 28 14 none] [define_switch_with_parameter command_lines 103 14 none]
+G r c none [add_to_getopt switches_chooser 28 14 none] [define_switch_with_parameter command_lines 110 14 none]
+X 1 ada.ads
+18K9*Ada 22e8 90|22r6 23r6 24r6 25r6 175r15 176r15 181r6 536r14 541r13 637r19
+. 638r19 639r19 640r19 644r19 654r29 661r29 662r29 663r29 670r25 671r25 681r6
+. 691r19 699r6 715r22 720r6 734r27 735r27 91|18r6 19r6 19r39 50r39 71r39
+. 87r39 1719r14 1769r14
+X 4 a-chahan.ads
+209V13*To_Lower{character} 71|283i21
+224V13*To_Upper{character} 71|285i21
+X 6 a-contai.ads
+16K13*Containers 28e19 90|22w10 23r10 24r10 181r10 536r18 541r17 681r10 699r10
+. 720r10 91|1719r18 1769r18
+22I9*Count_Type<integer> 90|536r29 541r28 91|1719r29 1769r29
+X 7 a-cdlili.ads
+54R9*List<26|43R9>
+X 12 a-conhel.ads
+84R12 Reference_Control_Type<26|43R9>
+X 17 a-ciorse.ads
+57R9*Set<26|43R9>
+X 18 a-coinve.ads
+47k24*Indefinite_Vectors 556e38 90|23w21 681r21 699r21 720r21
+54I12*Extended_Index{integer} 90|685r50[680] 716r49[680]
+60R9*Vector<26|43R9> 90|738r53[698] 739r54[680] 740r61[719]
+73R9*Cursor 90|726r45[719] 91|89r38[90|680] 118r38[90|680] 682r50[90|680]
+. 684r50[90|680] 686r50[90|680] 1282r59[90|680]
+78r4*No_Element{73R9[90|680]} 91|685r51[90|680] 687r51[90|680]
+82V13*Has_Element{boolean} 91|94s16[90|680] 125s16[90|680] 690s13[90|680]
+. 708s26[90|680] 709s27[90|680] 716s10[90|680] 717s18[90|680] 1309s16[90|680]
+. 1988s41[90|719]
+112V13*Length{6|22I9} 91|758s27[90|680] 1721s14[90|698] 1771s14[90|680]
+127R9*Reference_Type
+136V13*Reference{127R9[90|680]} 91|129s30[90|680] 130s30[90|680]
+155V13*To_Index{54I12[90|680]} 91|732s33[90|680] 1338s44[90|680] 1344s47[90|680]
+. 1358s41[90|680] 1362s47[90|680] 1369s47[90|680] 1376s41[90|680] 1379s44[90|680]
+. 1390s41[90|680] 1393s44[90|680] 1402s41[90|680] 1424s50[90|680]
+157V13*Element{90|391R9} 91|903s49[90|680] 918s59[90|680] 1006s24[90|680]
+. 1733s14[90|698] 1783s14[90|680]
+161V13*Element{90|391R9} 91|95s16[90|680] 96s23[90|680] 126s16[90|680] 127s24[90|680]
+. 692s45[90|680] 721s24[90|680] 1311s51[90|680] 1997s42[90|719]
+163U14*Replace_Element 91|947s45[90|680] 1959s23[90|680]
+168U14*Replace_Element 91|735s29[90|680]
+280U14*Append 91|228s7[90|698] 297s7[90|680] 333s25[90|719] 363s7[90|680]
+. 389s25[90|719] 430s7[90|680] 454s25[90|719] 488s7[90|680] 522s25[90|719]
+. 543s7[90|680] 577s7[90|680] 611s7[90|680] 637s25[90|719]
+318V13*First_Index{integer} 91|898s42[90|680] 1733s48[90|698] 1784s31[90|680]
+320V13*First{73R9[90|680]} 91|93s15[90|680] 124s15[90|680] 683s41[90|680]
+. 1283s34[90|680] 1970s50[90|719]
+324V13*Last_Index{54I12[90|680]} 91|336s48[90|680] 392s48[90|680] 457s48[90|680]
+. 525s53[90|680] 640s53[90|680] 899s46[90|680]
+332U14*Next 91|99s13[90|680] 133s13[90|680] 713s10[90|680] 1436s13[90|680]
+. 1978s41[90|719]
+X 23 a-convec.ads
+74k24*Vectors 878e27 90|24w21 181r21
+91R9*Vector<26|43R9> 90|476r64[180] 672r46[180] 91|482r34[90|180] 1581r64[90|180]
+107R9*Cursor 91|973r39[90|180] 1404r57[90|180]
+115V13*Has_Element{boolean} 91|1122s34[90|180] 1408s34[90|180] 1421s31[90|180]
+213V13*Element{90|174R9} 91|1123s34[90|180] 1124s37[90|180] 1130s40[90|180]
+. 1147s53[90|180] 1410s44[90|180] 1415s40[90|180] 1416s44[90|180] 1426s45[90|180]
+483U14*Append 91|485s10[90|180]
+563V13*First{107R9[90|180]} 91|1121s37[90|180] 1405s33[90|180]
+587U14*Next 91|1158s31[90|180] 1418s31[90|180]
+X 27 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[17|76]>
+X 29 a-string.ads
+16K13*Strings 35e16 90|25r10 175r19 176r19 637r23 638r23 639r23 640r23 644r23
+. 654r33 661r33 662r33 663r33 670r29 671r29 691r23 715r26 734r31 735r31 91|19r10
+. 19r43
+X 36 a-strunb.ads
+91K21*Unbounded 1641e26 90|25w18 175r27 176r27 637r31 638r31 639r31 640r31
+. 644r31 654r41 661r41 662r41 663r41 670r37 671r37 691r31 715r34 734r39 735r39
+. 91|19w18 19r51
+105R9*Unbounded_String<26|43R9> 1620e15 90|175r37 176r37 637r41 638r41 639r41
+. 640r41 644r41 654r51 661r51 662r51 663r51 670r47 671r47 691r41 715r44 734r49
+. 735r49
+109r4*Null_Unbounded_String{105R9} 91|309r30 547r26 549r26 550r26 551r26
+. 582r26 585r26 586r26 620r26 1018r51 1061r49
+122V13*To_Unbounded_String{105R9} 91|155s31 162s31 231s26 301s30 302s30 306s30
+. 307s30 308s30 335s32 367s30 368s30 369s30 370s30 371s30 374s30 375s30 376s30
+. 391s32 434s26 435s26 436s26 437s26 438s26 456s32 492s26 493s26 494s26 495s26
+. 496s26 497s26 498s26 524s37 548s26 583s26 584s26 616s26 617s26 618s26 619s26
+. 639s37
+135V13*To_String{string} 91|695s19 697s21 698s29 702s22 703s27 724s16 921s28
+. 922s36 943s39 944s39 1013s42 1014s42 1022s39 1023s39 1031s48 1032s48 1043s51
+. 1044s51 1057s31 1058s31 1064s34 1065s34 1073s48 1074s48 1079s31 1080s31
+. 1092s48 1093s48 1095s48 1100s31 1101s31 1108s48 1109s48 1111s48 1116s31
+. 1117s31 1127s40 1128s40 1133s54 1134s54 1138s40 1139s40 1144s54 1145s54
+. 1147s42 1148s54 1152s40 1153s40 1292s27 1293s27 1296s23 1313s32 1314s32
+. 1323s41 1324s41 1352s28 1353s28 1426s34 1490s14 1499s14 1508s14 1517s14
+. 1563s14 1573s14 1593s14 1677s14 1688s14 1742s14 1811s14 1829s14 1838s14
+. 1848s7
+269V14*"="{boolean} 23|65i19 91|1018r48 1061r46 1124s59 1130s62 1410s66 1415s62
+276V14*"="{boolean} 91|1123s56 1416s66
+X 40 a-uncdea.ads
+23u15*Unchecked_Deallocation 91|18w10 50r43 71r43 87r43
+X 42 command_lines.ads
+32K9*Command_Lines 500e18 90|26w6 385r23 546r13 732r27 91|26r8 245r14 247r23
+. 1883r29 1884r29
+47R9*Command_Line_Configuration<64|123R12[417]> 421e22 90|732r41 91|1885r38
+52U14*Define_Section 91|177s13 182s13
+59U14*Define_Alias 91|211s7
+72U14*Define_Prefix 91|199s7
+87U14*Define_Switch 91|169s7 265s10
+103U14*Define_Switch_With_Parameter 91|267s10 269s10
+107b7 Optional{boolean} 91|270r45
+110U14*Define_Switch_With_Parameter 91|272s10
+114a7 Separator{string} 91|273r45
+118U14*Free 91|102s10
+155R9*Command_Line 482e14 90|385r37 546r27 91|245r28 247r37 1218r25 1883r43
+. 1884r43
+159U14*Set_Configuration 91|248s17 755s10 1223s10 1269s10 1892s10 1922s16
+162V13*Get_Configuration{47R9} 91|1223s35
+168U14*Set_Command_Line 91|1224s10 1270s10 1895s10 1924s16
+179U14*Append_Switch 91|1029s31 1041s34 1071s31 1090s31 1106s31 1131s37 1142s37
+181a7 Switch{string} 91|1032r34 1044r37 1074r34 1093r34 1109r34 1134r40 1145r40
+182a7 Parameter{string} 91|1094r34 1110r34 1146r40
+183a7 Separator{string} 91|1095r34 1111r34 1148r40
+184a7 Section{string} 91|1031r34 1043r37 1073r34 1092r34 1108r34 1133r40
+. 1144r40
+185b7 Add_Before{boolean} 91|1033r34 1045r37 1075r34 1096r34 1112r34 1135r40
+. 1149r40
+186U14*Append_Switch 91|839s22 1938s19
+188a7 Switch{string} 91|842r25 1940r22
+189a7 Parameter{string} 91|1941r22
+190a7 Separator{string} 91|1942r22
+191a7 Section{string} 91|841r25 1943r22
+192b7 Add_Before{boolean} 91|1944r22
+193b7 Success{boolean} 91|843r25 1945r22
+238U14*Remove_Switch 91|941s25 1011s22 1020s25
+240a7 Switch{string} 91|944r28 1014r25 1023r28
+241e7 Has_Parameter{72|26E9} 91|1015r25
+242a7 Section{string} 91|943r28 1013r25 1022r28
+243U14*Remove_Switch 91|830s22 1903s13
+245a7 Switch{string} 91|833r25 1905r16
+247a7 Section{string} 91|832r25 1906r16
+248b7 Success{boolean} 91|834r25 1907r16
+266V13*Has_Switch{boolean} 91|835s43 1312s67 1322s43 1908s20
+268a7 Switch{string} 91|837r22 1313r21 1323r30 1910r13
+269a7 Section{string} 91|836r22 1314r21 1324r30 1911r13
+272V13*To_String_List{120|53P9} 91|769s33 1195s31 1952s38
+274b7 Expanded{boolean} 91|1195r47 1952r54
+290R9*Argument 299e14 91|1291r30
+290b19*Is_Set{boolean} 91|1295r22
+295r13*Value{36|105R9} 91|1296r40
+301V13*Get_Parameter{290R9} 91|1291s58
+303a7 Switch{string} 91|1292r16
+304a7 Section{string} 91|1293r16
+336R9*Command_Line_Iterator 498e14 91|1219r25 1920r23
+338U14*Start 91|1233s10 1234s10 1927s16
+341b7 Expanded{boolean} 91|1233r41 1234r41 1927r47
+349V13*Current_Switch{string} 91|1240s16 1240s42 1930s51 1940s36
+351V13*Current_Section{string} 91|1243s23 1243s50 1932s46
+352V13*Current_Separator{string} 91|1241s23 1241s52
+353V13*Current_Parameter{string} 91|1242s23 1242s52 1941s36
+362V13*Has_More{boolean} 91|1235s16 1236s20 1252s21 1929s22 1937s19
+365U14*Next 91|1248s13 1249s13 1934s19
+X 43 gnat.ads
+40K9*GNAT 63e9 90|27r6 27r29 287r27 296r19 308r37 571r22 572r29 704r39 705r39
+. 706r39 91|767r37 1216r19 1462r27 1869r22 1870r29
+X 53 g-string.ads
+38K14*Strings=38:37 90|27w11 27r34 287r32 296r24 308r42 571r27 572r34 704r44
+. 705r44 706r44 91|767r42 1216r24 1462r32 1869r27 1870r34
+X 55 gnatcoll.ads
+24K9*GNATCOLL 27e13 91|20r6 20r39 21r6 21r39
+X 56 gnatcoll-arg_lists.ads
+31K18*Arg_Lists 174e23 91|20w15 20r48
+61V13*Argument_List_To_String{string} 91|1198s19 1224s34 1468s13 1896s23
+. 1925s37
+X 63 gnatcoll-projects.ads
+468V25*"="{boolean} 23|65i19
+X 64 gnatcoll-refcount.ads
+123R12*Ref<26|43R9>
+351R12*Ref<26|43R9>
+X 67 gnatcoll-sql_impl.ads
+457H12 Base_Field<333R9>
+607R12*Field<333R9>
+X 72 gnatcoll-tribooleans.ads
+24K18*Tribooleans 108e25 91|21w15 21r48
+26E9*Triboolean 26e51 91|976r69 978r69
+26n24*True{26E9} 91|982r23 988r26
+26n30*False{26E9} 91|996r23
+26n37*Indeterminate{26E9} 91|992r26
+X 73 gnatcoll-vfs.ads
+334V25*"="{boolean} 11|50i19
+X 75 gnatcoll-xref.ads
+189V14*"<"{boolean} 21|45i19
+190V14*"="{boolean} 21|46i19
+X 89 shared_macros.ads
+23K9*Shared_Macros 93e18 90|28w14 627r14
+60a4*Doc{string} 90|627r28
+X 90 switches_chooser.ads
+30K9*Switches_Chooser 592E4 746l5 746e21 91|23b14 1999l5 1999t21
+32R9*Switches_Editor_Config_Record 34r18 66r35 545r34 562r32 567r38 729c9
+. 744e14 91|88r10 113r35 152r21 244r34 1855r32 1865r38
+33P9*Switches_Editor_Config(32R9) 52r48 72r36 78r16 81r18 88r19 100r23 119r23
+. 138r20 156r19 163r20 190r20 214r23 226r19 232r24 250r24 303r17 318r22 384r23
+. 394r18 482r18 500r18 505r18 510r18 515r18 520r18 525r18 530r18 535r18 540r18
+. 583r16 91|29r19 86r36 88r47 147r48 149r16 196r16 207r18 219r19 257r19 282r23
+. 346r23 402r19 414r20 467r20 535r17 568r17 601r20 650r24 675r24 752r22 1477r17
+. 1641r18 1652r18 1663r18 1674r18 1685r18 1696r18 1707r18 1718r18 1729r18
+. 1768r18 1779r18 1881r38 1882r15 1968r16
+36I9*Popup_Index<integer> 37r27 69r19 94r19 111r23 133r23 150r20 161r19 202r20
+. 218r23 218r58 630c9 631r27 645r19 674r25 696r19 742r27 91|116r19 225r19
+. 293r23 360r23 426r20 479r20 539r17 539r52 573r17
+37i4*Main_Window{36I9} 69r34 94r34 111r38 133r38 150r35 161r34 202r35 218r38
+. 631c4 645r34 696r34 742r42 91|116r34 120r22 160r31 225r34 293r38 360r38
+. 426r35 479r35 539r32 573r32 625r26
+39E9*Switch_Type 45e20 371r23 432r43 636r35 91|1818r59
+40n7*Switch_Check{39E9} 653r15 91|95r34 300r30 694r25 908r28 1017r33 1027r30
+. 1317r24
+41n7*Switch_Field{39E9} 658r15 91|366r30 981r25 1083r30 1375r24
+42n7*Switch_Spin{39E9} 664r15 91|433r26 981r40 1104r30 1357r24
+43n7*Switch_Radio{39E9} 666r15 91|580r26 614r26 1069r30 1165r34 1384r24
+44n7*Switch_Combo{39E9} 669r15 91|491r26 984r28 1120r30 1401r24
+45n7*Switch_Popup{39E9} 673r15 91|126r34 546r26 1161r30 1431r24
+47V13*Create{33P9} 48>7 49>7 50>7 51>7 52>7 91|142b13 189l8 189t14
+48a7 Default_Separator{string} 91|143b7 155r52
+49e7 Switch_Char{character} 91|144b7 157r31
+50b7 Scrolled_Window{boolean} 91|145b7 156r31
+51b7 Show_Command_Line{boolean} 91|146b7 161r31
+52a7 Sections{string} 91|147b7 162r52 172r16 175r21 176r13 177r44 181r23
+. 182r44
+65U14*Set_Size 66^7 67>7 68>7 69>7 91|112b14 136l8 136t16
+66p7 Self(32R9) 91|113b7 121r10 122r10 124r22 129r16 130r16
+67i7 Lines{integer} 91|114b7 121r24 129r53
+68i7 Columns{integer} 91|115b7 122r26 130r55
+69i7 For_Popup{36I9} 91|116b7 120r10 127r47
+72U14*Free 72=20 91|86b14 106l8 106t12
+72p20 Config{33P9} 91|86b20 92r10 93r22 102r16 103r21 104m26
+77U14*Define_Prefix 78>7 79>7 91|195b14 200l8 200t21
+78p7 Config{33P9} 91|196b7 199r22
+79a7 Prefix{string} 91|197b7 199r37
+80U14*Define_Alias 81>7 82>7 83>7 91|206b14 212l8 212t20
+81p7 Config{33P9} 91|207b7 211r21
+82a7 Switch{string} 91|208b7 211r36
+83a7 Expanded{string} 91|209b7 211r44
+87U14*Set_Frame_Title 88>7 89>7 90>7 91>7 92>7 93>7 94>7 91|218b14 237l8
+. 237t23
+88p7 Config{33P9} 91|219b7 229r10
+89a7 Title{string} 91|220b7 231r47
+90i7 Line{positive} 91|221b7 232r26
+91i7 Column{positive} 91|222b7 233r26
+92i7 Line_Span{natural} 91|223b7 235r26
+93i7 Col_Span{natural} 91|224b7 236r26
+94i7 Popup{36I9} 91|225b7 234r26
+99U14*Add_Check 100>7 101>7 102>7 103>7 104>7 105>7 106>7 107>7 108>7 109>7
+. 110>7 111>7 112>7 91|281b14 339l8 339t17
+100p7 Config{33P9} 91|282b7 298r10 318r13 326r13 333r10 336r32
+101a7 Label{string} 91|283b7 306r51
+102a7 Switch_Set{string} 91|284b7 301r51 316r10 319r26
+103a7 Switch_Unset{string} 91|285b7 302r51 324r10 327r26
+104b7 Default_State{boolean} 91|286b7 303r30 304r30
+105b7 Active{boolean} 91|287b7 314r30
+106a7 Section{string} 91|288b7 308r51 321r26 329r26
+107a7 Tip{string} 91|289b7 307r51
+108i7 Line{positive} 91|290b7 311r30
+109i7 Column{positive} 91|291b7 312r30
+110b7 Add_Before{boolean} 91|292b7 313r30
+111i7 Popup{36I9} 91|293b7 310r30
+112a7 Filter{string} 91|294b7 332r10 335r53
+118U14*Add_Field 119>7 120>7 121>7 122>7 123>7 124>7 125>7 126>7 127>7 128>7
+. 129>7 130>7 131>7 132>7 133>7 134>7 91|345b14 395l8 395t17
+119p7 Config{33P9} 91|346b7 364r10 383r10 389r10 392r32
+120a7 Label{string} 91|347b7 368r51
+121a7 Switch{string} 91|348b7 367r51 384r23
+122a7 Separator{string} 91|349b7 371r51 385r23
+123a7 Section{string} 91|350b7 370r51 386r23
+124a7 Tip{string} 91|351b7 369r51
+125b7 As_Directory{boolean} 91|352b7 372r30
+126b7 As_File{boolean} 91|353b7 373r30
+127a7 File_Filter{string} 91|354b7 374r51
+128a7 Base_Dir{string} 91|355b7 375r51
+129a7 Except_Filter{string} 91|356b7 376r51
+130i7 Line{positive} 91|357b7 377r30
+131i7 Column{positive} 91|358b7 378r30
+132b7 Add_Before{boolean} 91|359b7 379r30
+133i7 Popup{36I9} 91|360b7 380r30
+134a7 Filter{string} 91|361b7 388r10 391r53
+137U14*Add_Spin 138>7 139>7 140>7 141>7 142>7 143>7 144>7 145>7 146>7 147>7
+. 148>7 149>7 150>7 151>7 91|413b14 460l8 460t16
+138p7 Config{33P9} 91|414b7 431r10 448r10 454r10 457r32
+139a7 Label{string} 91|415b7 435r47
+140a7 Switch{string} 91|416b7 434r47 449r23
+141a7 Separator{string} 91|417b7 438r47 450r23
+142i7 Min{integer} 91|418b7 439r26
+143i7 Max{integer} 91|419b7 440r26
+144i7 Default{integer} 91|420b7 441r26
+145a7 Section{string} 91|421b7 437r47 451r23
+146a7 Tip{string} 91|422b7 436r47
+147i7 Line{positive} 91|423b7 442r26
+148i7 Column{positive} 91|424b7 443r26
+149b7 Add_Before{boolean} 91|425b7 444r26
+150i7 Popup{36I9} 91|426b7 445r26
+151a7 Filter{string} 91|427b7 453r10 456r53
+154I9*Radio_Switch<integer> 161r54 164r20 629c9 668r24 741r27 91|573r52 602r20
+. 1284r32
+155V13*Add_Radio{154I9} 156>7 157>7 158>7 159>7 160>7 161>7 91|567b13 594l8
+. 594t17
+156p7 Config{33P9} 91|568b7 576r7 576r27 578r10 587r26 593r14
+157a7 Label{string} 91|569b7 583r47
+158a7 Tip{string} 91|570b7 584r47
+159i7 Line{positive} 91|571b7 588r26
+160i7 Column{positive} 91|572b7 589r26
+161i7 Popup{36I9} 91|573b7 591r26
+162U14*Add_Radio_Entry 163>7 164>7 165>7 166>7 167>7 168>7 169>7 170>7 91|600b14
+. 643l8 643t23
+163p7 Config{33P9} 91|601b7 612r10 630r13 637r10 640r37
+164i7 Radio{154I9} 91|602b7 621r26
+165a7 Label{string} 91|603b7 617r47
+166a7 Switch{string} 91|604b7 616r47 628r10 631r26
+167a7 Section{string} 91|605b7 619r47 633r26
+168a7 Tip{string} 91|606b7 618r47
+169b7 Add_Before{boolean} 91|607b7 624r26
+170a7 Filter{string} 91|608b7 636r10 639r58
+174R9*Combo_Switch 177e14 178r60 181r39 183r32 186r32 91|1827r32 1836r32
+175r7*Label{36|105R9} 91|1123r50 1426r61 1829r31
+176r7*Value{36|105R9} 91|1124r53 1130r56 1147r69 1410r60 1415r56 1416r60
+. 1838r31
+178A9*Combo_Switch_Array(174R9)<integer> 196r20 91|473r20
+180K12*Combo_Switch_Vectors[23|74] 476r43 672r25 91|24r36 482r13 973r18 1404r36
+. 1581r43
+183V13*Get_Label{string} 183>24 91|1827b13 1830l8 1830t17
+183r24 Value{174R9} 91|1827b24 1829r25
+186V13*Get_Value{string} 186>24 91|1836b13 1839l8 1839t17
+186r24 Value{174R9} 91|1836b24 1838r25
+189U14*Add_Combo 190>7 191>7 192>7 193>7 194>7 195>7 196>7 197>7 198>7 199>7
+. 200>7 201>7 202>7 203>7 91|466b14 528l8 528t17
+190p7 Config{33P9} 91|467b7 489r10 509r13 515r13 522r10 525r37
+191a7 Label{string} 91|468b7 493r47
+192a7 Switch{string} 91|469b7 492r47 510r26 516r26
+193a7 Separator{string} 91|470b7 496r47 506r10 517r26
+194a7 No_Switch{string} 91|471b7 497r47
+195a7 No_Digit{string} 91|472b7 498r47
+196a7 Entries{178A9} 91|473b7 484r16 485r23
+197a7 Section{string} 91|474b7 495r47 512r26 518r26
+198a7 Tip{string} 91|475b7 494r47
+199i7 Line{positive} 91|476b7 500r26
+200i7 Column{positive} 91|477b7 501r26
+201b7 Add_Before{boolean} 91|478b7 502r26
+202i7 Popup{36I9} 91|479b7 503r26
+203a7 Filter{string} 91|480b7 521r10 524r58
+213V13*Add_Popup{36I9} 214>7 215>7 216>7 217>7 218>7 91|534b13 561l8 561t17
+214p7 Config{33P9} 91|535b7 542r7 542r27 544r10 558r26 560r14
+215a7 Label{string} 91|536b7 548r47
+216i7 Line{positive} 91|537b7 552r26
+217i7 Column{positive} 91|538b7 553r26
+218i7 Popup{36I9} 91|539b7 557r26
+225U14*Add_Hidden 226>7 227>7 228>7 91|401b14 407l8 407t18
+226p7 Config{33P9} 91|402b7 406r22
+227a7 Switch{string} 91|403b7 406r30
+228a7 Separator{string} 91|404b7 406r38
+231U14*Add_Dependency 232>7 233>7 234>7 235>7 236>7 237>7 238>7 239>7 91|649b14
+. 668l8 668t22
+232p7 Config{33P9} 91|650b7 659r7 660r28
+233a7 Switch{string} 91|651b7 661r40
+234a7 Section{string} 91|652b7 662r40
+235b7 Status{boolean} 91|653b7 663r28
+236a7 Slave_Tool{string} 91|654b7 664r40
+237a7 Slave_Switch{string} 91|655b7 666r40
+238a7 Slave_Section{string} 91|656b7 665r40
+239b7 Slave_Activate{boolean} 91|657b7 667r28
+249U14*Add_Default_Value_Dependency 250>7 251>7 252>7 253>7 254>7 255>7 91|674b14
+. 738l8 738t36
+250p7 Config{33P9} 91|675b7 683r25 735r13
+251a7 Switch{string} 91|676b7 703r51
+252a7 Section{string} 91|677b7 702r47
+253a7 Slave_Switch{string} 91|678b7 697r45 698r59 724r43
+254a7 Slave_Section{string} 91|679b7 695r44
+255b7 Slave_Status{boolean} 91|680b7 725r26
+266R12 Root_Widget_Record 269r31 324r32 330r29 370r30 379r38 91|779r32 969r29
+269R12 Root_Editor<266R12> 272r49 383r49
+271k12*Switches_Editors 266z12 269z12 379E12 389l8 389e24 91|744b17 1482l8
+. 1482t24
+272H12*Root_Switches_Editor<269R12> 274r9 282p17 283r28 285p17 286r34 294p17
+. 295r26 301p16 302r26 306p16 307r28 316p17 317r29 321p17 322r32 328p17 329r29
+. 339p16 340r28 348p17 349r29 352r29 358p17 359r29 362p17 363r29 368p17 369r30
+. 383c12 388e17 91|751r29 766r28 777r32 786r27 798r27 968r29 1169r28 1173r25
+. 1186r26 1204r16 1215r26 1260r28 1280r28 1447r28 1451r13 1453r13 1461r34
+. 1467r13 1476r26
+273P12*Root_Switches_Editor_Access(272R12) 342r17 91|805r21
+282U17*Set_Command_Line 283^10 284>10 91|1446b17 1454l11 1454t27 1466R10
+283p10 Editor(272R12) 91|1447b10 1451r41 1453r41
+284a10 Cmd_Line{string} 91|1448b10 1451r54 1453r54
+285U17*Set_Command_Line 286^10 287>10 288>10 91|1460b17 1469l11 1469t27
+286p10 Editor(272R12) 91|1461b10 1467r41
+287a10 Cmd_Line{120|52A9} 91|1462b10 1468r38
+288b10 Protect_Quotes{boolean} 91|1463b10 1468r48
+294V17*"="{boolean} 295^10 296>10 91|1214b17 1253l12 1253t14
+295p10 Editor(272R12) 91|1215b10 1223r54 1233r17
+296a10 Args{120|52A9} 91|1216b10 1224r59
+301V16*Get_Config{33P9} 302^10 91|1475b16 1480l11 1480t21
+302p10 Editor(272R12) 91|1476b10 1479r17
+306V16*Get_Command_Line{120|53P9} 307^10 308>10 91|765b16 770l11 770t27
+307p10 Editor(272R12) 91|766b10 769r17
+308b10 Expanded{boolean} 91|767b10 769r49
+316U17*Initialize 317=10 318>10 91|750b17 759l11 759t21
+317r10 Editor{272R12} 91|751b10 755m29 755r29 756m10 757m10
+318p10 Config{33P9} 91|752b10 755r46 756r27 758r35
+321U17*Set_Widget 322=10 323>10 324^10 91|776b17 783l11 783t21
+322r10 Editor{272R12} 91|777b10 782m10 782r10
+323i10 Switch_Index{integer} 91|778b10 782r26
+324p10 Widget(266R12) 91|779b10 782r56
+328U17*Change_Switch 329=10 330^10 331>10 91|967b17 1179l11 1179t24
+329r10 Editor{272R12} 91|968b10 1001r17 1002r22 1003r19 1006r33 1012m25 1012r25
+. 1021m28 1021r28 1030m34 1030r34 1042m37 1042r37 1056m31 1063m34 1072m34
+. 1072r34 1078m31 1091m34 1091r34 1099m31 1107m34 1107r34 1115m31 1126m40
+. 1132m40 1132r40 1137m40 1143m40 1143r40 1151m40 1169m56 1169r56 1173m53
+. 1173r53
+330p10 Widget(266R12) 91|969b10 1003r53
+331a10 Parameter{string} 91|970b10 1028r31 1036r34 1070r46 1081r46 1084r31
+. 1094r48 1102r31 1105r46 1110r48 1118r46 1123r58
+339V16*Get_Tool_By_Name{273P12} 339b16 340>10 341>10 91|817R24
+340r10 Editor{272R12}
+341a10 Dummy_Tool_Name{string}
+348U17*On_Command_Line_Changed 349=10 350>10 91|1259b17 1273l11 1273t34 1452R10
+349r10 Editor{272R12} 91|1260b10 1264r13 1268m10 1269m29 1269r29 1269r46
+. 1270m28 1270r28 1271m10 1272m35
+350a10 Cmd_Line{string} 91|1261b10 1270r45
+351U17*On_Command_Line_Changed 352=10 91|847s22 893s13 1168s25 1272s10 1279b17
+. 1440l11 1440t34
+352c10 Editor<272R12> 91|1280b10 1283r41 1291r42 1303r13 1307m10 1312r51
+. 1322r27 1338r28 1343m31 1344r31 1351m28 1358r25 1361m31 1362r31 1368m31
+. 1369r31 1376r25 1378m28 1379r28 1390r25 1392m28 1393r28 1402r25 1423m34
+. 1424r34 1439m10
+358U17*Update_Graphical_Command_Line 359=10 91|848R22 894R13 1172R22 1185b17
+. 1208l11 1208t40
+359r10 Editor{272R12} 91|1186b10 1189r13 1195r15 1202m13 1204m44 1204r44
+. 1206m13
+362x17*Set_Graphical_Command_Line 363=10 364>10 91|1203R13 1450R10
+363r10 Editor{272R12}
+364a10 Cmd_Line{string}
+368x17*Set_Graphical_Widget 369=10 370^10 371>10 372>10 373>10 91|950R25
+. 1342R28 1360R28 1367R28 1377R25 1391R25 1422R31
+369r10 Editor{272R12}
+370p10 Widget(266R12)
+371e10 Switch{39E9}
+372a10 Parameter{string}
+373b10 Is_Default{boolean} 91|955r28
+379P12 Root_Widget(266R12) 380r56 91|782r43 1003r40
+380A12 Widget_Array(379P12)<integer> 381r42 91|757r32
+381P12 Widget_Array_Access(380A12) 386r23
+384p10 Config{33P9} 91|756m17 804r30 898r26 899r30 903r33 918r43 947r29 1006r40
+. 1269r53 1283r48 1479r24
+385r10 Cmd_Line{42|155R9} 91|755m36 769r24 831m30 835r34 840m30 942m35 1012m32
+. 1021m35 1030m41 1042m44 1072m41 1091m41 1107m41 1132m47 1143m47 1195r22
+. 1223r61 1233r24 1269m36 1270m35 1291r49 1312r58 1322r34
+386p10 Widgets{381P12} 91|757m17 782r17 949r32 952r35 1002r29 1003r26 1338r35
+. 1344r38 1358r32 1362r38 1369r38 1376r32 1379r35 1390r32 1393r35 1402r32
+. 1424r41
+387b10 Block{boolean} 91|1001r24 1189r20 1202m20 1206m20 1264r20 1268m17
+. 1271m17 1303r20 1307m17 1439m17
+391R9*Switch_Description 393p13 396r14 399p13 400r16 403p13 404r16 407p13
+. 408r16 411p13 412r16 415p13 416r16 419p13 420r16 423p13 424r16 427p13 428r16
+. 431p13 432r16 435p13 436r16 439p13 440r16 443p13 444r16 447p13 448r16 451p13
+. 452r16 455p13 456r16 459p13 460r16 463p13 464r16 467p13 468r16 471p13 472r16
+. 475p13 476r16 561p13 563r59 636c9 636d29 678e14 681r50 91|299r10 365r10
+. 432r10 490r10 545r10 579r10 613r10 692r18 720r22 902r24 917r43 976r42 978r42
+. 1005r35 1286r34 1290r34 1311r29 1488r34 1497r33 1506r31 1515r35 1524r36
+. 1533r36 1542r36 1551r40 1561r16 1571r16 1581r16 1591r16 1601r16 1611r16
+. 1621r16 1631r16 1781r14 1791r32 1800r34 1809r37 1818r32 1856r59 1887r38
+. 1956r16
+393V13*Get_Switches_Element{391R9} 394>7 395>7 91|1778b13 1785l8 1785t28
+394p7 Switches{33P9} 91|1779b7 1783r23 1784r44
+395i7 Index{natural} 91|1780b7 1784r23
+399V13*Get_Switch{string} 400>7 91|1488b13 1491l8 1491t18 1905s29 1910s26
+. 1930s29
+400r7 Switch{391R9} 91|1488b25 1490r25
+403V13*Get_Label{string} 404>7 91|1497b13 1500l8 1500t17
+404r7 Switch{391R9} 91|1497b24 1499r25
+407V13*Get_Tip{string} 408>7 91|1506b13 1509l8 1509t15
+408r7 Switch{391R9} 91|1506b22 1508r25
+411V13*Get_Section{string} 412>7 91|1515b13 1518l8 1518t19 1906s29 1911s26
+. 1932s23 1943s36
+412r7 Switch{391R9} 91|1515b26 1517r25
+415V13*Is_Add_First{boolean} 416>7 91|1524b13 1527l8 1527t20 1944s36
+416r7 Switch{391R9} 91|1524b27 1526r14
+419V13*Get_Line{positive} 420>7 91|1791b13 1794l8 1794t16
+420r7 Switch{391R9} 91|1791b23 1793r14
+423V13*Get_Column{positive} 424>7 91|1800b13 1803l8 1803t18
+424r7 Switch{391R9} 91|1800b25 1802r14
+427V13*Get_Separator{string} 428>7 91|1809b13 1812l8 1812t21 1942s36
+428r7 Switch{391R9} 91|1809b28 1811r25
+431V13*Get_Type{39E9} 432>7 91|1818b13 1821l8 1821t16
+432r7 Switch{391R9} 91|1818b23 1820r14
+435V13*Get_Switch_Unset{string} 436>7 91|1590b13 1594l8 1594t24
+436r7 Switch{391R9} 91|1591b7 1593r25
+439V13*Get_Default_State{boolean} 440>7 91|1600b13 1604l8 1604t25
+440r7 Switch{391R9} 91|1601b7 1603r14
+443V13*Get_Initial_State{boolean} 444>7 91|1610b13 1614l8 1614t25
+444r7 Switch{391R9} 91|1611b7 1613r14
+447V13*Is_Field_As_Directory{boolean} 448>7 91|1620b13 1624l8 1624t29
+448r7 Switch{391R9} 91|1621b7 1623r14
+451V13*Is_Field_As_File{boolean} 452>7 91|1630b13 1634l8 1634t24
+452r7 Switch{391R9} 91|1631b7 1633r14
+455V13*Get_Spin_Min{integer} 456>7 91|1533b13 1536l8 1536t20
+456r7 Switch{391R9} 91|1533b27 1535r14
+459V13*Get_Spin_Max{integer} 460>7 91|1542b13 1545l8 1545t20
+460r7 Switch{391R9} 91|1542b27 1544r14
+463V13*Get_Spin_Default{integer} 464>7 91|1551b13 1554l8 1554t24
+464r7 Switch{391R9} 91|1551b31 1553r14
+467V13*Get_Combo_No_Switch{string} 468>7 91|1560b13 1564l8 1564t27
+468r7 Switch{391R9} 91|1561b7 1563r25
+471V13*Get_Combo_No_Digit{string} 472>7 91|985s21 1570b13 1574l8 1574t26
+472r7 Switch{391R9} 91|1571b7 1573r25
+475V13*Get_Combo_Entries{23|91R9[180]} 476>7 91|1580b13 1584l8 1584t25
+476r7 Switch{391R9} 91|1581b7 1583r14
+479R9*Frame_Description 481p13 484r14 487p13 488r15 491p13 492r15 495p13
+. 496r15 690c9 697e14 699r50 91|230r10 1731r14 1740r32 1749r31 1758r33
+481V13*Get_Frames_Element{479R9} 482>7 483>7 91|1728b13 1734l8 1734t26
+482p7 Switches{33P9} 91|1729b7 1733r23 1733r61
+483i7 Index{natural} 91|1730b7 1733r40
+487V13*Get_Title{string} 488>7 91|1740b13 1743l8 1743t17
+488r7 Frame{479R9} 91|1740b24 1742r25
+491V13*Get_Line{positive} 492>7 91|1749b13 1752l8 1752t16
+492r7 Frame{479R9} 91|1749b23 1751r14
+495V13*Get_Column{positive} 496>7 91|1758b13 1761l8 1761t18
+496r7 Frame{479R9} 91|1758b25 1760r14
+499V13*Get_Lines{positive} 500>7 91|1640b13 1645l8 1645t17
+500p7 Switches{33P9} 91|1641b7 1644r14
+504V13*Get_Columns{positive} 505>7 91|1651b13 1656l8 1656t19
+505p7 Switches{33P9} 91|1652b7 1655r14
+509V13*Is_Show_Command_Line{boolean} 510>7 91|1662b13 1667l8 1667t28
+510p7 Switches{33P9} 91|1663b7 1666r14
+514V13*Get_Default_Separator{string} 515>7 91|1673b13 1678l8 1678t29
+515p7 Switches{33P9} 91|1674b7 1677r25
+519V13*Get_Sections{string} 520>7 91|1684b13 1689l8 1689t20
+520p7 Switches{33P9} 91|1685b7 1688r25
+524V13*Is_Scrolled_Window{boolean} 525>7 91|1695b13 1700l8 1700t26
+525p7 Switches{33P9} 91|1696b7 1699r14
+529V13*Get_Switch_Char{character} 530>7 91|1706b13 1711l8 1711t23
+530p7 Switches{33P9} 91|1707b7 1710r14
+534V13*Get_Frames_Length{6|22I9} 535>7 91|1717b13 1722l8 1722t25
+535p7 Switches{33P9} 91|1718b7 1721r22
+539V13*Get_Switches_Length{6|22I9} 540>7 91|1767b13 1772l8 1772t27
+540p7 Switches{33P9} 91|1768b7 1771r22
+544V13*Empty_Command_Line{42|155R9} 545^7 91|243b13 250l8 250t26
+545p7 Switches(32R9) 91|244b7 248r36
+550a4*Command_Line_Editor_Tooltip_Text{string} 593c4
+553R9*Switch_Filter_Description_Record 555r17 557p13 558r32 714c9 718e14
+. 91|334r17 390r17 455r17 523r20 638r20 1846r32
+554P9*Switch_Filter_Description(553R9) 563r25 568r31 588r45 720r50 91|1856r25
+. 1866r31 1995r45
+557V13*Get_Name{string} 558^7 91|1845b13
+558p7 Filter(553R9) 91|1848r18
+561V13*Get_Switch{391R9} 562^7 563>7 91|1854b13 1888s31
+562p7 Config(32R9) 91|1858r8
+563p7 Filter{554P9} 91|1858r25
+566U14*Apply 567^7 568>7 569>7 570>7 571>7 572=7 91|1864b14 1961l8 1961t13
+567p7 Config(32R9) 91|1865b7 1882r39 1956r38 1959r7
+568p7 Filter{554P9} 91|1866b7 1888r60 1956r55 1959r40
+569b7 Matches{boolean} 91|1867b7 1898r42 1912r47 1958r24
+570b7 Before_Save{boolean} 91|1868b7 1898r17 1912r26
+571a7 Default_Line{120|52A9} 91|1869b7 1925r62
+572p7 Command_Line{120|53P9} 91|1870b7 1896r48 1952m13
+581R9*Switch_Filter_Cursor 583r47 584r36 586r16 588r16 725c9 727e14 91|1968r47
+. 1970r8 1976r36 1986r16 1995r16
+582V13*First{581R9} 583>7 91|1967b13
+583p7 Config{33P9} 91|1970r35
+584U14*Next 584=20 91|1976b14 1979l8 1979t12
+584r20 Cursor{581R9} 91|1976b20 1978m47 1978r47
+585V13*Has_Element{boolean} 586>7 91|1985b13
+586r7 Cursor{581R9} 91|1988r54
+587V13*Element{554P9} 588>7 91|1994b13
+588r7 Cursor{581R9} 91|1997r51
+592e4 LF{character} 594r75 595r47 596r66 597r63 598r68 599r64 601r9 601r37
+. 602r73 603r75 604r77 605r77 607r9 607r52 608r71 609r40 610r40 611r62 612r38
+. 613r59 614r50 615r57 616r61 617r64 618r63 619r68 620r71 621r67 622r60 624r28
+. 625r50 626r64 627r9
+633R9 Default_Value_Dependency_Record 634r48 683c9 688e14 91|72r10 730r39
+634P9 Default_Value_Dependency(633R9) 657r29 687r23 91|42r33 70r33 72r43
+. 73r13 90r13 904r24
+636e29*Typ{39E9} 652r12 91|95r28 126r28 300m13 366m13 433m13 491m13 546m13
+. 580m13 614m13 908r22 953r31 981r18 984r21 1017r27 1026r29 1165r27 1316r23
+. 1345r33 1363r33 1370r33 1380r30 1394r30 1425r36 1820r21
+637r7*Switch{36|105R9} 91|301m13 367m13 434m13 492m13 547m13 582m13 616m13
+. 697r35 703r41 724r33 921r46 1014r55 1032r61 1057r44 1074r61 1079r44 1093r61
+. 1100r44 1109r61 1116r44 1127r53 1134r67 1138r53 1145r67 1152r53 1292r40
+. 1313r45 1352r41 1490r32
+638r7*Label{36|105R9} 91|306m13 368m13 435m13 493m13 548m13 583m13 617m13
+. 1499r32
+639r7*Tip{36|105R9} 91|307m13 369m13 436m13 494m13 549m13 584m13 618m13 1508r32
+640r7*Section{36|105R9} 91|308m13 370m13 437m13 495m13 550m13 585m13 619m13
+. 695r33 702r36 922r54 943r53 1013r55 1022r52 1031r61 1043r64 1058r44 1065r47
+. 1073r61 1080r44 1092r61 1101r44 1108r61 1117r44 1128r53 1133r67 1139r53
+. 1144r67 1153r53 1293r40 1314r45 1324r54 1353r41 1517r32
+641b7*Add_First{boolean} 91|313m13 379m13 444m13 502m13 556m13 590m13 624m13
+. 1033r50 1045r53 1075r50 1096r50 1112r50 1135r56 1149r56 1526r21
+642i7*Line{positive} 91|311m13 377m13 442m13 500m13 552m13 588m13 622m13
+. 1793r21
+643i7*Column{positive} 91|312m13 378m13 443m13 501m13 553m13 589m13 623m13
+. 1802r21
+644r7*Separator{36|105R9} 91|309m13 371m13 438m13 496m13 551m13 586m13 620m13
+. 1095r61 1111r61 1148r67 1811r32
+645i7*Popup{36I9} 91|310m13 380m13 445m13 503m13 557m13 591m13 625m13
+647b7*Active{boolean} 91|314m13 381m13 446m13 504m13 559m13 592m13 626m13
+. 1958m14
+654r13*Switch_Unset{36|105R9} 91|302m13 698r43 944r53 1018r35 1023r52 1044r64
+. 1061r33 1064r47 1323r54 1593r32
+655b13*Default_State{boolean} 91|303m13 935r34 936m25 1037r36 1331r39 1603r21
+656b13*Initial_State{boolean} 91|304m13 912r31 1613r21
+657p13*Dependencies{634P9} 91|96r35 305m13 730m19 734r39 913r31
+659b13*As_Directory{boolean} 91|372m13 1623r21
+660b13*As_File{boolean} 91|373m13 1633r21
+661r13*File_Filter{36|105R9} 91|374m13
+662r13*Base_Dir{36|105R9} 91|375m13
+663r13*Except_Filter{36|105R9} 91|376m13
+665i13*Min{integer} 91|439m13 1535r21
+665i18*Max{integer} 91|440m13 1544r21
+665i23*Default{integer} 91|441m13 1105r62 1118r62 1364r48 1553r21
+667b13*Is_Entry{boolean} 91|581m13 615m13
+668i13*Group{154I9} 91|587m13 621m13 1396r33 1398r50
+670r13*No_Switch{36|105R9} 91|497m13 1124r63 1410r70 1563r32
+671r13*No_Digit{36|105R9} 91|498m13 1130r66 1415r66 1573r32
+672r13*Entries{23|91R9[180]} 91|499m13 1121r46 1405r42 1583r21
+674i13*To_Popup{36I9} 91|127r36 558m13
+675i13*Lines{positive} 91|129m44 554m13
+676i13*Columns{positive} 91|130m44 555m13
+680K12 Switch_Description_Vectors[18|47] 685r23 716r22 739r27 91|24r8 89r11
+. 118r11 682r23 684r23 685r24 686r23 687r24 1282r32
+684b7*Enable{boolean} 91|731m16 929r38
+685i7*Master_Switch{18|54I12[680]} 91|732m16 919r43
+686b7*Master_State{boolean} 91|733m16 924m32 928r29
+687p7*Next{634P9} 91|76r21 734m16 932r33
+691r7*Title{36|105R9} 91|231m13 1742r31
+692i7*Line{positive} 91|232m13 1751r20
+693i7*Column{positive} 91|233m13 1760r20
+694i7*Line_Span{natural} 91|235m13
+695i7*Col_Span{natural} 91|236m13
+696i7*Popup{36I9} 91|234m13
+698K12 Frame_Description_Vectors[18|47] 738r27 91|25r8
+701R9 Dependency_Description 702r49 703c9 709e14 91|51r10 659r34
+702P9 Dependency_Description_Access(701R9) 708r39 743r27 91|39r39 49r39 51r34
+. 52r11 803r21
+704p7*Slave_Tool{120|43P9} 91|56m21 664m10 819r24
+705p7*Master_Switch{120|43P9} 91|57m21 661m10 812r21
+705p22*Slave_Switch{120|43P9} 91|58m21 666m10 833r41 837r38 842r41 881r33
+706p7*Master_Section{120|43P9} 91|59m21 662m10 813r29
+706p23*Slave_Section{120|43P9} 91|60m21 665m10 832r41 836r38 841r41 882r33
+707b7*Master_Status{boolean} 91|663m10 814r29
+707b22*Slave_Status{boolean} 91|667m10 829r31 883r33
+708p7*Next{702P9} 91|55r20 660m10 889r26
+715r7*Name{36|105R9} 91|335m16 391m16 456m16 524m21 639m21 1848r25
+716i7*Switch{18|54I12[680]} 91|336m16 392m16 457m16 525m21 640m21 1858r32
+. 1956r62 1959r47
+717b7*Add_On_Match{boolean} 91|337m16 393m16 458m16 526m21 641m21
+719K12 Switch_Filter_Description_Vectors[18|47] 726r11 740r27 91|1978r7 1988r7
+. 1997r8
+726r7*C{18|73R9[719]} 91|1970m30 1978m54 1988r61 1997r58
+730i7*Lines{positive} 91|121m15 153m10 1644r23
+731i7*Columns{positive} 91|122m15 154m10 1655r23
+732r7*Config{42|47R9} 91|102m23 169m29 177m36 182m36 199m29 211m28 248r45
+. 265m32 267m47 270m20 273m20 755r53 1269r60 1886r47
+733b7*Show_Command_Line{boolean} 91|161m10 1666r23
+734r7*Default_Separator{36|105R9} 91|155m10 1677r34
+735r7*Sections{36|105R9} 91|162m10 1688r34
+736b7*Scrolled_Window{boolean} 91|156m10 1699r23
+737e7*Switch_Char{character} 91|157m10 1710r23
+738r7*Frames{18|60R9[698]} 91|229m17 1721r31 1733r32 1733r70
+739r7*Switches{18|60R9[680]} 91|93r29 124r27 129m21 130m21 298m17 336r39
+. 364m17 392r39 431m17 457r39 489m17 525r44 544m17 578m17 612m17 640r44 683r32
+. 735m20 758r42 898r33 899r37 903r40 918r50 947m36 1006r47 1283r55 1771r31
+. 1783r32 1784r53 1858r15 1956r45 1959m14
+740r7*Filters{18|60R9[719]} 91|333m17 389m17 454m17 522m17 637m17 1970r42
+741i7*Max_Radio{154I9} 91|159m10 576m14 576r34 587r33 593r21
+742i7*Max_Popup{36I9} 91|160m10 542m14 542r34 558r33 560r21
+743p7*Dependencies{702P9} 91|103m28 166m10 659m14 660r35 804r37
+X 91 switches_chooser.adb
+28U14 Add_To_Getopt 29>7 30>7 31>7 32>7 256b14 275l8 275t21 317s10 325s10
+. 382s7 406s7 447s7 508s10 514s10 629s10
+29p7 Config{90|33P9} 257b7 265r25 267r40 270r13 273r13
+30a7 Switch{string} 258b7 265r40 267r55 270r28 273r28 319r13 327r13 384r10
+. 449r10 510r13 516r13 631r13
+31a7 Separator{string} 259b7 263r10 266r13 268r13 273r58 320r13 328r13 385r10
+. 450r10 511r13 517r13 632r13
+32a7 Section{string} 260b7 265r48 267r63 270r36 273r36 321r13 329r13 386r10
+. 406r49 451r10 512r13 518r13 633r13
+39U14 Free_List 39=25 49b14 64l8 64t17 103s10
+39p25 Deps{90|702P9} 49b25 54r13 55r15 56r16 57r16 58r16 59r16 60r16 61m26
+. 62m10
+42U14 Free 42=20 70b14 80l8 80t12 97s16
+42p20 Dep{90|634P9} 70b20 75r13 76r17 77m26 78m10
+50U17 Unchecked_Free[40|23] 61s10
+52p7 N{90|702P9} 55m10 62r18
+71U17 Unchecked_Free[40|23] 77s10
+73p7 Tmp{90|634P9} 76m10 78r17
+87U17 Unchecked_Free[40|23] 104s10
+89r7 C{18|73R9[90|680]} 93m10 94r29 95r25 96r32 99m19 99r19
+90p7 Dep{90|634P9} 96m16 97m22 97r22
+118r7 C{18|73R9[90|680]} 124m10 125r29 126r25 127r33 129r41 130r41 133m19
+. 133r19
+149p7 Config{90|33P9} 152m7 169r22 177r29 182r29 188r14
+150i7 Start{natural} 172m7 173r16 177r54 178m13 179r21 182r54
+150i14 Stop{natural} 173m7 175r13 176r23 177r63 178r22 179m13 181r16 182r63
+. 185m10 185r18
+247r14 Result{42|155R9} 248r10
+482r7 Ent{23|91R9[90|180]} 485m18 485r18 499r26
+484i11 E{integer} 485r32
+682r7 Cursor{18|73R9[90|680]} 690r26 692r54 700r35 705r36 713m16 713r16
+684r7 Slave_Cursor{18|73R9[90|680]} 700m19 709r40 717r31 721r33 735r46
+686r7 Master_Cursor{18|73R9[90|680]} 705m19 708r39 716r23 732r43
+692r13 Sw{90|391R9} 694r16 695r30 697r32 698r40 702r33 703r38
+720r13 Slave{90|391R9} 724r27 730r13 734r33 735r60
+722b13 Enable{boolean} 725m16 727m16 731r33
+785U17 Handle_Dependencies 786=10 787>10 788>10 789>10 797b17 879s25 961l11
+. 961t30 1055s28 1062s31 1077s28 1098s28 1114s28 1125s37 1136s37 1150s37
+. 1350s25
+786c10 Editor<90|272R12> 798b10 804r23 818r19 846r34 880m28 893m38 894m44
+. 898r19 899r23 903r26 918r36 942m28 942r28 947r22 949r25 951m28 952r28
+787a10 Switch{string} 799b10 812r41 921r56
+788a10 Section{string} 800b10 813r50 922r65
+789b10 Status{boolean} 801b10 814r45 924r48
+803p10 Deps{90|702P9} 811r16 812r16 813r24 814r24 819r19 829r26 832r36 833r36
+. 836r33 837r33 841r36 842r36 881r28 882r28 883r28 889m13 889r21
+805p10 Tool{90|273P12} 817m16 821r19 831r25 835r29 840r25 846r22 847r47 848r53
+806b10 Changed{boolean} 851m22 851r33 892r13
+807b10 Success{boolean} 834m36 843m36 843r36 846r50 851r44 853r25
+898i14 J{integer} 903r58 947r62 949r41 952r44
+902r16 Sw{90|391R9} 908r19 912r28 913r28 935r31 936m22 943r50 944r50 947r65
+. 953r28
+904p16 Dep{90|634P9} 913m19 915r25 919r39 924r28 928r25 929r34 932m22 932r29
+905b16 State{boolean} 912m19 929m25 935r22 936r42 938r29 954r43
+917r25 Master{90|391R9} 921r39 922r47
+973r10 Combo{23|107R9[90|180]} 1121m28 1122r47 1123r43 1124r46 1130r49 1147r62
+. 1158m37 1158r37
+974b10 Val{boolean} 1034m31 1048m31 1052m31 1059r31 1066r38
+976V19 Get_Has_Parameter{72|26E9} 976>38 978b19 998l14 998t31 1015s42
+976r38 S{90|391R9} 978b38 981r16 984r19 985r19
+1002i17 W{integer} 1003r35 1006r57
+1005r22 S{90|391R9} 1013r53 1014r53 1015r61 1017r25 1018r33 1022r50 1023r50
+. 1026r27 1031r59 1032r59 1033r48 1037r34 1043r62 1044r62 1045r51 1057r42
+. 1058r42 1061r31 1064r45 1065r45 1073r59 1074r59 1075r48 1079r42 1080r42
+. 1092r59 1093r59 1095r59 1096r48 1100r42 1101r42 1105r60 1108r59 1109r59
+. 1111r59 1112r48 1116r42 1117r42 1118r60 1121r44 1124r61 1127r51 1128r51
+. 1130r64 1133r65 1134r65 1135r54 1138r51 1139r51 1144r65 1145r65 1148r65
+. 1149r54 1152r51 1153r51 1165r25
+1194p13 List{120|53P9} 1197r19 1198r44 1205m19 1205r19
+1196a13 Cmd_Line{string} 1204r53
+1218r10 Cmd2{42|155R9} 1223m29 1223r29 1224m28 1224r28 1234r17
+1219r10 Iter1{42|336R9} 1233m34 1233r34 1235r26 1240r32 1241r42 1242r42 1243r40
+. 1248m19 1248r19
+1219r17 Iter2{42|336R9} 1234m34 1234r34 1236r30 1240r58 1241r71 1242r71 1243r67
+. 1249m19 1249r19 1252r31
+1282r10 Switch{18|73R9[90|680]} 1309r29 1311r60 1338r54 1344r57 1358r51 1362r57
+. 1369r57 1376r51 1379r54 1390r51 1393r54 1402r51 1424r60 1436m19 1436r19
+1284i10 Current_Radio_Group{90|154I9} 1396r42 1398m25
+1286V19 Get_Param{string} 1286>30 1290b19 1300l14 1300t23 1359s28 1371s31
+. 1381s28 1406s55
+1286r30 S{90|391R9} 1290b30 1292r38 1293r38
+1291r13 Param{42|290R9} 1295r16 1296r34
+1311r16 S{90|391R9} 1313r43 1314r43 1316r21 1323r52 1324r52 1331r37 1345r31
+. 1352r39 1353r39 1359r39 1363r31 1364r46 1370r31 1371r42 1380r28 1381r39
+. 1394r28 1396r31 1398r48 1405r40 1406r66 1410r68 1415r64 1425r34
+1312b16 Switch_Found{boolean} 1326r44 1329r37 1397r39 1409r38
+1319b25 State{boolean} 1329m28 1331m28 1333r35 1346r46 1354r28
+1320b25 Is_Default{boolean} 1326m25 1328r32 1334m31 1347r31
+1321b25 Unset_Found{boolean} 1326r60
+1404r28 Combo{23|107R9[90|180]} 1408r47 1410r53 1415r49 1416r53 1418m37 1418r37
+. 1421r44 1426r54
+1406a28 Param{string} 1413r37 1416r68
+1873U17 Apply_Filter_On_Command_Line 1880b17 1954l11 1954t39 1960s7
+1881p10 Switches_Config{90|33P9} 1886r31 1888r43
+1883r10 Default_Cmd_Line{42|155R9} 1922m35 1922r35 1925m19 1925r19 1927r23
+1884r10 Cmd_Line{42|155R9} 1892m29 1892r29 1896m13 1896r13 1904m16 1904r16
+. 1909r13 1939m22 1939r22 1952r29
+1885r10 Config{42|47R9} 1892r39 1922r53
+1887r10 Switch{90|391R9} 1905r41 1906r42 1910r38 1911r39 1930r41 1932r36
+. 1942r51 1943r49 1944r50
+1889b10 Success{boolean} 1907m29 1945m36 1951r13
+1920r16 Iter{42|336R9} 1927m41 1927r41 1929r32 1930r67 1932r63 1934m25 1934r25
+. 1937r29 1940r52 1941r55
+1956r7 Switch{90|391R9} 1958m7 1959r55
+X 92 system.ads
+67M9*Address
+X 101 s-memory.ads
+51V13*Alloc{92|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{92|67M9} 103i<c,__gnat_realloc>22
+X 115 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 120 s-string.ads
+43P9*String_Access(string) 90|704r52 705r52 706r52
+47U14*Free[40|23] 91|56s10 57s10 58s10 59s10 60s10
+52A9*String_List(43P9)<integer> 90|287r40 296r32 571r35 91|1216r32 1462r40
+. 1869r35
+53P9*String_List_Access(52A9) 90|308r50 572r42 91|767r50 1194r24 1870r42
+56U14*Free 91|1205s13
+

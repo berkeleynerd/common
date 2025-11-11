@@ -1,0 +1,265 @@
+V "GNAT Lib v15"
+A -O0
+A -Wtrampolines
+A -gnatA
+A -g
+A -gnatX
+A -gnata
+A -gnatVa
+A -gnatQ
+A -gnatyg
+A -gnatyO
+A -gnatwa
+A -gnatwC
+A -gnatwJ
+A -gnatwe
+A -gnateE
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U array_utils%b		array_utils.adb		4e30f434 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.generic_array_sort%s
+
+U array_utils%s		array_utils.ads		1bf217ca BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-cgarso.ads		20250419085653 9129bfa8 ada.containers.generic_array_sort%s
+D a-cgarso.adb		20250419085653 59f5315a ada.containers.generic_array_sort%b
+D a-cgcaso.ads		20250419085653 9f1e835c ada.containers.generic_constrained_array_sort%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D array_utils.ads	20251111131459 d85abbaf array_utils%s
+D array_utils.adb	20251111131459 0743f033 array_utils%b
+D system.ads		20250419085653 70765b54 system%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [array_utils standard 29 9 none]
+X 1 ada.ads
+18K9*Ada 22e8 8|24r6 50r26 9|23r6 416r29 431r29
+X 2 a-contai.ads
+16K13*Containers 28e19 9|23r10 416r33 431r33
+X 3 a-cgarso.ads
+23u26*Generic_Array_Sort 2|16k13 9|23w21 416r44 431r44
+X 7 a-uncdea.ads
+20+9 Object 8|51r7
+21P9 Name(20+9) 8|51r29
+23u15*Unchecked_Deallocation 8|24w10 50r30
+X 8 array_utils.ads
+27+9 Element_Type 28r30 33r54 41r20 46r26 60r45 69r23 72r45 72r66 78r23 78r44
+. 85r45 91r14 94r33 102r35 106r36 110r45 117r29 123r29 128r41 130r29 133r45
+. 135r45 136r57 141r29 142r26 143r38 156r23 162r23 170r23 175r23 182r40 186r40
+. 9|48r23 63r14 76r36 93r35 188r28 200r23 231r23 248r23 260r23 260r44 268r45
+. 271r38 279r41 281r29 294r38 320r26 332r12 348r29 352r12 364r29 368r12 382r45
+. 383r57 386r12 402r29 403r26 404r38 417r22 432r22
+28V19 "="{boolean} 28>23 28>26 9|97s15 142r52
+28*23 L{27+9}
+28*26 R{27+9}
+29k9*Array_Utils 27z9 28z19 190E9 191l5 191e16 9|25b14 437l5 437t16
+31I12*Index_Type{positive} 33r30 59r37 65r37 190r30 9|188r42 417r10 432r10
+33A9*Array_Type(27+9)<integer> 34r27 36r41 51r17 61r33 67r18 73r36 73r55
+. 76r18 78r65 86r36 86r55 89r18 91r51 96r18 96r37 99r18 99r37 102r18 105r18
+. 111r34 115r18 121r18 126r30 134r37 139r18 154r18 160r18 162r44 163r14 171r38
+. 175r44 176r41 176r60 183r34 183r53 187r55 9|31r33 46r18 61r18 63r51 75r18
+. 93r18 109r18 109r37 128r26 145r18 145r37 151r36 151r55 167r26 185r41 185r60
+. 188r54 198r18 200r44 201r14 212r38 229r18 245r36 245r55 248r37 258r18 260r65
+. 269r39 277r30 292r39 328r34 346r18 362r18 381r37 400r18 415r34 415r53 417r36
+. 419r20 429r55 432r36
+34a4*Empty_Array{33A9} 9|164r17
+36P9*Array_Type_Access(33A9) 51r37
+38R9*Option_Type 38d22 44e14 46r47 48r11 112r54 118r38 9|320r47 322r7 329r54
+. 365r38
+38b22 Has_Element{boolean} 39r12 48m27 9|322m20
+41*10 Element{27+9} 9|322m41
+46V13*Create{38R9} 46>21 9|320b13 335s17 371s17
+46*21 El{27+9} 9|322r52
+48r4*None{38R9} 9|337r17 373r17
+50U14*Free[7|23]
+58+12 Out_Type 59r61 60r66
+59A12 Out_Array_Type(58+12)<integer> 61r52 9|31r52 34r26
+60V21 Transform{58+12} 60>32 9|36s30
+60*32 In_Element{27+9}
+61v13*Map_Gen 61>22 9|31b13 39l8 39t15 51r14 248r14
+61a22 In_Array{33A9} 9|31b22 34r42 35r19 36r41
+64+12 Out_Type 65r61 69r44 9|48r44 51r23
+65A12 Out_Array_Type(64+12)<integer> 69r61 9|48r61 51r33
+66v13*Map 67>7 68^7 9|45b13 54l8 54t11
+67a7 In_Array{33A9} 9|46b7 53r32
+68p7 Transform(64+12) 9|47b7 51r49
+69*10 In_Element{27+9}
+72V21 Transform{27+9} 72>32 9|248r49
+72*32 In_Element{27+9}
+73v13*Id_Map_Gen 73>25 9|245b13 251l8 251t18 262r39
+73a25 In_Array{33A9} 9|245b25 250r31
+75V13*Id_Map{33A9} 76>7 77^7 9|257b13 265l8 265t14
+76a7 In_Array{33A9} 9|258b7 264r31
+77p7 Transform(27+9) 9|259b7 262r51
+78*10 In_Element{27+9}
+85V21 Predicate{boolean} 85>32 9|157s28
+85*32 In_Element{27+9}
+86v13*Filter_Gen 86>25 9|65r39 151b13 179l8 179t18
+86a25 In_Array{33A9} 9|151b25 153r32 156r16 157r39 167r38 168r41 170r24 172r19
+. 174r42
+88V13*Filter{33A9} 89>7 90^7 9|60b13 68l8 68t14
+89a7 In_Array{33A9} 9|61b7 67r31
+90p7 Pred(boolean) 9|62b7 65r51
+91*10 E{27+9}
+94V22 "="{boolean} 94>26 94>29 9|117s29 142r45
+94*26 L{27+9}
+94*29 R{27+9}
+95v13*Unique_Gen 96>7 9|108b13 140l8 140t18 142r32
+96a7 In_Array{33A9} 9|109b7 111r26 114r16 116r23 117r16 117r31 128r38 129r41
+. 131r19 133r19 135r37
+98V13*Unique{33A9} 99>7 9|144b13
+99a7 In_Array{33A9} 9|145b7
+101V13*Contains{boolean} 102>7 102>30 9|92b13 102l8 102t16
+102a7 In_Array{33A9} 9|93b7 96r16
+102*30 El{27+9} 9|93b30 97r17
+104V13*Contains{boolean} 105>7 106^7 9|74b13 86l8 86t16
+105a7 In_Array{33A9} 9|75b7 80r16
+106p7 Pred(boolean) 9|76b7 81r13
+106*31 El{27+9}
+110V21 Predicate{boolean} 110>32 9|331r40
+110*32 In_Element{27+9}
+111v13*Find_Gen 111>23 112>23 9|328b13 339l8 339t16
+111a23 In_Array{33A9} 9|328b23 334r13
+112b23 Rev{boolean} 9|329b23 334r23
+114V13*Find{38R9} 115>7 116^7 118>7 9|361b13 375l8 375t12
+115a7 In_Array{33A9} 9|362b7 370r13
+116p7 Predicate(boolean) 9|363b7 367r40
+117*24 El{27+9}
+118b7 Rev{boolean} 9|365b7 370r23
+120V13*Find{natural} 121>7 122^7 124>7 9|345b13 355l8 355t12
+121a7 In_Array{33A9} 9|346b7 354r17
+122p7 Predicate(boolean) 9|347b7 351r40
+123*24 El{27+9}
+124b7 Rev{boolean} 9|349b7 354r27
+126V13*Find{boolean} 126>19 127^19 129>19 130<19 9|277b13 286l8 286t12
+126a19 In_Array{33A9} 9|277b19 285r17
+127p19 Predicate(boolean) 9|278b19 283r40
+128*36 El{27+9}
+129b19 Rev{boolean} 9|280b19 285r27
+130*19 Ret{27+9} 9|281b19 285m32 285r32
+133V21 Predicate{boolean} 133>32 9|385r40
+133*32 In_Element{27+9}
+134v13*Find_Gen_Or 134>26 135>26 136>26 9|381b13 393l8 393t19 406r25
+134a26 In_Array{33A9} 9|381b26 388r13
+135*26 Val_If_Not_Found{27+9} 9|382b26 391r17
+136b26 Rev{boolean} 9|383b26 388r23
+138V13*Find{27+9} 139>7 140^7 142>7 143>7 9|399b13 409l8 409t12
+139a7 In_Array{33A9} 9|400b7 408r17
+140p7 Predicate(boolean) 9|401b7 406r38
+141*24 El{27+9}
+142*7 Val_If_Not_Found{27+9} 9|403b7 408r27
+143b7 Rev{boolean} 9|404b7 408r45
+150+12 F_Type 152r65 9|235r28
+151I12 Index_Type 152r41 9|235r36
+152A12 Fun_Ret_Array_Type(150+12)<151I12> 156r44 157r14 9|231r44 232r14 236r28
+153v13*Flat_Map 154>7 155^7 9|228b13 239l8 239t16
+154a7 In_Array{33A9} 9|229b7 238r33
+155p7 Transform(152A12) 9|230b7 236r48
+156*10 In_Element{27+9}
+159V13*Id_Flat_Map{33A9} 160>7 161^7 9|197b13 206l8 206t19
+160a7 In_Array{33A9} 9|198b7 205r36
+161p7 Transform(33A9) 9|199b7 203r61
+162*10 In_Element{27+9}
+166+12 F_Type 168r65
+167I12 Index_Type 168r41
+168A12 Fun_Ret_Array_Type(166+12)<167I12> 170r44 171r57 9|212r57 214r33
+169V21 Transform{168A12} 170>10 9|219s17
+170*10 In_Element{27+9}
+171v13*Flat_Map_Gen 171>27 9|188r14 212b13 220s14 222l8 222t20 235r14
+171a27 In_Array{33A9} 9|212b27 216r10 219r28 219r38 220r28 220r38 220r60
+174V21 Transform{33A9} 175>10 9|188r66
+175*10 In_Element{27+9}
+176v13*Id_Flat_Map_Gen 176>30 9|185b13 191l8 191t23 203r44
+176a30 In_Array{33A9} 9|185b30 190r33
+182V22 "<"{boolean} 3|21i19 8|182>26 182>32
+182*26 Left{27+9}
+182*32 Right{27+9}
+183v13*Sort_Gen 183>23 9|415b13 423l8 423t16
+183a23 In_Array{33A9} 9|415b23 419r32 420r17
+186V22 "<"{boolean} 3|21i19 8|186>26 186>32
+186*26 Left{27+9}
+186*32 Right{27+9}
+187u14*In_Place_Sort_Gen 187=33 9|429b14 435l8 435t25
+187a33 In_Out_Array{33A9} 9|429b33 434m13
+190A9 Bool_Array(boolean)<integer> 9|111r14 153r20
+X 9 array_utils.adb
+34*14 Ret_Array{8|59A12} 36m13
+35i14 J{integer} 36r24 36r51
+48*10 In_Element{8|27+9}
+50V16 Map_Gen_Internal[8|61]{8|65A12} 53s14
+63*10 E{8|27+9}
+65V16 Filter_Internal[8|86]{8|33A9} 67s14
+76*31 El{8|27+9}
+80*11 E{8|27+9} 81r19
+96*11 E{8|27+9} 97r13
+111a7 Keep{8|190A9} 118m16 134r16
+112i7 Count{natural} 119m16 119r25 125m10 125r19 129r59 131m10 135r27 136m16
+. 136r25
+114i11 I{integer} 116r41 117r26 118r22
+116l10 A 120r21 123l19 123e20
+116i18 J{integer} 117r41
+128a14 Ret_Array{8|33A9} 135m16
+133i14 J{integer} 134r22 135r47
+142V13 Unique_Inst[8|95]{8|33A9} 145r56
+153a7 Pred_Array{8|190A9} 157m10 158r13 173r16
+154i7 Keep_Count{natural} 159m13 159r27 163r10 168r59 170m10 174r27 175m16
+. 175r30
+156i11 J{integer} 157r22 157r49 158r25
+167a14 Ret_Array{8|33A9} 174m16
+172i14 J{integer} 173r28 174r52
+187V16 Flat_Map_Internal[8|171]{8|33A9} 190s14
+200*10 In_Element{8|27+9}
+203V16 Id_Flat_Map_Internal[8|176]{8|33A9} 205s14
+214A15 Empty_Ret_Type{8|168A12}<8|167I12> 217r17
+231*10 In_Element{8|27+9}
+234V16 Flat_Map_Internal[8|171]{8|152A12} 238s14
+247V16 Id_Map_Internal[8|61]{8|33A9} 250s14
+260*10 In_Element{8|27+9}
+262V16 Id_Map_Internal[8|73]{8|33A9} 264s14
+268V21 Predicate{boolean} 268>32 299s16 306s16
+268*32 In_Element{8|27+9}
+269v13 Find_Internal 269>28 270>28 271<28 283r25 292b13 314l8 314t21 331r25
+. 351r25 367r25 385r25
+269a28 In_Array{8|33A9} 292b28 298r21 299r27 300r23 305r29 306r27 307r23
+270b28 Rev{boolean} 293b28 297r10
+271*28 Ret{8|27+9} 294b28 300m16 307m16
+279*36 El{8|27+9}
+283V16 F[269]{natural} 285s14
+298i14 Idx{integer} 299r37 300r33 301r23
+305i14 Idx{integer} 306r37 307r33 308r23
+331V16 F[269]{natural} 334s10
+332*7 El{8|27+9} 334m28 334r28 335r25
+348*24 El{8|27+9}
+351V16 F[269]{natural} 354s14
+352*7 El{8|27+9} 354m32 354r32
+364*24 El{8|27+9}
+367V16 F[269]{natural} 370s10
+368*7 El{8|27+9} 370m28 370r28 371r25
+385V16 F[269]{natural} 388s10
+386*7 El{8|27+9} 388m28 388r28 389r17
+402*24 El{8|27+9}
+406V16 F[8|134]{8|27+9} 408s14
+416U17 Sort[3|23] 421s10
+419a14 Res{8|33A9} 420m10 421m16 421r16
+431U17 Sort[3|23] 434s7
+

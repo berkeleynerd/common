@@ -1,0 +1,16 @@
+20251111134305
+-c
+-x
+ada
+-gnatA
+-g
+-gnatX
+-O0
+-gnata
+-gnatVa
+-gnatQ
+-gnatygO
+-gnatwaCJe
+-gnateE
+-Wtrampolines
+-Wno-overriding-deployment-version

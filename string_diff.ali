@@ -1,0 +1,125 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+
+U string_diff%b		string_diff.adb		d69fedb9 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_deallocation%s
+W diffing%s		diffing.adb		diffing.ali  ED
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+
+U string_diff%s		string_diff.ads		f593d431 EE NE OO PK
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D diffing.ads		20251111131459 f1633975 diffing%s
+D diffing.adb		20251111131459 00912416 diffing%b
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D string_diff.ads	20251111131459 f593d431 string_diff%s
+D string_diff.adb	20251111131459 14c4c5bd string_diff%b
+D system.ads		20250419085653 70765b54 system%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+G a e
+G c b b b [b string_diff 21 1 none]
+G c Z s b [diff string_diff 29 14 none]
+G c Z b b [length string_diff 30 13 none]
+G c Z b b [first string_diff 31 13 none]
+G c Z b b [last string_diff 32 13 none]
+G c Z b b [get string_diff 33 13 none]
+G c Z b b [next string_diff 34 13 none]
+G c Z b b [prev string_diff 35 13 none]
+G c Z b b [at_end string_diff 36 13 none]
+G c Z b b [iterIP string_diff 23 9 none]
+G c Z b b [diff string_diff__string_access_diff 56 14 102_4]
+G r i none [b string_diff 21 1 none] [diffing standard 38 9 none]
+X 4 diffing.ads
+23+9 Object 9|103r7
+24+9 Container 9|104r7
+25+9 Iterator 9|105r7
+27*4 Null_Object{23+9} 9|106r7
+29V19 "="{boolean} 9|107r8
+30V18 Length{natural} 9|108r7
+31V18 First{25+9} 9|110r7
+32V18 Last{25+9} 9|109r7
+33V18 Get{23+9} 9|111r7
+34V18 Next{25+9} 9|112r7
+35V18 Prev{25+9} 9|113r7
+36V18 At_End{boolean} 9|114r7
+38k9*Diffing 63e12 9|18w6 102r38
+40E9*Diff_State 9|130r37[102] 139r37[102] 142r55[102]
+56U14 Diff 9|146s26[102]
+X 6 gnat.ads
+40K9*GNAT 63e9 9|19r6 19r24 147r7 148r7
+X 7 g-string.ads
+38K14*Strings=38:37 9|19w11 19r29 147r12 148r12
+X 8 string_diff.ads
+20K9*String_Diff 36l5 36e16 9|21b14 151l5 151t16
+22E9*Diff_State 22e46 26r45 9|142r20
+22n24*Equal{22E9}
+22n31*Added{22E9}
+22n38*Removed{22E9}
+25P9*Diff_Callback 26>7 26>16 26>37 32r20 9|123r20
+26e7 Old_Obj{character}
+26e16 New_Obj{character}
+26e37 State{22E9}
+29U14*Diff 30>7 31>7 32>7 9|120b14 149l8 149t12
+30a7 Old_String{string} 9|121b7 125r41
+31a7 New_String{string} 9|122b7 126r41
+32p7 Callback{25P9} 9|123b7 141r10
+X 9 string_diff.adb
+23R9 Iter 26e14 31r46 32r45 33r22 34r23 34r36 35r23 35r36 36r25 52r46 61r45
+. 70r22 79r23 79r36 88r23 88r36 97r25 105r22
+24p7*S{13|43P9} 54m15 63m15 72r16 81m15 81r22 90m15 90r22 99r23
+25i7*I{natural} 54m23 63m23 72r21 81m25 81r32 90m25 90r32 99r16
+28e4 Null_Object{character} 106r22
+30V13 Length{natural} 30>21 43b13 46l8 46t14 108r22
+30p21 C{13|43P9} 43b21 45r14
+31V13 First{23R9} 31>20 52b13 55l8 55t13 110r22
+31p20 C{13|43P9} 52b20 54r20 54r28
+32V13 Last{23R9} 32>19 61b13 64l8 64t12 109r22
+32p19 C{13|43P9} 61b19 63r20 63r28
+33V13 Get{character} 33>18 70b13 73l8 73t11 111r22
+33r18 I{23R9} 70b18 72r14 72r19
+34V13 Next{23R9} 34>19 79b13 82l8 82t12 112r22
+34r19 I{23R9} 79b19 81r20 81r30
+35V13 Prev{23R9} 35>19 88b13 91l8 91t12 113r22
+35r19 I{23R9} 88b19 90r20 90r30
+36V13 At_End{boolean} 36>21 97b13 100l8 100t14 114r22
+36r21 I{23R9} 97b21 99r14 99r21
+102K12 String_Access_Diff[4|38] 130r18 139r18 142r36 146r7
+125p7 Ol{13|43P9} 146r32 147m26 147r26
+126p7 Ne{13|43P9} 146r36 148m26 148r26
+128U17 Wrapper 129>10 129>19 130>10 137b17 143l11 143t18 146r40
+129e10 Old_Obj{character} 138b10 141r20
+129e19 New_Obj{character} 138b19 141r29
+130e10 State{4|40E9[102]} 139b10 142r71
+X 13 s-string.ads
+43P9*String_Access(string) 9|24r11 30r25 31r24 32r23 43r25 52r24 61r23 104r22
+. 125r12 126r12
+47U14*Free[3|23] 9|147s20 148s20
+

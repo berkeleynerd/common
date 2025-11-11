@@ -1,0 +1,251 @@
+V "GNAT Lib v15"
+A -O0
+A -Wtrampolines
+A -gnatA
+A -g
+A -gnatX
+A -gnata
+A -gnatVa
+A -gnatQ
+A -gnatyg
+A -gnatyO
+A -gnatwa
+A -gnatwC
+A -gnatwJ
+A -gnatwe
+A -gnateE
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U gnatcoll.vfs.vss_utils.formatters%b  gnatcoll-vfs-vss_utils-formatters.adb  dd48599b OO PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnatcoll.vfs.vss_utils%s  gnatcoll-vfs-vss_utils.adb  gnatcoll-vfs-vss_utils.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W vss%s			vss.ads			vss.ali
+W vss.strings%s		vss-strings.adb		vss-strings.ali
+W vss.strings.conversions%s  vss-strings-conversions.adb  vss-strings-conversions.ali
+
+U gnatcoll.vfs.vss_utils.formatters%s  gnatcoll-vfs-vss_utils-formatters.ads  d37dd8b5 EE OO PF PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnatcoll.vfs.vss_utils%s  gnatcoll-vfs-vss_utils.adb  gnatcoll-vfs-vss_utils.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+W vss%s			vss.ads			vss.ali
+W vss.strings%s		vss-strings.adb		vss-strings.ali
+W vss.strings.formatters%s  vss-strings-formatters.ads  vss-strings-formatters.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-stzmap.ads		20250419085653 f60a1f4d ada.strings.wide_wide_maps%s
+D a-stzunb.ads		20250419085653 a9a89ac3 ada.strings.wide_wide_unbounded%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs-vss_utils.ads  20251111131459 e4857cda gnatcoll.vfs.vss_utils%s
+D gnatcoll-vfs-vss_utils-formatters.ads  20251111131459 30fc4c1d gnatcoll.vfs.vss_utils.formatters%s
+D gnatcoll-vfs-vss_utils-formatters.adb  20251111131459 39499099 gnatcoll.vfs.vss_utils.formatters%b
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D system.ads		20250419085653 70765b54 system%s
+D s-atacco.ads		20250419085653 5868e3ba system.address_to_access_conversions%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-memory.ads		20250419085653 18949c1a system.memory%s
+D s-multip.ads		20250419085653 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-osinte.ads		20250419085653 76797b0c system.os_interface%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250419085653 5be75682 system.stack_usage%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stalib.adb		20250419085653 eb464a47 system.standard_library%b
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-tasinf.ads		20250419085653 801abd01 system.task_info%s
+D s-taspri.ads		20250419085653 1e109e82 system.task_primitives%s
+D s-taskin.ads		20250419085653 38289021 system.tasking%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20250419085653 d9032363 system.wch_con%s
+D s-wchstw.ads		20250419085653 2d112c01 system.wch_stw%s
+D vss.ads		20251104164842 fdc66b07 vss%s
+D vss-characters.ads	20251104164842 c452851a vss.characters%s
+D vss-implementation.ads  20251104164842 b57b0942 vss.implementation%s
+D vss-implementation-referrers.ads  20251104164842 29187c15 vss.implementation.referrers%s
+D vss-implementation-strings.ads  20251104164842 9b3fe3e4 vss.implementation.strings%s
+D vss-implementation-text_handlers.ads  20251104164842 7d532201 vss.implementation.text_handlers%s
+D vss-locales.ads	20251104164842 f436ec39 vss.locales%s
+D vss-string_vectors.ads  20251104164842 af44788e vss.string_vectors%s
+D vss-strings.ads	20251104164842 534b3534 vss.strings%s
+D vss-strings-conversions.ads  20251104164842 d4fd851f vss.strings.conversions%s
+D vss-strings-cursors.ads  20251104164842 ca821bf5 vss.strings.cursors%s
+D vss-strings-cursors-iterators.ads  20251104164842 a37abb4d vss.strings.cursors.iterators%s
+D vss-strings-cursors-iterators-characters.ads  20251104164842 ebeca2f0 vss.strings.cursors.iterators.characters%s
+D vss-strings-cursors-iterators-grapheme_clusters.ads  20251104164842 60fbdf6c vss.strings.cursors.iterators.grapheme_clusters%s
+D vss-strings-cursors-iterators-lines.ads  20251104164842 36702376 vss.strings.cursors.iterators.lines%s
+D vss-strings-cursors-iterators-words.ads  20251104164842 4da183fd vss.strings.cursors.iterators.words%s
+D vss-strings-formatters.ads  20251104164842 0704e872 vss.strings.formatters%s
+D vss-transformers.ads	20251104164842 c3507b6e vss.transformers%s
+D vss-unicode.ads	20251104164842 952f18cf vss.unicode%s
+G a e
+G c Z s b [image gnatcoll__vfs__vss_utils__formatters 30 13 none]
+G c Z s b [image gnatcoll__vfs__vss_utils__formatters 33 13 none]
+G c Z s b [name gnatcoll__vfs__vss_utils__formatters 45 24 none]
+G c Z s b [format gnatcoll__vfs__vss_utils__formatters 48 24 none]
+G c Z s s [formatterDA gnatcoll__vfs__vss_utils__formatters 39 9 none]
+G c Z s s [formatterDF gnatcoll__vfs__vss_utils__formatters 39 9 none]
+G c Z s s [formatterDI gnatcoll__vfs__vss_utils__formatters 39 9 none]
+G c Z s s [formatterIP gnatcoll__vfs__vss_utils__formatters 39 9 none]
+G r s virtual_string [image gnatcoll__vfs__vss_utils__formatters 30 13 none] [virtual_stringIP vss__strings 472 9 none]
+G r d virtual_file [image gnatcoll__vfs__vss_utils__formatters 30 13 none] [adjust gnatcoll__vfs 631 25 none]
+G r d virtual_string [image gnatcoll__vfs__vss_utils__formatters 33 13 none] [adjust vss__strings 479 25 none]
+G r d virtual_file [image gnatcoll__vfs__vss_utils__formatters 33 13 none] [adjust gnatcoll__vfs 631 25 none]
+G r d virtual_string [name gnatcoll__vfs__vss_utils__formatters 45 24 none] [adjust vss__strings 479 25 none]
+G r c none [format gnatcoll__vfs__vss_utils__formatters 48 24 none] [to_virtual_string vss__strings 424 13 none]
+G r c none [format gnatcoll__vfs__vss_utils__formatters 48 24 none] [Oeq vss__strings 206 24 none]
+G r c none [format gnatcoll__vfs__vss_utils__formatters 48 24 none] [display_base_name gnatcoll__vfs 266 13 none]
+G r c none [format gnatcoll__vfs__vss_utils__formatters 48 24 none] [to_virtual_string vss__strings__conversions 17 13 none]
+G r c none [format gnatcoll__vfs__vss_utils__formatters 48 24 none] [display_full_name gnatcoll__vfs 261 13 none]
+G r d virtual_string [formatterDA gnatcoll__vfs__vss_utils__formatters 39 9 none] [adjust vss__strings 479 25 none]
+G r d virtual_file [formatterDA gnatcoll__vfs__vss_utils__formatters 39 9 none] [adjust gnatcoll__vfs 631 25 none]
+G r e virtual_file [formatterDF gnatcoll__vfs__vss_utils__formatters 39 9 none] [finalize gnatcoll__vfs 630 25 none]
+G r e virtual_string [formatterDF gnatcoll__vfs__vss_utils__formatters 39 9 none] [finalize vss__strings 480 25 none]
+G r s virtual_string [formatterIP gnatcoll__vfs__vss_utils__formatters 39 9 none] [virtual_stringIP vss__strings 472 9 none]
+G r s virtual_file [formatterIP gnatcoll__vfs__vss_utils__formatters 39 9 none] [virtual_fileIP gnatcoll__vfs 625 9 none]
+G r e virtual_file [formatterIP gnatcoll__vfs__vss_utils__formatters 39 9 none] [finalize gnatcoll__vfs 630 25 none]
+G r e virtual_string [formatterIP gnatcoll__vfs__vss_utils__formatters 39 9 none] [finalize vss__strings 480 25 none]
+X 4 a-chahan.ads
+209V13*To_Lower{character} 30|283i21
+224V13*To_Upper{character} 30|285i21
+X 24 gnatcoll.ads
+24K9*GNATCOLL 27e13 33|25r9 31r14 35r14 42r15 53r5 34|20r14 51r14 62r14 77r5
+X 31 gnatcoll-vfs.ads
+62K18*VFS 24|24k9 31|673e17 33|25r18 31r23 35r23 42r24 53r14 34|20r23 51r23
+. 62r23 77r14
+97R9*Virtual_File<8|43R9> 627e14 33|31r27 35r27 42r28 34|51r27 62r27
+261V13*Display_Full_Name{string} 34|42s26
+266V13*Display_Base_Name{string} 34|37s26
+X 32 gnatcoll-vfs-vss_utils.ads
+20K22*VSS_Utils 31|62k18 32|33e27 33|25r22 53r18 34|20r27 77r18
+X 33 gnatcoll-vfs-vss_utils-formatters.ads
+25K32*Formatters 32|20k22 33|39E9 53l28 53e38 34|20b37 77l28 77t38
+27R9*Formatter<90|23R9> 30p13 31r48 33p13 35r48 39c9 43e14 45P24 46r14 48P24
+. 49r16 34|27r16 51r48 62r48 72r14
+30V13*Image{27R9} 31>7 34|50b13 54l8 54t13
+31r7 Item{31|97R9} 34|51b7 53r36
+33V13*Image{27R9} 34>7 35>7 34|60b13 65l8 65t13
+34r7 Name{82|77R9} 34|61b7 64r23
+35r7 Item{31|97R9} 34|62b7 64r38
+41r7 Name{82|77R9} 34|64m15 74r19
+42r7 Value{31|97R9} 34|37r20 42r20 53m27 64m29
+45V24 Name{82|77R9}<90|31p28> 46>7 34|71b24 75l8 75t12
+46r7 Self{27R9} 34|72b7 74r14
+48V24 Format{82|77R9}<90|25p28> 49>7 50>7 34|26b24 44l8 44t14
+49r7 Self{27R9} 34|27b7 37r15 42r15
+50r7 Format{90|17R9} 34|28b7 34r10
+X 39 system.ads
+67M9*Address
+X 45 s-memory.ads
+51V13*Alloc{39|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{39|67M9} 103i<c,__gnat_realloc>22
+X 58 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 60 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 74 vss.ads
+7K9*VSS 33|23r6 28r10 34r14 40r10 41r15 46r32 50r16 51r14 34|18r6 28r16 29r14
+. 31r16 36r12 41r12 61r14 72r32 74|14e8
+X 82 vss-strings.ads
+24K13*Strings 33|23r10 28r14 34r18 40r14 41r19 46r36 50r20 51r18 34|18r10
+. 28r20 29r18 31r20 36r16 41r16 61r18 72r36 82|486e16
+77R9*Virtual_String<77|129R9> 33|34r26 41r27 46r44 51r26 34|29r26 31r28 61r26
+. 72r44 82|476e6
+206V25*"="{boolean} 34|34s24
+X 83 vss-strings-conversions.ads
+13K21*Conversions 34|18w18 36r24 41r24 83|100e28
+17V13*To_Virtual_String{82|77R9} 34|36s36 41s36
+X 90 vss-strings-formatters.ads
+11K21*Formatters 33|23w18 28r22 40r22 50r28 34|28r28 90|36e27
+17R9*Format_Information 33|50r39 34|28r39 90|21e14
+20r7*Format{82|77R9} 34|34r17
+23h9*Abstract_Formatter 33|28r33 40r33
+

@@ -1,0 +1,174 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U xml_parsers%b		xml_parsers.adb		b8ec0d4e NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unicode%s		unicode.adb		unicode.ali
+W unicode.ces%s		unicode-ces.adb		unicode-ces.ali
+W xml_readers%s		xml_readers.adb		xml_readers.ali
+
+U xml_parsers%s		xml_parsers.ads		d51f7955 EE NE OO PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.vfs%s	gnatcoll-vfs.adb	gnatcoll-vfs.ali
+W xml_utils%s		xml_utils.adb		xml_utils.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D input_sources.ads	20251104164842 9ec704a2 input_sources%s
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D sax.ads		20251104164842 17965ec6 sax%s
+D sax-attributes.ads	20251104164842 baf0c3bb sax.attributes%s
+D sax-exceptions.ads	20251104164842 32ef2902 sax.exceptions%s
+D sax-htable.ads	20251104164842 2df615ad sax.htable%s
+D sax-locators.ads	20251104164842 c21ab44e sax.locators%s
+D sax-models.ads	20251104164842 9f245dcd sax.models%s
+D sax-pointers.ads	20251104164842 d9877e85 sax.pointers%s
+D sax-readers.ads	20251104164842 41cb3ec9 sax.readers%s
+D sax-symbols.ads	20251104164842 d3179de8 sax.symbols%s
+D sax-utils.ads		20251104164842 214aab19 sax.utils%s
+D system.ads		20250419085653 70765b54 system%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D unicode.ads		20251104164842 a421878d unicode%s
+D unicode-ccs.ads	20251104164842 184e29de unicode.ccs%s
+D unicode-ces.ads	20251104164842 fb3c88df unicode.ces%s
+D unicode-ces-basic_8bit.ads  20251104164842 cc7abe30 unicode.ces.basic_8bit%s
+D unicode-ces-utf32.ads	20251104164842 947e202d unicode.ces.utf32%s
+D vss.ads		20251104164842 fdc66b07 vss%s
+D vss-characters.ads	20251104164842 c452851a vss.characters%s
+D vss-implementation.ads  20251104164842 b57b0942 vss.implementation%s
+D vss-implementation-referrers.ads  20251104164842 29187c15 vss.implementation.referrers%s
+D vss-implementation-strings.ads  20251104164842 9b3fe3e4 vss.implementation.strings%s
+D vss-implementation-text_handlers.ads  20251104164842 7d532201 vss.implementation.text_handlers%s
+D vss-locales.ads	20251104164842 f436ec39 vss.locales%s
+D vss-string_vectors.ads  20251104164842 af44788e vss.string_vectors%s
+D vss-strings.ads	20251104164842 534b3534 vss.strings%s
+D vss-strings-cursors.ads  20251104164842 ca821bf5 vss.strings.cursors%s
+D vss-strings-cursors-iterators.ads  20251104164842 a37abb4d vss.strings.cursors.iterators%s
+D vss-strings-cursors-iterators-characters.ads  20251104164842 ebeca2f0 vss.strings.cursors.iterators.characters%s
+D vss-strings-cursors-iterators-grapheme_clusters.ads  20251104164842 60fbdf6c vss.strings.cursors.iterators.grapheme_clusters%s
+D vss-strings-cursors-iterators-lines.ads  20251104164842 36702376 vss.strings.cursors.iterators.lines%s
+D vss-strings-cursors-iterators-words.ads  20251104164842 4da183fd vss.strings.cursors.iterators.words%s
+D vss-transformers.ads	20251104164842 c3507b6e vss.transformers%s
+D vss-unicode.ads	20251104164842 952f18cf vss.unicode%s
+D xml_parsers.ads	20251111131459 185d96e7 xml_parsers%s
+D xml_parsers.adb	20251111131459 833cf6a9 xml_parsers%b
+D xml_readers.ads	20251111131459 d8b1e5df xml_readers%s
+D xml_utils.ads		20251111131459 15155804 xml_utils%s
+G a e
+G c Z s b [parse xml_parsers 25 14 none]
+G c Z s b [parse_buffer xml_parsers 32 14 none]
+G r c none [parse xml_parsers 25 14 none] [parse xml_readers 41 14 none]
+G r c none [parse_buffer xml_parsers 32 14 none] [Oadd gnatcoll__vfs 73 13 none]
+G r c none [parse_buffer xml_parsers 32 14 none] [parse_buffer xml_readers 49 14 none]
+X 4 a-chahan.ads
+209V13*To_Lower{character} 28|283i21
+224V13*To_Upper{character} 28|285i21
+X 19 gnat.ads
+40K9*GNAT 63e9 91|19r6 28r19 37r24 92|30r19 35r16 47r24 52r16
+X 21 g-string.ads
+38K14*Strings=38:37 91|19w11 28r24 37r29 92|30r24 35r21 47r29 52r21
+X 22 gnatcoll.ads
+24K9*GNATCOLL 27e13 91|21r6 21r24
+X 29 gnatcoll-vfs.ads
+62K18*VFS 673e17 91|21w15 21r33
+68A9*Filesystem_String<string>(character)<integer> 91|34r20 92|44r20
+73V14*"+"{string} 92|51s40
+97R9*Virtual_File<8|43R9> 627e14 91|26r15 92|28r15
+X 65 s-string.ads
+43P9*String_Access(string) 91|28r32 37r37 92|30r32 35r29 47r37 52r29
+X 69 unicode.ads
+111K9*Unicode 157e12 92|18r6 32r13 49r13
+X 71 unicode-ces.ads
+35K17*CES 171e16 92|18w14 32r21 49r21
+41A12*Byte_Sequence{string}<integer>
+42P9*Byte_Sequence_Access(41A12) 92|32r25 49r25
+X 91 xml_parsers.ads
+23K9*XML_Parsers 43l5 43e16 92|21b14 55l5 55t16
+25U14*Parse 26>7 27<7 28<7 92|27b14 36l8 36t13
+26r7 File{29|97R9} 92|28b7 34r14
+27p7 Tree{94|36P9} 92|29b7 34m20
+28p7 Error{65|43P9} 92|30b7 35m7
+32U14*Parse_Buffer 33>7 34>7 35>7 36<7 37<7 92|42b14 53l8 53t20
+33a7 Buffer{string} 92|43b7 51r21
+34a7 From_File{29|68A9} 92|44b7 51r41
+35i7 Start_Line{natural} 92|45b7 51r52
+36p7 Tree{94|36P9} 92|46b7 51m29
+37p7 Error{65|43P9} 92|47b7 52m7
+X 92 xml_parsers.adb
+32p7 Err{71|42P9} 34m26 34r26 35r44
+49p7 Err{71|42P9} 51m35 51r35 52r44
+X 93 xml_readers.ads
+26K9*XML_Readers 92|19w6 19r23 93|107e16
+41U14*Parse 92|34s7
+49U14*Parse_Buffer 92|51s7
+X 94 xml_utils.ads
+28K9*XML_Utils 91|18w6 27r19 36r24 92|29r19 46r24 94|190e14
+36P9*Node_Ptr(35R9) 91|27r29 36r34 92|29r29 46r34
+

@@ -1,0 +1,311 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U gs_text_streams%b	gs_text_streams.adb	137dc7f1 OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+W vss%s			vss.ads			vss.ali
+W vss.characters%s	vss-characters.adb	vss-characters.ali
+W vss.characters.latin%s  vss-characters-latin.ads  vss-characters-latin.ali
+W vss.implementation%s	vss-implementation.ads	vss-implementation.ali
+W vss.implementation.utf8_encoding%s  vss-implementation-utf8_encoding.adb  vss-implementation-utf8_encoding.ali
+W vss.strings%s		vss-strings.adb		vss-strings.ali
+W vss.strings.character_iterators%s  vss-strings-character_iterators.ads  vss-strings-character_iterators.ali
+W vss.unicode%s		vss-unicode.ads		vss-unicode.ali
+
+U gs_text_streams%s	gs_text_streams.ads	a65182ad EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.vfs%s	gnatcoll-vfs.adb	gnatcoll-vfs.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+W vss%s			vss.ads			vss.ali
+W vss.characters%s	vss-characters.adb	vss-characters.ali
+W vss.strings%s		vss-strings.adb		vss-strings.ali
+W vss.text_streams%s	vss-text_streams.ads	vss-text_streams.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-iteint.ads		20250419085653 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D gs_text_streams.ads	20251111131459 0f1a0a45 gs_text_streams%s
+D gs_text_streams.adb	20251111131459 a52b9589 gs_text_streams%b
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D system.ads		20250419085653 70765b54 system%s
+D s-atacco.ads		20250419085653 5868e3ba system.address_to_access_conversions%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-memory.ads		20250419085653 18949c1a system.memory%s
+D s-multip.ads		20250419085653 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-osinte.ads		20250419085653 76797b0c system.os_interface%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20250419085653 5be75682 system.stack_usage%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stalib.adb		20250419085653 eb464a47 system.standard_library%b
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-tasinf.ads		20250419085653 801abd01 system.task_info%s
+D s-taspri.ads		20250419085653 1e109e82 system.task_primitives%s
+D s-taskin.ads		20250419085653 38289021 system.tasking%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D vss.ads		20251104164842 fdc66b07 vss%s
+D vss-characters.ads	20251104164842 c452851a vss.characters%s
+D vss-characters-latin.ads  20251104164842 107c61a7 vss.characters.latin%s
+D vss-implementation.ads  20251104164842 b57b0942 vss.implementation%s
+D vss-implementation-referrers.ads  20251104164842 29187c15 vss.implementation.referrers%s
+D vss-implementation-strings.ads  20251104164842 9b3fe3e4 vss.implementation.strings%s
+D vss-implementation-text_handlers.ads  20251104164842 7d532201 vss.implementation.text_handlers%s
+D vss-implementation-utf8_encoding.ads  20251104164842 a0ae50fa vss.implementation.utf8_encoding%s
+D vss-implementation-utf8_encoding.adb  20251104164842 cf19a26e vss.implementation.utf8_encoding%b
+D vss-locales.ads	20251104164842 f436ec39 vss.locales%s
+D vss-stream_element_vectors.ads  20251104164842 b0c8429f vss.stream_element_vectors%s
+D vss-string_vectors.ads  20251104164842 af44788e vss.string_vectors%s
+D vss-strings.ads	20251104164842 534b3534 vss.strings%s
+D vss-strings-character_iterators.ads  20251104164842 9cb171af vss.strings.character_iterators%s
+D vss-strings-cursors.ads  20251104164842 ca821bf5 vss.strings.cursors%s
+D vss-strings-cursors-iterators.ads  20251104164842 a37abb4d vss.strings.cursors.iterators%s
+D vss-strings-cursors-iterators-characters.ads  20251104164842 ebeca2f0 vss.strings.cursors.iterators.characters%s
+D vss-strings-cursors-iterators-grapheme_clusters.ads  20251104164842 60fbdf6c vss.strings.cursors.iterators.grapheme_clusters%s
+D vss-strings-cursors-iterators-lines.ads  20251104164842 36702376 vss.strings.cursors.iterators.lines%s
+D vss-strings-cursors-iterators-words.ads  20251104164842 4da183fd vss.strings.cursors.iterators.words%s
+D vss-strings-cursors-markers.ads  20251104164842 c3e274ce vss.strings.cursors.markers%s
+D vss-text_streams.ads	20251104164842 20ae4a30 vss.text_streams%s
+D vss-transformers.ads	20251104164842 c3507b6e vss.transformers%s
+D vss-unicode.ads	20251104164842 952f18cf vss.unicode%s
+G a e
+G c Z s b [open gs_text_streams 36 14 none]
+G c Z s b [close gs_text_streams 41 14 none]
+G c Z s b [put gs_text_streams 53 25 none]
+G c Z s b [put gs_text_streams 58 25 none]
+G c Z s b [put_line gs_text_streams 63 25 none]
+G c Z s b [new_line gs_text_streams 68 25 none]
+G c Z s s [has_error gs_text_streams 72 24 none]
+G c Z s s [error_message gs_text_streams 75 24 none]
+G c Z s s [file_utf8_output_streamDF gs_text_streams 46 9 none]
+G c Z s s [file_utf8_output_streamDI gs_text_streams 46 9 none]
+G c Z s s [file_utf8_output_streamIP gs_text_streams 46 9 none]
+G r c none [open gs_text_streams 36 14 none] [write_file gnatcoll__vfs 574 13 none]
+G r k writable_file [open gs_text_streams 36 14 none] [writable_fileDF gnatcoll__vfs 633 9 none]
+G r j writable_file [open gs_text_streams 36 14 none] [writable_fileDA gnatcoll__vfs 633 9 none]
+G r c none [close gs_text_streams 41 14 none] [Oeq gnatcoll__vfs 571 13 none]
+G r c none [close gs_text_streams 41 14 none] [write gnatcoll__vfs 592 14 none]
+G r c none [close gs_text_streams 41 14 none] [close gnatcoll__vfs 600 14 none]
+G r c none [put gs_text_streams 53 25 none] [encode vss__implementation__utf8_encoding 23 14 none]
+G r c none [put gs_text_streams 53 25 none] [Oeq gnatcoll__vfs 571 13 none]
+G r c none [put gs_text_streams 53 25 none] [write gnatcoll__vfs 592 14 none]
+G r c none [put gs_text_streams 58 25 none] [before_first_character vss__strings 98 13 none]
+G r c none [put gs_text_streams 58 25 none] [forward vss__strings__cursors__iterators__characters 73 24 none]
+G r c none [put gs_text_streams 58 25 none] [element vss__strings__cursors__iterators__characters 18 13 none]
+G r c none [put gs_text_streams 58 25 none] [encode vss__implementation__utf8_encoding 23 14 none]
+G r c none [put gs_text_streams 58 25 none] [Oeq gnatcoll__vfs 571 13 none]
+G r c none [put gs_text_streams 58 25 none] [write gnatcoll__vfs 592 14 none]
+G r c none [put_line gs_text_streams 63 25 none] [before_first_character vss__strings 98 13 none]
+G r c none [put_line gs_text_streams 63 25 none] [forward vss__strings__cursors__iterators__characters 73 24 none]
+G r c none [put_line gs_text_streams 63 25 none] [element vss__strings__cursors__iterators__characters 18 13 none]
+G r c none [put_line gs_text_streams 63 25 none] [encode vss__implementation__utf8_encoding 23 14 none]
+G r c none [put_line gs_text_streams 63 25 none] [Oeq gnatcoll__vfs 571 13 none]
+G r c none [put_line gs_text_streams 63 25 none] [write gnatcoll__vfs 592 14 none]
+G r c none [new_line gs_text_streams 68 25 none] [encode vss__implementation__utf8_encoding 23 14 none]
+G r c none [new_line gs_text_streams 68 25 none] [Oeq gnatcoll__vfs 571 13 none]
+G r c none [new_line gs_text_streams 68 25 none] [write gnatcoll__vfs 592 14 none]
+G r d virtual_string [error_message gs_text_streams 75 24 none] [adjust vss__strings 479 25 none]
+G r k writable_file [file_utf8_output_streamDF gs_text_streams 46 9 none] [writable_fileDF gnatcoll__vfs 633 9 none]
+G r s writable_file [file_utf8_output_streamIP gs_text_streams 46 9 none] [writable_fileIP gnatcoll__vfs 633 9 none]
+G r l writable_file [file_utf8_output_streamIP gs_text_streams 46 9 none] [writable_fileDI gnatcoll__vfs 633 9 none]
+G r k writable_file [file_utf8_output_streamIP gs_text_streams 46 9 none] [writable_fileDF gnatcoll__vfs 633 9 none]
+X 4 a-chahan.ads
+209V13*To_Lower{character} 29|283i21
+224V13*To_Upper{character} 29|285i21
+X 9 a-iteint.ads
+24h9*Forward_Iterator
+32h9*Reversible_Iterator<24R9[80|70]>
+X 23 gnatcoll.ads
+24K9*GNATCOLL 27e13 32|25r6 38r14 48r18 33|25r13 33r27 35r13 40r10 61r14
+. 86r27 97r19
+X 30 gnatcoll-vfs.ads
+62K18*VFS 673e17 32|25w15 38r23 48r27 33|25r22 33r36 35r22 40r19 61r23 86r36
+. 97r28
+97R9*Virtual_File<8|43R9> 627e14 32|38r27 33|61r27
+566R9*Writable_File 640e14 32|48r31 33|25r26
+568r4*Invalid_File{566R9} 33|33r40 86r40
+571V14*"="{boolean} 33|33s24 86s24
+574V13*Write_File{566R9} 33|63s30
+592U14*Write 33|35s26 97s32
+600U14*Close 33|40s23
+X 32 gs_text_streams.ads
+31K9*GS_Text_Streams 46E9 79l5 79e20 33|23b14 156l5 156t20
+33R9*File_UTF8_Output_Stream<91|48R9> 37r21 41p14 41r35 46c9 51e14 53P25
+. 54r24 58P25 59r24 63P25 64r24 68P25 69r24 72P24 73r14 75P24 76r14 33|31r35
+. 49r24 60r21 71r24 130r24 148r24
+36U14*Open 37=7 38>7 33|59b14 64l8 64t12
+37c7 Self<33R9> 33|60b7 63m7
+38r7 File{30|97R9} 33|61b7 63r25
+41U14*Close 41=21 33|31b14 42l8 42t13
+41r21 Self{33R9} 33|31b21 33r10 34r13 34r26 36m16 36r16 36r31 36r44 36r65
+. 37m13 37r26 40m30 40r30
+48r7 Writable{30|566R9} 33|33r15 36m21 40m35 63m12 86r15 98m27
+49a7 Buffer{string} 33|34r31 36r36 36r49 37r31 95r47 99r27 99r40 108r34 111m18
+50i7 Last{natural} 33|34r18 36r70 37m18 95r21 99r61 108m21 111r31 111r48
+. 113m18 113r31
+53U25 Put<91|52p14> 54=7 55>7 56=7 33|52s12 70b25 123l8 123t11 139s15
+54r7 Self{33R9} 33|71b7 86r10 95r16 95r42 98m22 98r22 99r22 99r35 99r56 108m16
+. 108r29 111m13 111r26 111r43 113m13 113r26
+55e7 Item{71|18E9} 33|72b7 76r47
+56b7 Success{boolean} 33|73b7 103m22 117m16 121m10
+58U25 Put<91|64p14> 59=7 60>7 61=7 33|129b25 141l8 141t11 152s12
+59r7 Self{33R9} 33|130b7 139m10 139r10
+60r7 Item{82|77R9} 33|131b7 135r9
+61b7 Success{boolean} 33|132b7 139m38
+63U25 Put_Line<91|75p14> 64=7 65>7 66=7 33|147b25 154l8 154t16
+64r7 Self{33R9} 33|148b7 152m7 152r7 153m7 153r7
+65r7 Item{82|77R9} 33|149b7 152r17
+66b7 Success{boolean} 33|150b7 152m23 153m22
+68U25 New_Line<91|87p14> 69=7 70=7 33|48b25 53l8 53t16 153s12
+69r7 Self{33R9} 33|49b7 52m7 52r7
+70b7 Success{boolean} 33|50b7 52m49
+72V24 Has_Error{boolean}<91|96p13> 72b24 73>7
+73r7 Self{33R9}
+75V24 Error_Message{82|77R9}<91|99p13> 75b24 76>7
+76r7 Self{33R9}
+X 33 gs_text_streams.adb
+75m7 Code{93|22M12} 84r48
+77i7 L{93|46I12} 84m54 95r37 111r64 112r34 113r47
+78m7 U1{93|26M9} 84m57 89r31
+79m7 U2{93|26M9} 84m61 90r31
+80m7 U3{93|26M9} 84m65 91r31
+81m7 U4{93|26M9} 84m69 92r31
+88a13 Aux{string} 112r15
+134r7 Iterator{86|16R9} 138m13 138r13 139r20
+X 34 interfac.ads
+65I9*Integer_32<integer>
+X 37 system.ads
+67M9*Address
+X 43 s-memory.ads
+51V13*Alloc{37|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{37|67M9} 103i<c,__gnat_realloc>22
+X 56 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 58 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 70 vss.ads
+7K9*VSS 32|27r14 28r14 29r6 34r18 47r18 55r17 60r17 65r17 76r46 77r8 33|18r6
+. 19r6 20r6 21r6 52r17 72r17 75r23 76r9 77r14 78r14 79r14 80r14 81r14 84r7
+. 131r17 134r18 149r17 70|14e8
+X 71 vss-characters.ads
+13K13*Characters 32|27w18 55r21 33|18r10 52r21 72r21 76r13 71|167e19
+18E9*Virtual_Character<wide_wide_character> 32|55r32 33|72r32 76r24
+X 72 vss-characters-latin.ads
+9K24*Latin 33|18w21 52r32 72|94e25
+19e4*Line_Feed{71|18E9} 33|52r38
+X 73 vss-implementation.ads
+13K13*Implementation 33|19r10 84r11 73|17e23
+X 77 vss-implementation-utf8_encoding.ads
+14K28*UTF8_Encoding 33|19w25 84r26 77|87e37
+23U14*Encode 33|84s40
+X 82 vss-strings.ads
+24K13*Strings 32|28w18 60r21 65r21 76r50 77r12 33|20r10 131r21 134r22 149r21
+. 82|486e16
+77R9*Virtual_String<74|129R9> 32|60r29 65r29 76r58 33|131r29 149r29 82|476e6
+82r4*Empty_Virtual_String{77R9} 32|77r20
+98V13*Before_First_Character{86|16R9} 33|135s14
+X 83 vss-strings-character_iterators.ads
+9K21*Character_Iterators=10:41 33|20w18 134r30
+X 84 vss-strings-cursors.ads
+18h9*Abstract_Cursor
+75h9*Abstract_Character_Cursor<18R9>
+92h9*Abstract_Segment_Cursor<18R9>
+X 86 vss-strings-cursors-iterators-characters.ads
+16R9*Character_Iterator<85|11R9> 33|134r50 86|62e79
+18V13*Element<wide_wide_character> 33|139s29
+73V24 Forward{boolean}<85|15p13> 33|138s22
+X 91 vss-text_streams.ads
+12K13*Text_Streams 32|29w10 34r22 47r22 91|104e21
+48h9*Output_Text_Stream 32|34r35 47r35
+X 93 vss-unicode.ads
+17K13*Unicode 33|21w10 75r27 77r18 78r18 79r18 80r18 81r18 93|70e16
+21M9*Code_Point_Unit
+22M12*Code_Point{21M9} 33|75r35
+26M9*UTF8_Code_Unit 33|78r26 79r26 80r26 81r26
+27I9*UTF8_Code_Unit_Offset<34|65I9>
+28I12*UTF8_Code_Unit_Count{27I9}
+46I12*Scalar_Value_UTF8_Code_Unit_Length{28I12} 33|77r26
+

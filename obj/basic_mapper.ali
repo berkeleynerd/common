@@ -1,0 +1,436 @@
+V "GNAT Lib v15"
+A -O0
+A -Wtrampolines
+A -gnatA
+A -g
+A -gnatX
+A -gnata
+A -gnatVa
+A -gnatQ
+A -gnatyg
+A -gnatyO
+A -gnatwa
+A -gnatwC
+A -gnatwJ
+A -gnatwe
+A -gnateE
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U basic_mapper%b	basic_mapper.adb	b1e531a5 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z string_hash%s		string_hash.adb		string_hash.ali  ED
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_deallocation%s
+
+U basic_mapper%s	basic_mapper.ads	8becb7c4 EE OO PK
+W gnat%s		gnat.ads		gnat.ali
+Z gnat.case_util%s	g-casuti.ads		g-casuti.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+Z gnatcoll.utils%s	gnatcoll-utils.adb	gnatcoll-utils.ali
+W gnatcoll.vfs%s	gnatcoll-vfs.adb	gnatcoll-vfs.ali
+Z htables%s		htables.adb		htables.ali
+W string_hash%s		string_hash.adb		string_hash.ali
+Z string_utils%s	string_utils.adb	string_utils.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-assert.ads		20250419085653 ba465f5c ada.assertions%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-calfor.ads		20250419085653 0f4707d1 ada.calendar.formatting%s
+D a-catizo.ads		20250419085653 eaa56756 ada.calendar.time_zones%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-cdlili.ads		20250419085653 2434d8f6 ada.containers.doubly_linked_lists%s
+D a-cohata.ads		20250419085653 bea783e3 ada.containers.hash_tables%s
+D a-cohama.ads		20250419085653 de9aa0f2 ada.containers.hashed_maps%s
+D a-cohase.ads		20250419085653 4c12bfe7 ada.containers.hashed_sets%s
+D a-conhel.ads		20250419085653 46fe1ce3 ada.containers.helpers%s
+D a-cidlli.ads		20250419085653 2b10d805 ada.containers.indefinite_doubly_linked_lists%s
+D a-cihama.ads		20250419085653 42861819 ada.containers.indefinite_hashed_maps%s
+D a-cihase.ads		20250419085653 b5cdb105 ada.containers.indefinite_hashed_sets%s
+D a-ciorse.ads		20250419085653 d80fbfe7 ada.containers.indefinite_ordered_sets%s
+D a-coinve.ads		20250419085653 b20d0098 ada.containers.indefinite_vectors%s
+D a-coorma.ads		20250419085653 3edf5cc0 ada.containers.ordered_maps%s
+D a-coorse.ads		20250419085653 d90cfee3 ada.containers.ordered_sets%s
+D a-crbltr.ads		20250419085653 d3d16ba4 ada.containers.red_black_trees%s
+D a-convec.ads		20250419085653 91fb49f3 ada.containers.vectors%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-flteio.ads		20250419085653 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20250419085653 40018c65 ada.io_exceptions%s
+D a-iteint.ads		20250419085653 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-secain.ads		20250419085653 37402117 ada.strings.equal_case_insensitive%s
+D a-strfix.ads		20250419085653 8648dedb ada.strings.fixed%s
+D a-strhas.ads		20250419085653 e06866e7 ada.strings.hash%s
+D a-shcain.ads		20250419085653 08af52df ada.strings.hash_case_insensitive%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-suezst.ads		20250419085653 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-stzhas.ads		20250419085653 471757ed ada.strings.wide_wide_hash%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-textio.ads		20250419085653 34ef47de ada.text_io%s
+D a-tiflio.ads		20250419085653 48a0360d ada.text_io.float_io%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D a-zchara.ads		20250419085653 21c8f2b2 ada.wide_wide_characters%s
+D a-zchhan.ads		20250419085653 82361843 ada.wide_wide_characters.handling%s
+D basic_mapper.ads	20251111131459 ca9ad375 basic_mapper%s
+D basic_mapper.adb	20251111131459 6ed5b3aa basic_mapper%b
+D basic_types.ads	20251111131459 05e1b880 basic_types%s
+D case_handling.ads	20251111131459 d0aa370a case_handling%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-bytswa.ads		20250419085653 a4d21639 gnat.byte_swapping%s
+D g-calend.ads		20250419085653 cad86fa7 gnat.calendar%s
+D g-casuti.ads		20250419085653 83c53f24 gnat.case_util%s
+D g-dynhta.ads		20250419085653 968f1a08 gnat.dynamic_htables%s
+D g-dyntab.ads		20250419085653 f1e98b14 gnat.dynamic_tables%s
+D g-expect.ads		20250419085653 e4246c0f gnat.expect%s
+D g-md5.ads		20250419085653 bb55398e gnat.md5%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-regpat.ads		20250419085653 b85d88ef gnat.regpat%s
+D g-sechas.ads		20250419085653 302163b5 gnat.secure_hashes%s
+D g-sehamd.ads		20250419085653 d714f185 gnat.secure_hashes.md5%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D g-table.ads		20250419085653 b4b07c4d gnat.table%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-any_types.ads  20251104164843 b8e2b29e gnatcoll.any_types%s
+D gnatcoll-arg_lists.ads  20251104164842 47c33f83 gnatcoll.arg_lists%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-iconv.ads	20251104164843 1d85b850 gnatcoll.iconv%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-plugins.ads	20251104164842 d4c6371e gnatcoll.plugins%s
+D gnatcoll-projects.ads	20251104164843 8fb54a86 gnatcoll.projects%s
+D gnatcoll-refcount.ads	20251104164843 b4dda25c gnatcoll.refcount%s
+D gnatcoll-scripts.ads	20251104164842 64a447dc gnatcoll.scripts%s
+D gnatcoll-scripts-utils.ads  20251104164842 e3071ecb gnatcoll.scripts.utils%s
+D gnatcoll-sql.ads	20251104164843 151b58bf gnatcoll.sql%s
+D gnatcoll-sql-exec.ads	20251104164843 75bf9dca gnatcoll.sql.exec%s
+D gnatcoll-sql_impl.ads	20251104164843 e4a6d3b2 gnatcoll.sql_impl%s
+D gnatcoll-storage_pools.ads  20251104164843 f82e283b gnatcoll.storage_pools%s
+D gnatcoll-storage_pools-headers.ads  20251104164843 968b2c2e gnatcoll.storage_pools.headers%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-utils.ads	20251104164842 8cd28764 gnatcoll.utils%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D gnatcoll-xref.ads	20251104164843 ddd64576 gnatcoll.xref%s
+D gpr.ads		20251104164842 8e79990e gpr%s
+D gpr-ali.ads		20251104164842 96520699 gpr.ali%s
+D gpr-env.ads		20251104164842 8725813f gpr.env%s
+D gpr-ext.ads		20251104164842 b6f5e132 gpr.ext%s
+D gpr-names.ads		20251104164842 f36cddd2 gpr.names%s
+D gpr-osint.ads		20251104164842 ab7f8710 gpr.osint%s
+D gpr-scans.ads		20251104164842 a9e8e657 gpr.scans%s
+D gpr-tree.ads		20251104164842 dd4e11ae gpr.tree%s
+D gpr-util.ads		20251104164842 1b46d32f gpr.util%s
+D htables.ads		20251111131459 208700d4 htables%s
+D htables.adb		20251111131459 f0e884d8 htables%b
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20250419085653 ffd01b9d interfaces.c_streams%s
+D string_hash.ads	20251111131459 523d5364 string_hash%s
+D string_hash.adb	20251111131459 6cf859ca string_hash%b
+D string_utils.ads	20251111131459 85454839 string_utils%s
+D string_utils.adb	20251111131459 87d0586c string_utils%b
+D system.ads		20250419085653 70765b54 system%s
+D s-assert.ads		20250419085653 9c4520c7 system.assertions%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-casuti.ads		20250419085653 cf13d755 system.case_util%s
+D s-conca2.ads		20250419085653 b5fb73f7 system.concat_2%s
+D s-conca3.ads		20250419085653 8a7a19a2 system.concat_3%s
+D s-conca6.ads		20250419085653 8252f108 system.concat_6%s
+D s-crtl.ads		20250419085653 beb39b9e system.crtl%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-fatflt.ads		20250419085653 11beb392 system.fat_flt%s
+D s-fatgen.ads		20250419085653 d28c6cfe system.fat_gen%s
+D s-fatlfl.ads		20250419085653 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20250419085653 dc5161d4 system.file_control_block%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-imaged.ads		20250419085653 f3032752 system.image_d%s
+D s-imager.ads		20250419085653 45c7157d system.image_r%s
+D s-imageu.ads		20250419085653 b0b50650 system.image_u%s
+D s-imde64.ads		20250419085653 71905f86 system.img_decimal_64%s
+D s-imgflt.ads		20250419085653 d12816b5 system.img_flt%s
+D s-imglfl.ads		20250419085653 941be202 system.img_lflt%s
+D s-imgllu.ads		20250419085653 55ba53d8 system.img_llu%s
+D s-imguns.ads		20250419085653 c4e23690 system.img_uns%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-powflt.ads		20250419085653 a51ab9b8 system.powten_flt%s
+D s-powlfl.ads		20250419085653 ac0852c8 system.powten_lflt%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-regpat.ads		20250419085653 3f91c1d3 system.regpat%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-rident.ads		20250419085653 5eec7ad4 system.rident%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20250419085653 8bab724f system.val_int%s
+D s-vallli.ads		20250419085653 353103fd system.val_lli%s
+D s-valllu.ads		20250419085653 4134fa35 system.val_llu%s
+D s-valspe.ads		20250419085653 f810d31c system.val_spec%s
+D s-valuns.ads		20250419085653 f7ddb71d system.val_uns%s
+D s-valuei.ads		20250419085653 d9377ca5 system.value_i%s
+D s-vaispe.ads		20250419085653 8280550e system.value_i_spec%s
+D s-valueu.ads		20250419085653 a38d32a6 system.value_u%s
+D s-vauspe.ads		20250419085653 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20250419085653 06b6b724 system.vs_int%s
+D s-vs_lli.ads		20250419085653 b945cf7d system.vs_lli%s
+D s-vs_llu.ads		20250419085653 8f3536c5 system.vs_llu%s
+D s-vs_uns.ads		20250419085653 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20250419085653 d9032363 system.wch_con%s
+D s-wchstw.ads		20250419085653 2d112c01 system.wch_stw%s
+D unchdeal.ads		20250419085653 214516a4 unchecked_deallocation%s
+D utf8_utils.ads	20251111131459 3c22b61e utf8_utils%s
+G a e
+G c s s s [s basic_mapper 25 1 none]
+G c Z s b [get_other_text basic_mapper 30 13 none]
+G c Z s b [add_entry basic_mapper 36 14 none]
+G c Z s b [remove_entry basic_mapper 42 14 none]
+G c Z s b [save_mapper basic_mapper 48 14 none]
+G c Z s b [load_mapper basic_mapper 53 14 none]
+G c Z s b [empty_mapper basic_mapper 58 14 none]
+G c Z s b [free basic_mapper 61 14 none]
+G c Z s b [false_free basic_mapper 69 14 none]
+G c Z s s [hash basic_mapper__double_string_table 40 13 74_4]
+G c Z s s [equal basic_mapper__double_string_table 43 13 74_4]
+G c Z s s [set basic_mapper__double_string_table__string_hash_table 187 17 46_4_74_4]
+G c Z s s [reset basic_mapper__double_string_table__string_hash_table 191 17 46_4_74_4]
+G c Z s s [get basic_mapper__double_string_table__string_hash_table 196 16 46_4_74_4]
+G c Z s s [remove basic_mapper__double_string_table__string_hash_table 200 17 46_4_74_4]
+G c Z s s [get_first basic_mapper__double_string_table__string_hash_table 206 17 46_4_74_4]
+G c Z s s [get_next basic_mapper__double_string_table__string_hash_table 211 17 46_4_74_4]
+G c Z s s [get_element basic_mapper__double_string_table__string_hash_table 217 16 46_4_74_4]
+G c Z s s [set_element basic_mapper__double_string_table__string_hash_table 220 17 46_4_74_4]
+G c Z s s [remove_and_get_next basic_mapper__double_string_table__string_hash_table 224 17 46_4_74_4]
+G c Z s s [get_key basic_mapper__double_string_table__string_hash_table 228 16 46_4_74_4]
+G c Z s s [get_first basic_mapper__double_string_table__string_hash_table 231 16 46_4_74_4]
+G c Z s s [get_next basic_mapper__double_string_table__string_hash_table 232 16 46_4_74_4]
+G c Z s s [free basic_mapper__double_string_table__string_hash_table 249 17 46_4_74_4]
+G c Z s s [set_next basic_mapper__double_string_table__string_hash_table 251 17 46_4_74_4]
+G c Z s s [next basic_mapper__double_string_table__string_hash_table 252 17 46_4_74_4]
+G c Z s s [get_key basic_mapper__double_string_table__string_hash_table 253 17 46_4_74_4]
+G c Z s s [reset basic_mapper__double_string_table__string_hash_table__tab 93 17 255_7_46_4_74_4]
+G c Z s s [set basic_mapper__double_string_table__string_hash_table__tab 102 17 255_7_46_4_74_4]
+G c Z s s [get basic_mapper__double_string_table__string_hash_table__tab 105 16 255_7_46_4_74_4]
+G c Z s s [remove basic_mapper__double_string_table__string_hash_table__tab 109 17 255_7_46_4_74_4]
+G c Z s s [get_first basic_mapper__double_string_table__string_hash_table__tab 115 17 255_7_46_4_74_4]
+G c Z s s [get_next basic_mapper__double_string_table__string_hash_table__tab 120 17 255_7_46_4_74_4]
+G c Z s s [remove_and_get_next basic_mapper__double_string_table__string_hash_table__tab 125 17 255_7_46_4_74_4]
+G c Z s s [get_element basic_mapper__double_string_table__string_hash_table__tab 130 16 255_7_46_4_74_4]
+G c Z s s [get_first basic_mapper__double_string_table__string_hash_table__tab 133 16 255_7_46_4_74_4]
+G c Z s s [get_next basic_mapper__double_string_table__string_hash_table__tab 134 16 255_7_46_4_74_4]
+G c Z s s [cursorIP basic_mapper__double_string_table__string_hash_table__tab 141 12 255_7_46_4_74_4]
+G c Z s s [get_non_null basic_mapper__double_string_table__string_hash_table__tab 35 17 255_7_46_4_74_4]
+G c Z s s [remove basic_mapper__double_string_table__string_hash_table__tab 40 17 255_7_46_4_74_4]
+G c Z s s [Thtable_arrayBIP basic_mapper__double_string_table__string_hash_table__tab 28 7 255_7_46_4_74_4]
+G c Z s s [instance_dataIP basic_mapper__double_string_table__string_hash_table__tab 30 12 255_7_46_4_74_4]
+G c Z s s [instanceIP basic_mapper__double_string_table__string_hash_table 272 12 46_4_74_4]
+G c Z s s [cursorIP basic_mapper__double_string_table__string_hash_table 268 12 46_4_74_4]
+G c Z s s [element_wrapperIP basic_mapper__double_string_table__string_hash_table 243 12 46_4_74_4]
+G c Z s s [unchecked_free basic_mapper__double_string_table__string_hash_table 297 17 46_4_74_4]
+G c Z s s [unchecked_free basic_mapper__double_string_table__string_hash_table 299 17 46_4_74_4]
+G c Z s s [file_mapperIP basic_mapper 77 9 none]
+G r i none [s basic_mapper 25 1 none] [string_hash standard 32 9 none]
+G r i none [s basic_mapper 25 1 none] [simple_htable htables 182 12 none]
+G r i none [s basic_mapper 25 1 none] [static_htable htables 88 12 none]
+G r i none [get_other_text basic_mapper 30 13 none] [hash string_utils 352 13 none]
+G r c none [get_other_text basic_mapper 30 13 none] [equal gnatcoll__utils 51 13 none]
+G r i none [add_entry basic_mapper 36 14 none] [hash string_utils 352 13 none]
+G r c none [add_entry basic_mapper 36 14 none] [equal gnatcoll__utils 51 13 none]
+G r i none [remove_entry basic_mapper 42 14 none] [hash string_utils 352 13 none]
+G r c none [remove_entry basic_mapper 42 14 none] [equal gnatcoll__utils 51 13 none]
+G r c none [save_mapper basic_mapper 48 14 none] [is_regular_file gnatcoll__vfs 327 13 none]
+G r c none [save_mapper basic_mapper 48 14 none] [full_name gnatcoll__vfs 236 13 none]
+G r c none [save_mapper basic_mapper 48 14 none] [Oadd gnatcoll__vfs 73 13 none]
+G r i none [save_mapper basic_mapper 48 14 none] [hash string_utils 352 13 none]
+G r c none [save_mapper basic_mapper 48 14 none] [equal gnatcoll__utils 51 13 none]
+G r c none [load_mapper basic_mapper 53 14 none] [full_name gnatcoll__vfs 236 13 none]
+G r c none [load_mapper basic_mapper 53 14 none] [Oadd gnatcoll__vfs 73 13 none]
+G r i none [load_mapper basic_mapper 53 14 none] [hash string_utils 352 13 none]
+G r c none [load_mapper basic_mapper 53 14 none] [equal gnatcoll__utils 51 13 none]
+G r i none [hash basic_mapper__double_string_table 40 13 74_4] [hash string_utils 352 13 none]
+G r c none [equal basic_mapper__double_string_table 43 13 74_4] [equal gnatcoll__utils 51 13 none]
+G r i none [set basic_mapper__double_string_table__string_hash_table 187 17 46_4_74_4] [hash string_utils 352 13 none]
+G r c none [set basic_mapper__double_string_table__string_hash_table 187 17 46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r i none [get basic_mapper__double_string_table__string_hash_table 196 16 46_4_74_4] [hash string_utils 352 13 none]
+G r c none [get basic_mapper__double_string_table__string_hash_table 196 16 46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r i none [remove basic_mapper__double_string_table__string_hash_table 200 17 46_4_74_4] [hash string_utils 352 13 none]
+G r c none [remove basic_mapper__double_string_table__string_hash_table 200 17 46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r c none [remove_and_get_next basic_mapper__double_string_table__string_hash_table 224 17 46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r i none [set basic_mapper__double_string_table__string_hash_table__tab 102 17 255_7_46_4_74_4] [hash string_utils 352 13 none]
+G r i none [get basic_mapper__double_string_table__string_hash_table__tab 105 16 255_7_46_4_74_4] [hash string_utils 352 13 none]
+G r c none [get basic_mapper__double_string_table__string_hash_table__tab 105 16 255_7_46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r i none [remove basic_mapper__double_string_table__string_hash_table__tab 109 17 255_7_46_4_74_4] [hash string_utils 352 13 none]
+G r c none [remove basic_mapper__double_string_table__string_hash_table__tab 109 17 255_7_46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r c none [remove_and_get_next basic_mapper__double_string_table__string_hash_table__tab 125 17 255_7_46_4_74_4] [equal gnatcoll__utils 51 13 none]
+G r c none [remove basic_mapper__double_string_table__string_hash_table__tab 40 17 255_7_46_4_74_4] [equal gnatcoll__utils 51 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 50|18r6 106r17 114r10 114r36 116r10 116r34 127r16 128r16 135r7
+. 146r18 154r7 154r31 156r17 157r10 158r10 164r7
+X 7 a-chahan.ads
+209V13*To_Lower{character} 86|283i21
+224V13*To_Upper{character} 86|285i21
+X 10 a-cdlili.ads
+54R9*List<25|43R9>
+X 14 a-conhel.ads
+84R12 Reference_Control_Type<25|43R9>
+X 18 a-ciorse.ads
+57R9*Set<25|43R9>
+X 28 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[20|78]>
+X 43 a-textio.ads
+58K13*Text_IO 785e16 50|18w10 106r21 114r14 114r40 116r14 116r38 127r20 128r20
+. 135r11 146r22 154r11 154r35 156r21 157r14 158r14 164r11
+67P9*File_Type 50|106r29 146r30
+69n23*In_File{69E9} 50|154r43
+69n32*Out_File{69E9} 50|114r48 116r46
+99U14*Create 50|114s22
+115U14*Open 50|116s22 154s19
+131U14*Close 50|135s19 164s19
+341V13*End_Of_File{boolean} 50|156s29
+521U14*Get_Line 50|157s22 158s22
+555U14*Put_Line 50|127s28 128s28
+X 49 basic_mapper.ads
+25K9*Basic_Mapper 67E4 82l5 82e17 50|21b14 192l5 192t17
+27R9*File_Mapper 28r38 77c9 80e14 50|91r24 153r21 173r21 182r10
+28P9*File_Mapper_Access(27R9) 31r16 37r23 43r16 49r19 54r23 58r41 61r36 50|40r16
+. 67r16 86r23 103r19 143r23 171r41 180r36 182r23
+30V13*Get_Other_Text{string} 31>7 32>7 50|39b13 60l8 60t22 70s34 124s40
+31p7 Mapper{28P9} 50|40b7 45r10 49r23 52r26
+32a7 Text{string} 50|41b7 49r39 52r42
+36U14*Add_Entry 37=7 38>7 39>7 50|85b14 96l8 96t17 159s10
+37p7 Mapper{28P9} 50|86b7 90r10 91m10 94r12 95r12
+38a7 Text_1{string} 50|87b7 94r28 95r48
+39a7 Text_2{string} 50|88b7 94r48 95r28
+42U14*Remove_Entry 43>7 44>7 50|66b14 79l8 79t20
+43p7 Mapper{28P9} 50|67b7 70r50 72r15 73r15 76r18 77r18
+44a7 Text{string} 50|68b7 70r58 72r31 73r31
+48U14*Save_Mapper 49>7 50>7 50|102b14 136l8 136t19
+49p7 Mapper{28P9} 50|103b7 109r10 119r18 124r56 132r20
+50r7 File_Name{88|97R9} 50|104b7 113r31 114r59 116r57
+53U14*Load_Mapper 54<7 55>7 50|142b14 165l8 165t19
+54p7 Mapper{28P9} 50|143b7 153m7 159m21
+55r7 File_Name{88|97R9} 50|144b7 154r53
+58U14*Empty_Mapper 58<28 50|171b14 174l8 174t20
+58p28 Mapper{28P9} 50|171b28 173m7
+61U14*Free 61=20 50|180b14 190l8 190t12
+61p20 Mapper{28P9} 50|180b20 185r10 186r55 187r55 188m26
+67p4 No_Element{134|64P12} 75r50 50|51r20 55r20 121r38
+69U14 False_Free 69=26 75r38 50|29b14 33l8 33t18
+69p26 X{134|64P12} 50|29b26 30r28
+74K12 Double_String_Table[106|32] 78r17 79r17 50|23r8 186r10 187r10
+78r7*Table_1{100|184R12[106|46[49|74]]} 50|49r30 72r22 76r25 94m19 186m62
+79r7*Table_2{100|184R12[106|46[49|74]]} 50|52r33 73r22 77r25 95m19 119r25
+. 132r27 187m62
+X 50 basic_mapper.adb
+43p7 Element{134|64P12} 49m7 51r10 52m10 55r10 58r17
+70a7 Other{string} 75r10 76r34 77r34
+106p7 File{43|67P9} 114m30 114r30 116m28 116r28 127r38 128r38 135m26 135r26
+107r7 Element{100|204R12[106|46[49|74]]} 119m34 121r26 123r53 132m36 132r36
+123a13 Text{string} 124r64 126r16 127r44
+124a13 Other{string} 126r36 128r44
+146p7 File{43|67P9} 154m25 154r25 156r42 157r32 158r32 164m26 164r26
+147a7 Buffer_1{string} 157m38 160r21
+148a7 Buffer_2{string} 158m38 161r21
+149i7 Last_1{integer} 157m48 160r36
+150i7 Last_2{integer} 158m48 161r36
+181U17 Unchecked_Free[171|22] 188s10
+X 53 gnat.ads
+40K9*GNAT 49|22r6 22r24 53|63e9
+X 61 g-os_lib.ads
+51K14*OS_Lib=51:36 49|22w11 22r29
+X 67 gnatcoll.ads
+24K9*GNATCOLL 49|23r6 23r24 67|27e13
+X 76 gnatcoll-projects.ads
+468V25*"="{boolean} 23|65i19
+X 77 gnatcoll-refcount.ads
+123R12*Ref<25|43R9>
+351R12*Ref<25|43R9>
+X 82 gnatcoll-sql_impl.ads
+457H12 Base_Field<333R9>
+607R12*Field<333R9>
+X 88 gnatcoll-vfs.ads
+62K18*VFS 49|23w15 23r33 88|673e17
+68A9*Filesystem_String<string>(character)<integer>
+73V14*"+"{string} 50|114s58 116s56 154s52
+97R9*Virtual_File<25|43R9> 49|50r19 55r19 50|104r19 144r19 88|627e14
+236V13*Full_Name{68A9} 50|114s69 116s67 154s63
+327V13*Is_Regular_File{boolean} 50|113s14
+334V25*"="{boolean} 13|50i19
+X 90 gnatcoll-xref.ads
+189V14*"<"{boolean} 21|45i19
+190V14*"="{boolean} 21|46i19
+X 100 htables.ads
+184R12*Instance 49|78r55[106|46[49|74]] 79r55[106|46[49|74]]
+187U17*Set 50|94s7[106|46[49|74]] 95s7[106|46[49|74]]
+191U17*Reset 50|186s48[106|46[49|74]] 187s48[106|46[49|74]]
+196V16*Get{152|43P9} 50|49s18[106|46[49|74]] 52s21[106|46[49|74]]
+200U17*Remove 50|72s7[106|46[49|74]] 73s7[106|46[49|74]] 76s10[106|46[49|74]]
+. 77s10[106|46[49|74]]
+204R12*Cursor 50|107r17[106|46[49|74]]
+206U17*Get_First 50|119s7[106|46[49|74]]
+211U17*Get_Next 50|132s10[106|46[49|74]]
+217V16*Get_Element{152|43P9} 50|121s13[106|46[49|74]] 123s40[106|46[49|74]]
+X 106 string_hash.ads
+32k9*String_Hash 49|21w6 75r10 106|56e16
+34I9*Name_Htable_Num<integer>
+46K12*String_Hash_Table[100|182] 49|78r37[74] 79r37[74] 50|23r28[49|74] 186r30[49|74]
+. 187r30[49|74]
+X 107 string_hash.adb
+38V16 Internal[108|352]{106|34I9[49|74]} 109|1464b13[49|74]
+X 134 s-os_lib.ads
+64P12*String_Access{152|43P9} 49|67r26 69r37 75r23 50|29r37 43r17
+66V14*"="=67:22{boolean} 50|51r18 55r18 121r35
+X 152 s-string.ads
+43P9*String_Access(string)
+X 171 unchdeal.ads
+22u11*Unchecked_Deallocation 50|19w6 181r39
+

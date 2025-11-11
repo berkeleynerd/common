@@ -1,0 +1,150 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U remote%b		remote.adb		95112941 OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W toolchains_old%s	toolchains_old.adb	toolchains_old.ali
+
+U remote%s		remote.ads		c8b6db38 EE NE OO PK
+W gnatcoll%s		gnatcoll.ads		gnatcoll.ali
+W gnatcoll.vfs%s	gnatcoll-vfs.adb	gnatcoll-vfs.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-calend.ads		20250419085653 bf7f3cc9 ada.calendar%s
+D a-charac.ads		20250419085653 2d3ec45b ada.characters%s
+D a-chahan.ads		20250419085653 bf752ff6 ada.characters.handling%s
+D a-chlat1.ads		20250419085653 e0d72e76 ada.characters.latin_1%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-strmap.ads		20250419085653 1f91ebb6 ada.strings.maps%s
+D a-strsea.ads		20250419085653 18c3c634 ada.strings.search%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20250419085653 b10770ab ada.strings.unbounded%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D g-string.ads		20250419085653 c6abc540 gnat.strings%s
+D gnatcoll.ads		20251104164843 6a5da479 gnatcoll%s
+D gnatcoll-atomic.ads	20251104164843 a760a918 gnatcoll.atomic%s
+D gnatcoll-io.ads	20251104164842 40b00e79 gnatcoll.io%s
+D gnatcoll-io-native.ads  20251104164842 60c7703b gnatcoll.io.native%s
+D gnatcoll-path.ads	20251104164842 44783065 gnatcoll.path%s
+D gnatcoll-strings.ads	20251104164842 014a3fb6 gnatcoll.strings%s
+D gnatcoll-strings_impl.ads  20251104164842 3722c4b1 gnatcoll.strings_impl%s
+D gnatcoll-vfs.ads	20251104164842 1efc72f6 gnatcoll.vfs%s
+D gnatcoll-vfs_types.ads  20251104164842 14be4a8d gnatcoll.vfs_types%s
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D i-cstrin.ads		20250419085653 5409c1a4 interfaces.c.strings%s
+D remote.ads		20251111131459 d64aa9ce remote%s
+D remote.adb		20251111131459 b7ad8fda remote%b
+D system.ads		20250419085653 70765b54 system%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-pooglo.ads		20250419085653 91708d21 system.pool_global%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D toolchains_old.ads	20251111131459 325dca15 toolchains_old%s
+G a e
+G c Z s b [assign remote 41 14 none]
+G c Z s b [is_local remote 45 13 none]
+G c Z s b [get_nickname remote 48 13 none]
+G c Z s b [get_printable_nickname remote 51 13 none]
+G c Z s b [multi_unit_index_char remote 55 13 none]
+G c Z b b [server_configIP remote 23 9 none]
+G c Z b b [Tservers_configBIP remote 30 4 none]
+G r c none [is_local remote 45 13 none] [is_toolchains_active toolchains_old 22 13 none]
+G r c none [get_nickname remote 48 13 none] [is_toolchains_active toolchains_old 22 13 none]
+G r c none [get_printable_nickname remote 51 13 none] [is_toolchains_active toolchains_old 22 13 none]
+X 4 a-chahan.ads
+209V13*To_Lower{character} 28|283i21
+224V13*To_Upper{character} 28|285i21
+X 19 gnat.ads
+40K9*GNAT 63e9 35|18r6 18r24
+X 21 g-string.ads
+38K14*Strings=38:37 35|18w11 18r29
+X 22 gnatcoll.ads
+24K9*GNATCOLL 27e13 34|20r6 35r44
+X 29 gnatcoll-vfs.ads
+62K18*VFS 673e17 34|20w15 35r53
+105a4*Local_Host{string} 34|35r57
+X 34 remote.ads
+22K9*Remote 58l5 58e11 35|21b14 114l5 114t11
+24E9*Server_Type 29e20 38r35 45r32 48r36 51r46 55r45 35|57r32 76r36 91r46
+. 106r45
+25n7*GPS_Server{24E9}
+26n7*Build_Server{24E9} 39r12 35|65r29 81r26 96r26
+27n7*Execution_Server{24E9}
+28n7*Debug_Server{24E9} 39r28
+29n7*Tools_Server{24E9} 35|61r22 80r22 95r22
+35a4*Local_Nickname=35:57{string} 35|35r34 49r51 79r17
+36a4*Display_Local_Nickname{string} 35|94r17
+38E12*Distant_Server_Type{24E9} 42r18 35|30r34 44r18 59r20
+41U14*Assign 42>7 43>7 35|43b14 51l8 51t14
+42e7 Server{38E12} 35|44b7 48r22 49r16
+43a7 Nickname{string} 35|45b7 49r40 50r52
+45V13*Is_Local{boolean} 45>23 35|57b13 70l8 70t16 78s10 93s10
+45e23 Server{24E9} 35|57b23 59r10 60r26 61r13
+48V13*Get_Nickname{string} 48>27 35|76b13 85l8 85t20
+48e27 Server{24E9} 35|76b27 78r20 80r13 83r26
+51V13*Get_Printable_Nickname{string} 51>37 35|91b13 100l8 100t30
+51e37 Server{24E9} 35|91b37 93r20 95r13 98r26
+55V13*Multi_Unit_Index_Char{character} 55>36 35|106b13 112l8 112t29
+55e36 Server{24E9} 35|106b36 107r28
+X 35 remote.adb
+23R9 Server_Config 28e14 30r58
+24b7*Is_Local{boolean} 34m10 49m28 60r34 65r43
+26p7*Nickname{56|43P9} 35m10 48m30 50m28 81r40 83r34 96r40 98r34
+30A9 Servers_Config(23R9)<34|24E9> 32r14
+32a4 Servers{30A9} 48m13 48r13 49m7 60r17 65r20 81r17 83r17 96r17 98r17
+X 56 s-string.ads
+43P9*String_Access(string) 35|26r18
+47U14*Free[18|23] 35|48s7
+X 60 toolchains_old.ads
+20K9*Toolchains_Old 35|19w6 62r13 60|50e19
+22V13*Is_Toolchains_Active{boolean} 35|62s28
+

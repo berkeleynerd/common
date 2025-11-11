@@ -1,0 +1,209 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U gps_vectors%b		gps_vectors.adb		ff97ce09 NE OO PK GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U gps_vectors%s		gps_vectors.ads		08de7e5f BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-cgarso.ads		20250419085653 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20250419085653 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20250419085653 854d323e ada.containers.helpers%b
+D a-convec.ads		20250419085653 91fb49f3 ada.containers.vectors%s
+D a-convec.adb		20250419085653 b2ed0168 ada.containers.vectors%b
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-iteint.ads		20250419085653 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gps_vectors.ads	20251111131459 992537ac gps_vectors%s
+D gps_vectors.adb	20251111131459 66b2f9a5 gps_vectors%b
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D system.ads		20250419085653 70765b54 system%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s b [gps_vectors standard 28 9 none]
+X 1 ada.ads
+18K9*Ada 22e8 18|18r6 31r31 41r19 46r19 50r19 54r19 19|20r13 41r19 55r19
+. 58r15 78r19 81r18 101r19 104r18
+X 2 a-contai.ads
+16K13*Containers 28e19 18|18r10 31r35 41r23 46r23 50r23 54r23 19|20r17 41r23
+. 55r23 58r19 78r23 81r22 101r23 104r22
+22I9*Count_Type<integer> 18|41r34 46r34 50r34 54r34 19|20r28 41r34 55r34
+. 58r30 78r34 81r33 101r34 104r33
+X 6 a-convec.ads
+74k24*Vectors 878e27 18|18w21 31r46
+81I12 Extended_Index{integer} 18|40r19[31] 19|40r19[18|31]
+91R9 Vector<9|43R9> 18|34r35[31] 60r51[31] 19|31r38[18|31] 69r39[18|31] 92r45[18|31]
+. 115r44[18|31]
+107R9 Cursor 18|45r26[31] 19|43r11[18|31] 54r26[18|31] 57r15[18|31] 80r18[18|31]
+. 103r18[18|31]
+115V13 Has_Element{boolean} 19|62s18[18|31] 85s18[18|31] 108s18[18|31]
+125V13 Empty{91R9[18|31]}
+127V25 "="{boolean}
+136V13 To_Vector{91R9[18|31]}
+139V13 To_Vector{91R9[18|31]}
+145V14 "&"{91R9[18|31]}
+149V14 "&"{91R9[18|31]}
+153V14 "&"{91R9[18|31]}
+157V14 "&"{91R9[18|31]}
+161V13 Capacity{2|22I9}
+164U14 Reserve_Capacity
+175V13 Length{2|22I9}
+178U14 Set_Length
+187V13 Is_Empty{boolean}
+190U14 Clear 19|31s19[18|31]
+194V13 To_Cursor{107R9[18|31]} 19|43s21[18|31]
+206V13 Element{18|23+9}
+213V13 Element{18|23+9} 19|64s18[18|31] 87s18[18|31] 110s18[18|31]
+217U14 Replace_Element
+228U14 Replace_Element
+239U14 Query_Element
+259U14 Update_Element
+276U14 Update_Element
+293R9 Constant_Reference_Type
+299R9 Reference_Type
+303V13 Constant_Reference{293R9[18|31]}
+308V13 Reference{299R9[18|31]}
+313V13 Constant_Reference{293R9[18|31]}
+318V13 Reference{299R9[18|31]}
+323U14 Assign
+325V13 Copy{91R9[18|31]}
+327U14 Move
+333V13 New_Vector{91R9[18|31]}
+337U14 Insert_Vector
+355U14 Insert=358:35
+361U14 Insert_Vector
+372U14 Insert=375:35
+378U14 Insert_Vector
+389U14 Insert=393:39
+396U14 Insert
+404U14 Insert
+412U14 Insert
+421U14 Insert
+438U14 Insert
+449U14 Prepend_Vector
+454U14 Prepend=456:35
+459U14 Prepend
+466U14 Append_Vector
+471U14 Append=473:35
+476U14 Append
+483U14 Append
+486U14 Insert_Space
+503U14 Insert_Space
+524U14 Delete 19|69s19[18|31]
+533U14 Delete_First 19|92s19[18|31]
+538U14 Delete_Last 19|115s19[18|31]
+546U14 Reverse_Elements
+549U14 Swap
+554U14 Swap
+560V13 First_Index{integer}
+563V13 First{107R9[18|31]} 19|80s38[18|31]
+567V13 First_Element{18|23+9}
+570V13 Last_Index{81I12[18|31]}
+574V13 Last{107R9[18|31]} 19|103s38[18|31]
+578V13 Last_Element{18|23+9}
+587U14 Next 19|67s10[18|31] 90s10[18|31]
+596U14 Previous 19|113s10[18|31]
+599V13 Find_Index{81I12[18|31]}
+609V13 Find{107R9[18|31]}
+623V13 Reverse_Find_Index{81I12[18|31]}
+635V13 Reverse_Find{107R9[18|31]}
+649V13 Contains{boolean}
+654U14 Iterate
+662U14 Reverse_Iterate
+669V13 Iterate{10|32C9[119[18|31]]}
+672V13 Iterate{10|32C9[119[18|31]]}
+747U14 Put_Image
+750U25 Adjust<9|47p14>
+751U25 Finalize<9|48p14>
+753U14 Write
+759U14 Read
+X 9 a-finali.ads
+46U14*Initialize<24|48p14>
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|119]>
+32C9 Reversible_Iterator<32R9[6|119[18|31]]>
+32h9 Reversible_Iterator<24R9[6|119[18|31]]>
+X 18 gps_vectors.ads
+23+9 Data_Type 25r39 31r65 19|59r15 82r18 105r18
+25U19 Free 25=25 19|29s10 65s10 88s10 111s10
+25*25 Data{23+9}
+28k9*GPS_Vectors 23z9 25z19 60E4 62l5 62e16 19|18b14 118l5 118t16
+31K12*Std_Vectors[6|74] 32r8 34r23 60r39 19|31r7 31r26 69r7 69r27 92r7 92r33
+. 115r7 115r32
+34R9*Vector<6|91R9[31]> 9|46P14 18|34e58 36P25 36r51 38P25 39r26 43P25 44r26
+. 48P25 49r26 52P25 53r26 56r28 60r28 19|26r51 39r26 53r26 77r26 100r26
+36U25*Clear<6|190p14> 36=32 19|26b25 32l8 32t13
+36r32 Container{34R9} 19|26b32 28r19 29m16 31m46 31r46
+38U25*Delete<6|514p14> 39=7 40>7 41>7 19|38b25 46l8 46t14
+39r7 Container{34R9} 19|39b7 43r32 45m15
+40i7 Index{6|81I12[31]} 19|40b7 43r43
+41i7 Count{2|22I9} 19|41b7 45r29
+43U25*Delete<6|524p14> 44=7 45=7 46>7 19|45s7 52b25 70l8 70t14
+44r7 Container{34R9} 19|53b7 69m47 69r47
+45r7 Position{6|107R9[31]} 19|54b7 57r25 69m59
+46i7 Count{2|22I9} 19|55b7 58r44 69r69
+48U25*Delete_First<6|533p14> 49=7 50>7 19|76b25 93l8 93t20
+49r7 Container{34R9} 19|77b7 80r28 92m53 92r53
+50i7 Count{2|22I9} 19|78b7 81r47 92r65
+52U25*Delete_Last<6|538p14> 53=7 54>7 19|99b25 116l8 116t19
+53r7 Container{34R9} 19|100b7 103r28 115m52 115r52
+54i7 Count{2|22I9} 19|101b7 104r47 115r64
+56r4*Empty_Vector{34R9} 60c4
+X 19 gps_vectors.adb
+28*11 Item{18|23+9} 29m16 29r16
+43r7 C{6|107R9[18|31]} 45m26 45r26
+57r7 P{6|107R9[18|31]} 62r31 64r27 67m16 67r16
+58i7 Index{2|22I9} 61r13 66m10 66r19
+59*7 Data{18|23+9} 64m10 65m16 65r16
+80r7 Position{6|107R9[18|31]} 85r31 87r27 90m16 90r16
+81i7 Index{2|22I9} 84r13 89m10 89r19
+82*7 Data{18|23+9} 87m10 88m16 88r16
+103r7 Position{6|107R9[18|31]} 108r31 110r27 113m20 113r20
+104i7 Index{2|22I9} 107r13 112m10 112r19
+105*7 Data{18|23+9} 110m10 111m16 111r16
+

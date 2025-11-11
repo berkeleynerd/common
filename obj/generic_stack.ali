@@ -1,0 +1,94 @@
+V "GNAT Lib v15"
+A -O0
+A -Wtrampolines
+A -gnatA
+A -g
+A -gnatX
+A -gnata
+A -gnatVa
+A -gnatQ
+A -gnatyg
+A -gnatyO
+A -gnatwa
+A -gnatwC
+A -gnatwJ
+A -gnatwe
+A -gnateE
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_stack%b	generic_stack.adb	1d32e6e3 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+U generic_stack%s	generic_stack.ads	a5b372bd BN EE NE OO PK GE
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D generic_stack.ads	20251111131459 a5b372bd generic_stack%s
+D generic_stack.adb	20251111131459 7b29383b generic_stack%b
+D system.ads		20250419085653 70765b54 system%s
+G a e
+G c Z s b [generic_stack standard 20 9 none]
+X 1 ada.ads
+18K9*Ada 22e8 4|18r6 23r6
+X 2 a-uncdea.ads
+23u15*Unchecked_Deallocation 4|18w10 23r10
+X 3 generic_stack.ads
+19+9 Generic_Type 23r43 28r57 31r60 50r41 62r60 4|42r57 62r60 73r15 119r41
+20k9*Generic_Stack 19z9 62E9 74l5 74e18 4|20b14 126l5 126t18
+21R9*Simple_Stack 28r35 31r34 35r34 39r26 45r27 49r18 54r36 58r31 65c9 68e14
+. 4|29r36 42r35 62r34 72r34 82r26 95r27 108r31 118r18
+23P9*Generic_Type_Access(19+9) 39r47 45r48 4|82r47 95r48
+25X4*Stack_Empty 4|65r16 85r16
+28U14*Push 28=20 28>49 70r19 4|42b14 56l8 56t12
+28r20 Stack{21R9} 4|42b20 45r10 46m10 47r13 47r27 48r17 49m10 50m10 50r10
+. 54m7 54r21 55m7 55r7 55r21
+28*49 Value{19+9} 4|42b49 55r36
+31U14*Pop 31=19 31<48 4|62b14 70l8 70t11 75s7
+31r19 Stack{21R9} 4|62b19 64r10 67r19 67r33 68m10 68r24
+31*48 Value{19+9} 4|62b48 67m10
+35U14*Pop 35=19 4|72b14 76l8 76t11
+35r19 Stack{21R9} 4|72b19 75m12
+39V13*Top{23P9} 39>18 72r19 4|82b13 89l8 89t11
+39r18 Stack{21R9} 4|82b18 84r10 87r17 87r31
+45V13*Next{23P9} 45>19 73r19 4|95b13 102l8 102t12
+45r19 Stack{21R9} 4|95b19 97r10 100r17 100r31
+48U14*Traverse_Stack 49>7 50^7 4|117b14 124l8 124t22
+49r7 Stack{21R9} 4|118b7 121r21 122r34
+50p7 Callback(boolean) 4|119b7 122r24
+50*35 Obj{19+9}
+54U14*Clear 54=21 4|29b14 33l8 33t13
+54r21 Stack{21R9} 4|29b21 31m23 31r23 32m7
+58V13*Is_Empty{boolean} 58>23 4|108b13 111l8 111t16
+58r23 Stack{21R9} 4|108b23 110r14
+62A9 Type_Array(19+9)<integer> 63r41 4|23r34 46r30 49r30
+63P9 Type_Array_Access(62A9) 66r16 4|23r46 43r13
+66p7 Values{63P9} 4|31m29 45r16 46m16 47r33 48r23 49m16 50r16 55r13 67r25
+. 87r23 100r23 122r40
+67i7 Last{natural} 4|32m13 47r19 54m13 54r27 55r27 64r16 67r39 68m16 68r30
+. 84r16 87r37 97r16 100r37 110r20 121r27
+X 4 generic_stack.adb
+22U14 Unchecked_Free[2|23] 31s7 51s10
+39N4 Minimal_Array_Length 46r47
+43p7 Tmp{3|63P9} 48m10 49r47 50r24 50r38 51m26 51r26
+73*7 Value{3|19+9} 75m19
+119*35 Obj{3|19+9}
+121i11 J{integer} 122r48
+

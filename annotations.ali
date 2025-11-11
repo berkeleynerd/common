@@ -1,0 +1,125 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U annotations%b		annotations.adb		2060ba61 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.unchecked_deallocation%s
+
+U annotations%s		annotations.ads		55ef9546 BN EE NE OO PK GE
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D annotations.ads	20251111131459 55ef9546 annotations%s
+D annotations.adb	20251111131459 b6278342 annotations%b
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D system.ads		20250419085653 70765b54 system%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+G a e
+G c Z s b [annotations standard 26 9 none]
+X 1 ada.ads
+18K9*Ada 22e8 10|18r6 27r33 50r33 76r33 120r37
+X 8 a-uncdea.ads
+23u15*Unchecked_Deallocation 10|18w10 27r37 50r37 76r37 120r41
+X 9 annotations.ads
+26k9*Annotations 133E9 158l5 158e16 10|20b14 182l5 182t16
+28E9*Annotation_Kind 29e55 43r28
+29n7*Nothing{28E9} 43r47 45r15 64r54 10|125r59 130r32 150r54
+29n16*Integer_Kind{28E9} 48r15
+29n30*Boolean_Kind{28E9} 51r15
+29n44*Other_Kind{28E9} 54r15 10|30r23 81r49 175r19
+31R9*General_Annotation_Record 31e56 35p14 36r20 41r42 10|28r10 176r29
+35U14*Free 36=7 10|31R10
+36r7 Obj{31R9}
+41P9*General_Annotation(31R9) 55r25 10|28r43
+43R9*Annotation 43d21 59e14 61r35 64r31 105r23 113r19 127r25 127r44 138r41
+. 10|26r35 97r23 116r19 172r25 172r44 173r11
+43e21 Kind{28E9} 44r12 64m46 10|30r16 81r42 125m51 130m24 150r46 175r12
+49i13 Integer_Val{integer}
+52b13 Boolean_Val{boolean}
+55p13 Other_Val{41P9} 10|31r22 32m26 176m12 176r64
+61U14*Free 61=20 10|26b14 34l8 34t12 82s16 135s7 163s10
+61r20 Annot{43R9} 10|26b20 30r10 31r16 32m20 32r20
+64r4*Null_Annotation{43R9} 10|103r20 164r41
+66I9*Annotation_Key<integer> 70r35 88r22 104r19 112r19 118r47 123r47 133c9
+. 135r35 138r13 143r18 10|62r22 96r19 115r19 144r47 158r47
+70i4*Null_Annotation_Key{66I9} 135c4
+72P9*Annotation_Key_Registry 78r51 81r38 84r44 87r25 146c9 149r44 10|40r51
+. 49r38 51r42 61r25
+78V13*Create_Annotation_Key_Registry{72P9} 10|40b13 43l8 43t38
+81U14*Free 81=20 10|49b14 54l8 54t12
+81p20 Registry{72P9} 10|49b20 53m17
+84p4*Null_Annotation_Key_Registry{72P9} 149c4
+86U14*Get_Annotation_Key 87=7 88<7 10|60b14 67l8 67t26
+87p7 Registry{72P9} 10|61b7 65r7 65r28 66r18
+88i7 New_Key{66I9} 10|62b7 66m7
+91R9*Annotation_Container 97r41 99r39 103r19 111r26 118r19 123r19 151c9 153e14
+. 155r41 10|74r26 95r19 114r26 144r19 158r19
+97r4*Null_Annotation_Container{91R9} 155c4
+99U14*Free 99=20 10|73b14 88l8 88t12
+99r20 Container{91R9} 10|74b7 79r10 80r19 81r16 82r22 86m20 86r20
+102U14*Get_Annotation 103>7 104>7 105<7 106r19 10|94b14 107l8 107t22
+103r7 Container{91R9} 10|95b7 100r10 101r17 105r20
+104i7 Key{66I9} 10|96b7 101r46 105r43
+105r7 Result{43R9} 10|97b7 103m10 105m10
+110U14*Set_Annotation 111=7 112>7 113>7 10|113b14 137l8 137t22
+111r7 Container{91R9} 10|114b7 123r10 124m10 125r10 126r13 128r20 128r51
+. 129r15 131m24 131r24 132m10 135r13 136m7 136r7
+112i7 Key{66I9} 10|115b7 124r62 126r42 127r44 135r36 136r30
+113r7 Value{43R9} 10|116b7 136r38
+117V13*Is_Set{boolean} 118>7 118>41 10|143b13 151l8 151t14
+118r7 Container{91R9} 10|144b7 148r14 149r18 150r18
+118i41 Key{66I9} 10|144b41 149r48 150r41
+122U14*Free_Annotation 123>7 123>41 10|157b14 166l8 166t23
+123r7 Container{91R9} 10|158b7 160r10 161r25 163r16 164m10 164r10
+123i41 Key{66I9} 10|158b41 161r18 163r39 164r33
+127V13*Copy{43R9} 127>19 10|172b13 180l8 180t12
+127r19 Obj{43R9} 10|172b19 173r25
+137A9 Annotation_Array(43R9)<66I9> 140r43 10|77r10 121r10 124r39 127r21
+140P9 Annotation_Array_Access(137A9) 152r21 10|77r28 118r13 121r28
+142R9 Annotation_Key_Registry_Record 144e14 147r17 10|42r18 51r10
+143i7 Last_Key{66I9} 10|65m16 65r37 66r27
+152p7 Annotations{140P9} 156m7 10|79r20 80r29 81r26 82m32 86m30 100r20 101r27
+. 105r30 123r20 124m20 125r20 126r23 128r30 128r61 129r25 131m34 132m20 135m23
+. 136r17 148r24 149r28 150r28 160r20 161r35 163m26 164r20
+X 10 annotations.adb
+27U17 Internal[8|23] 32s10
+50U17 Internal[8|23] 53s7
+76U17 Internal[8|23] 86s10
+80i14 J<integer> 81r39 82r45
+118p7 Tmp{9|140P9} 127m10 128r10 129r10 129r50 132r35
+120U17 Free_Pointer[8|23] 131s10
+173r7 C{9|43R9} 175r10 176m10 176r62 179r14
+

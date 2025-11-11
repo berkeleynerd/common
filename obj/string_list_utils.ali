@@ -1,0 +1,317 @@
+V "GNAT Lib v15"
+A -O0
+A -Wtrampolines
+A -gnatA
+A -g
+A -gnatX
+A -gnata
+A -gnatVa
+A -gnatQ
+A -gnatyg
+A -gnatyO
+A -gnatwa
+A -gnatwC
+A -gnatwJ
+A -gnatwe
+A -gnateE
+A -mmacosx-version-min=26.0
+A -mcpu=apple-m1
+A -mlittle-endian
+A -mabi=lp64
+A -fPIC
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U string_list_utils%b	string_list_utils.adb	31a5856d NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U string_list_utils%s	string_list_utils.ads	f86f7e9b EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.indefinite_vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.finalization_primitives%s  s-finpri.adb  s-finpri.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.return_stack%s	s-retsta.ads		s-retsta.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-assert.ads		20250419085653 ba465f5c ada.assertions%s
+D a-contai.ads		20250419085653 61e5e089 ada.containers%s
+D a-cgarso.ads		20250419085653 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20250419085653 46fe1ce3 ada.containers.helpers%s
+D a-conhel.adb		20250419085653 854d323e ada.containers.helpers%b
+D a-coinve.ads		20250419085653 b20d0098 ada.containers.indefinite_vectors%s
+D a-coinve.adb		20250419085653 0c420203 ada.containers.indefinite_vectors%b
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-finali.ads		20250419085653 bf4f806b ada.finalization%s
+D a-iteint.ads		20250419085653 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20250419085653 c3a8ac65 ada.unchecked_deallocation%s
+D gnat.ads		20250419085653 b5988c27 gnat%s
+D g-os_lib.ads		20250419085653 0db74523 gnat.os_lib%s
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-c.ads		20250419085653 e94c966a interfaces.c%s
+D string_list_utils.ads	20251111131459 47d53b20 string_list_utils%s
+D string_list_utils.adb	20251111131459 7bc7fb6e string_list_utils%b
+D system.ads		20250419085653 70765b54 system%s
+D s-assert.ads		20250419085653 9c4520c7 system.assertions%s
+D s-atocou.ads		20250419085653 dc18efc3 system.atomic_counters%s
+D s-atocou.adb		20250419085653 6fe685de system.atomic_counters%b
+D s-atopri.ads		20250419085653 e19c1d89 system.atomic_primitives%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-finpri.ads		20250419085653 5970d55a system.finalization_primitives%s
+D s-finroo.ads		20250419085653 0a7c3ed4 system.finalization_root%s
+D s-memory.ads		20250419085653 18949c1a system.memory%s
+D s-oscons.ads		20250522142959 16132a6a system.os_constants%s
+D s-os_lib.ads		20250419085653 dd4133ed system.os_lib%s
+D s-oslock.ads		20250419085653 13fa6b78 system.os_locks%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-retsta.ads		20250419085653 0f6b06cb system.return_stack%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stalib.adb		20250419085653 eb464a47 system.standard_library%b
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20250419085653 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20250419085653 e0b9fefd system.storage_pools.subpools%s
+D s-stratt.ads		20250419085653 516607ae system.stream_attributes%s
+D s-string.ads		20250419085653 582aac7d system.strings%s
+D s-ststop.ads		20250419085653 c569db7c system.strings.stream_ops%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+G a e
+G c Z s s [empty string_list_utils__string_list 80 13 24_4]
+G c Z s s [has_element string_list_utils__string_list 82 13 24_4]
+G c Z s s [Oeq string_list_utils__string_list 87 24 24_4]
+G c Z s s [new_vector string_list_utils__string_list 89 13 24_4]
+G c Z s s [to_vector string_list_utils__string_list 92 13 24_4]
+G c Z s s [to_vector string_list_utils__string_list 94 13 24_4]
+G c Z s s [Oconcat string_list_utils__string_list 98 13 24_4]
+G c Z s s [Oconcat string_list_utils__string_list 100 13 24_4]
+G c Z s s [Oconcat string_list_utils__string_list 102 13 24_4]
+G c Z s s [Oconcat string_list_utils__string_list 104 13 24_4]
+G c Z s s [capacity string_list_utils__string_list 106 13 24_4]
+G c Z s s [reserve_capacity string_list_utils__string_list 108 14 24_4]
+G c Z s s [length string_list_utils__string_list 112 13 24_4]
+G c Z s s [set_length string_list_utils__string_list 114 14 24_4]
+G c Z s s [is_empty string_list_utils__string_list 118 13 24_4]
+G c Z s s [clear string_list_utils__string_list 120 14 24_4]
+G c Z s s [constant_reference string_list_utils__string_list 131 13 24_4]
+G c Z s s [reference string_list_utils__string_list 136 13 24_4]
+G c Z s s [constant_reference string_list_utils__string_list 141 13 24_4]
+G c Z s s [reference string_list_utils__string_list 146 13 24_4]
+G c Z s s [to_cursor string_list_utils__string_list 151 13 24_4]
+G c Z s s [to_index string_list_utils__string_list 155 13 24_4]
+G c Z s s [element string_list_utils__string_list 157 13 24_4]
+G c Z s s [element string_list_utils__string_list 161 13 24_4]
+G c Z s s [replace_element string_list_utils__string_list 163 14 24_4]
+G c Z s s [replace_element string_list_utils__string_list 168 14 24_4]
+G c Z s s [query_element string_list_utils__string_list 173 14 24_4]
+G c Z s s [query_element string_list_utils__string_list 178 14 24_4]
+G c Z s s [update_element string_list_utils__string_list 182 14 24_4]
+G c Z s s [update_element string_list_utils__string_list 187 14 24_4]
+G c Z s s [assign string_list_utils__string_list 192 14 24_4]
+G c Z s s [copy string_list_utils__string_list 194 13 24_4]
+G c Z s s [move string_list_utils__string_list 196 14 24_4]
+G c Z s s [insert_vector string_list_utils__string_list 198 14 24_4]
+G c Z s s [insert_vector string_list_utils__string_list 209 14 24_4]
+G c Z s s [insert_vector string_list_utils__string_list 220 14 24_4]
+G c Z s s [insert string_list_utils__string_list 233 14 24_4]
+G c Z s s [insert string_list_utils__string_list 239 14 24_4]
+G c Z s s [insert string_list_utils__string_list 245 14 24_4]
+G c Z s s [prepend_vector string_list_utils__string_list 252 14 24_4]
+G c Z s s [prepend string_list_utils__string_list 261 14 24_4]
+G c Z s s [append_vector string_list_utils__string_list 266 14 24_4]
+G c Z s s [append string_list_utils__string_list 275 14 24_4]
+G c Z s s [append string_list_utils__string_list 280 14 24_4]
+G c Z s s [insert_space string_list_utils__string_list 283 14 24_4]
+G c Z s s [insert_space string_list_utils__string_list 288 14 24_4]
+G c Z s s [delete string_list_utils__string_list 294 14 24_4]
+G c Z s s [delete string_list_utils__string_list 299 14 24_4]
+G c Z s s [delete_first string_list_utils__string_list 304 14 24_4]
+G c Z s s [delete_last string_list_utils__string_list 308 14 24_4]
+G c Z s s [reverse_elements string_list_utils__string_list 312 14 24_4]
+G c Z s s [swap string_list_utils__string_list 314 14 24_4]
+G c Z s s [swap string_list_utils__string_list 316 14 24_4]
+G c Z s s [first_index string_list_utils__string_list 318 13 24_4]
+G c Z s s [first string_list_utils__string_list 320 13 24_4]
+G c Z s s [first_element string_list_utils__string_list 322 13 24_4]
+G c Z s s [last_index string_list_utils__string_list 324 13 24_4]
+G c Z s s [last string_list_utils__string_list 326 13 24_4]
+G c Z s s [last_element string_list_utils__string_list 328 13 24_4]
+G c Z s s [next string_list_utils__string_list 330 13 24_4]
+G c Z s s [next string_list_utils__string_list 332 14 24_4]
+G c Z s s [previous string_list_utils__string_list 334 13 24_4]
+G c Z s s [previous string_list_utils__string_list 336 14 24_4]
+G c Z s s [find_index string_list_utils__string_list 338 13 24_4]
+G c Z s s [find string_list_utils__string_list 343 13 24_4]
+G c Z s s [reverse_find_index string_list_utils__string_list 348 13 24_4]
+G c Z s s [reverse_find string_list_utils__string_list 353 13 24_4]
+G c Z s s [contains string_list_utils__string_list 358 13 24_4]
+G c Z s s [iterate string_list_utils__string_list 362 14 24_4]
+G c Z s s [iterate string_list_utils__string_list 366 13 24_4]
+G c Z s s [iterate string_list_utils__string_list 369 13 24_4]
+G c Z s s [reverse_iterate string_list_utils__string_list 374 14 24_4]
+G c Z s s [adjust string_list_utils__string_list__implementation 90 28 407_4_24_4]
+G c Z s s [finalize string_list_utils__string_list__implementation 93 28 407_4_24_4]
+G c Z s s [zero_counts string_list_utils__string_list__implementation 96 17 407_4_24_4]
+G c Z s s [busy string_list_utils__string_list__implementation 100 17 407_4_24_4]
+G c Z s s [unbusy string_list_utils__string_list__implementation 104 17 407_4_24_4]
+G c Z s s [lock string_list_utils__string_list__implementation 108 17 407_4_24_4]
+G c Z s s [unlock string_list_utils__string_list__implementation 112 17 407_4_24_4]
+G c Z s s [tc_check string_list_utils__string_list__implementation 116 17 407_4_24_4]
+G c Z s s [te_check string_list_utils__string_list__implementation 120 17 407_4_24_4]
+G c Z s s [is_busy string_list_utils__string_list__implementation 136 16 407_4_24_4]
+G c Z s s [is_locked string_list_utils__string_list__implementation 140 16 407_4_24_4]
+G c Z s s [initialize string_list_utils__string_list__implementation 161 28 407_4_24_4]
+G c Z s s [finalize string_list_utils__string_list__implementation 162 28 407_4_24_4]
+G c Z s s [initialize string_list_utils__string_list__implementation 167 28 407_4_24_4]
+G c Z s s [finalize string_list_utils__string_list__implementation 168 28 407_4_24_4]
+G c Z s s [reference_control_typeDA string_list_utils__string_list__implementation 84 12 407_4_24_4]
+G c Z s s [reference_control_typeDF string_list_utils__string_list__implementation 84 12 407_4_24_4]
+G c Z s s [reference_control_typeIP string_list_utils__string_list__implementation 84 12 407_4_24_4]
+G c Z s s [with_busyDF string_list_utils__string_list__implementation 158 12 407_4_24_4]
+G c Z s s [with_busyIP string_list_utils__string_list__implementation 158 12 407_4_24_4]
+G c Z s s [with_lockDF string_list_utils__string_list__implementation 164 12 407_4_24_4]
+G c Z s s [with_lockIP string_list_utils__string_list__implementation 164 12 407_4_24_4]
+G c Z s s [put_image string_list_utils__string_list 430 14 24_4]
+G c Z s s [adjust string_list_utils__string_list 433 25 24_4]
+G c Z s s [finalize string_list_utils__string_list 434 25 24_4]
+G c Z s s [write string_list_utils__string_list 436 14 24_4]
+G c Z s s [read string_list_utils__string_list 442 14 24_4]
+G c Z s s [read string_list_utils__string_list 456 14 24_4]
+G c Z s s [write string_list_utils__string_list 462 14 24_4]
+G c Z s s [write string_list_utils__string_list 481 14 24_4]
+G c Z s s [read string_list_utils__string_list 487 14 24_4]
+G c Z s s [write string_list_utils__string_list 503 14 24_4]
+G c Z s s [read string_list_utils__string_list 509 14 24_4]
+G c Z s s [pseudo_reference string_list_utils__string_list 520 13 24_4]
+G c Z s s [get_element_access string_list_utils__string_list 527 13 24_4]
+G c Z s s [cursorIP string_list_utils__string_list 451 9 24_4]
+G c Z s s [vectorDA string_list_utils__string_list 424 9 24_4]
+G c Z s s [vectorDF string_list_utils__string_list 424 9 24_4]
+G c Z s s [vectorIP string_list_utils__string_list 424 9 24_4]
+G c Z s s [finalize string_list_utils__string_list 543 25 24_4]
+G c Z s s [first string_list_utils__string_list 545 24 24_4]
+G c Z s s [last string_list_utils__string_list 546 24 24_4]
+G c Z s s [next string_list_utils__string_list 548 24 24_4]
+G c Z s s [previous string_list_utils__string_list 552 24 24_4]
+G c Z s s [constant_reference_typeDI string_list_utils__string_list 471 9 24_4]
+G c Z s s [constant_reference_typeDA string_list_utils__string_list 471 9 24_4]
+G c Z s s [constant_reference_typeDF string_list_utils__string_list 471 9 24_4]
+G c Z s s [constant_reference_typeIP string_list_utils__string_list 471 9 24_4]
+G c Z s s [reference_typeDI string_list_utils__string_list 493 9 24_4]
+G c Z s s [reference_typeDA string_list_utils__string_list 493 9 24_4]
+G c Z s s [reference_typeDF string_list_utils__string_list 493 9 24_4]
+G c Z s s [reference_typeIP string_list_utils__string_list 493 9 24_4]
+G c Z s s [elements_arrayIP string_list_utils__string_list 412 9 24_4]
+G c Z s s [elements_typeIP string_list_utils__string_list 415 9 24_4]
+G c Z s s [iteratorDF string_list_utils__string_list 535 9 24_4]
+G c Z s s [iteratorIP string_list_utils__string_list 535 9 24_4]
+G c Z s s [free string_list_utils__string_list 44 14 24_4]
+G c Z s s [free string_list_utils__string_list 47 14 24_4]
+G c Z s s [append_slow_path string_list_utils__string_list 50 14 24_4]
+G c Z s b [longest_prefix string_list_utils 27 13 none]
+G c Z s b [list_to_argument_list string_list_utils 31 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 23|20r6 25r10
+X 3 a-contai.ads
+16K13*Containers 28e19 23|20r10 25r14
+22I9*Count_Type<integer>
+X 7 a-coinve.ads
+47k24*Indefinite_Vectors 556e38 23|20w21 25r25
+60R9*Vector<10|43R9> 23|27r45[24] 32r23[24] 24|29r23[23|24] 46r45[23|24]
+73R9*Cursor 24|53r20[23|24]
+82V13*Has_Element{boolean} 24|58s16[23|24]
+112V13*Length{3|22I9} 24|31s47[23|24]
+118V13*Is_Empty{boolean} 24|48s12[23|24]
+161V13*Element{string} 24|54s39[23|24] 60s44[23|24]
+320V13*First{73R9[23|24]} 24|53s41[23|24]
+332U14*Next 24|57s10[23|24] 75s13[23|24]
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|84]>
+X 19 gnat.ads
+40K9*GNAT 63e9 23|18r6 32r38 24|18r6 18r23 29r38
+X 20 g-os_lib.ads
+51K14*OS_Lib=51:36 23|18w11 32r43 24|18w11 18r28 29r43
+X 23 string_list_utils.ads
+22K9*String_List_Utils 36l5 36e22 24|20b14 82l5 82t22
+24K12*String_List[7|47] 27r33 32r11 24|22r8 29r11 46r33
+27V13*Longest_Prefix{string} 27>29 24|46b13 80l8 80t22
+27r29 L{7|60R9[24]} 24|46b29 48r10 53r39
+31V13*List_To_Argument_List{35|749A12} 32>7 24|28b13 40l8 40t29
+32r7 L{7|60R9[24]} 24|29b7 31r45 34r19
+X 24 string_list_utils.adb
+31a7 Args{35|749A12} 32r27 35m10 39r14
+32i7 Index{natural} 35r16 36m10 36r19
+34a11 Item{string} 35r38
+53r10 Node{7|73R9[23|24]} 54r48 57m16 57r16 58r29 60r53 75m19 75r19
+54a10 First_S{string} 55r39 64r27 65r21 65r38 78r17 78r26 78r43
+55i10 Length{natural} 62m16 62r39 63r22 65r54 66r59 68m19 68r29 72r26 78r59
+60a16 Data_S{string} 62r47 66r20 66r28 66r44
+X 25 system.ads
+67M9*Address
+X 33 s-memory.ads
+51V13*Alloc{25|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{25|67M9} 103i<c,__gnat_realloc>22
+X 35 s-os_lib.ads
+71A12*String_List{49|52A9}<integer>
+749A12*Argument_List{71A12}<integer> 23|32r50 24|29r50 31r16
+X 44 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 49 s-string.ads
+43P9*String_Access(string)
+52A9*String_List(43P9)<integer>
+
