@@ -1,0 +1,13 @@
+# Ada/GNAT build outputs
+*.ali
+*.o
+*.cswi
+*.stderr
+*.stdout
+
+# Build directories
+obj/
+
+*.log
+diagnostics.log
+test_headless/obj/
