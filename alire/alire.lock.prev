@@ -54,7 +54,7 @@ crate = "gnatcoll"
 fulfilment = "solved"
 pinned = false
 transitivity = "indirect"
-versions = "~25.0"
+versions = "~25.0.0"
 [solution.state.release]
 authors = [
 "AdaCore",
@@ -396,13 +396,11 @@ gnat = "/=2020"
 xmlada = "~25.0.0"
 [[solution.state]]
 crate = "shared"
-fulfilment = "linked"
+fulfilment = "missed"
 pinned = false
+reason = "unknown"
 transitivity = "direct"
 versions = "~0.1.0"
-[solution.state.link]
-lockfiled = true
-path = "../shared"
 [[solution.state]]
 crate = "vss"
 fulfilment = "solved"

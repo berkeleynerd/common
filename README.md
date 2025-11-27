@@ -14,3 +14,11 @@ Dependencies
 Build (after split)
 - alr build -- -P gps_common_core.gpr
 
+## macOS toolchain fix
+
+On macOS, every time you wipe `~/.alire` or reinstall the GNAT toolchain,
+rerun `./fix_toolchain.sh` from this directory (or any sibling project). The
+script removes the stale `include-fixed` headers bundled with GNAT 15.1.2 and
+points the toolchain at the current macOS SDK so the C parts of dependencies
+(e.g., `gnatcoll`, `ncursesada`) compile cleanly. Other platforms do not need
+this step.
