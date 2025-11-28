@@ -11,7 +11,6 @@ project common is
    for Object_Dir use Gnatstudio_Shared'Object_Dir;
 
    package Compiler is
-      for Driver ("C") use "/usr/bin/clang";
       for Switches ("Ada") use Gnatstudio_Shared.Compiler'Switches ("Ada");
       for Switches ("C") use Gnatstudio_Shared.Compiler'Switches ("C");
       for Switches ("test_htables.adb") use ("-g", "-O2", "-gnatwue");
