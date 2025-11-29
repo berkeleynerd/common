@@ -1,10 +1,10 @@
-dependency:gnatcoll_sqlite=25.0.0=5650091a3a56e65ff169ebbfc044d5f0188a882c8b861430da8009eef47a7092
-dependency:gnatcoll_xref=25.0.0=91ea7344adc1a232489e04ae954b8acd7e025cdc952dbbb7bd253bde5d3c7482
-dependency:vss=25.0.0=7f4fa5516c571c416137dbb791362e70a60c8c46a476ca9a7ae76f2d93d913e9
-dependency:xmlada=25.0.0=57212a3faba995f6ef21b5777aa68a9e8a82f0e37e4b4f630ebe3b93f0ae4d62
+dependency:gnatcoll_sqlite=25.0.0=f486594788d3a9df1739184618773edb99f1a998794f5b32d980b4921edc1988
+dependency:gnatcoll_xref=25.0.0=beb81a0330c72d8f805cc349fe3f45e27c543d7d15402b5bcc34fa168c58b410
+dependency:vss=25.0.0=957494e6f4ef2137ea302e03d22362cc2be26eee8549c016e05e4899bf62ab5f
+dependency:xmlada=25.0.0=716beeebffd8fb6684dbd3cec91edd6da0cf8ece50e3a567d2279fe739d33339
 external:BUILD=default
 external:COMMON_LIBRARY_TYPE=default
 external:LIBRARY_TYPE=static
 profile:common=RELEASE
 switches:common=-O3,-fdata-sections,-ffunction-sections,-gnatW8,-gnatn
-version:gnat_native=15.1.2
+version:gnat_native=15.2.1
