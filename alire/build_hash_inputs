@@ -5,5 +5,6 @@ dependency:xmlada=25.0.0=716beeebffd8fb6684dbd3cec91edd6da0cf8ece50e3a567d2279fe
 external:BUILD=default
 external:COMMON_LIBRARY_TYPE=default
 external:LIBRARY_TYPE=static
-profile:common=DEVELOPMENT
-switches:common=-Og,-fdata-sections,-ffunction-sections,-g,-gnatVa,-gnatW8,-gnatw.X,-gnatwa,-gnaty-d,-gnaty3,-gnatyA,-gnatyB,-gnatyI,-gnatyO,-gnatyS,-gnatya,-gnatyb,-gnatyc,-gnatye,-gnatyf,-gnatyh,-gnatyi,-gnatyk,-gnatyl,-gnatym,-gnatyn,-gnatyp,-gnatyr,-gnatyt,-gnatyu,-gnatyx
+profile:common=RELEASE
+switches:common=-O3,-fdata-sections,-ffunction-sections,-gnatW8,-gnatn
+version:gnat_native=15.2.1
