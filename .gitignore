@@ -11,3 +11,11 @@ obj/
 *.log
 diagnostics.log
 test_headless/obj/
+
+# Alire-generated state
+alire/
+alire.lock
+build_hash_inputs
+flags
+settings.toml
+config/*_config.*
