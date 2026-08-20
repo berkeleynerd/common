@@ -17,7 +17,7 @@ project-files = [
 ]
 
 [[depends-on]]
-shared = "~0.1.0"
+shared = "=0.1.0-dev"
 
 [[depends-on]]
 vss = "~25.0"
@@ -37,6 +37,3 @@ LIBRARY_TYPE = ["static", "relocatable", "static-pic"]
 
 [gpr-set-externals]
 LIBRARY_TYPE = "static"
-
-[[pins]]
-shared = { path='../shared' }
