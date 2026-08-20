@@ -2,7 +2,7 @@ with "vss_text";
 with "xmlada_sax";
 with "gnatcoll_sqlite";
 with "gnatcoll_xref";
-with "../shared/gnatstudio_shared";
+with "gnatstudio_shared";
 
 project common is
 
